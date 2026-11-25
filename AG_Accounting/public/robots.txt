@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Add "Sitemap: https://<domain>/sitemap.xml" once the domain is known.

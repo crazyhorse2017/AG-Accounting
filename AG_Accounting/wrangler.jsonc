@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "ag-accounting",
+  "compatibility_date": "2026-01-01",
+  "main": "./src/worker/index.ts",
+  // Custom domain goes here once AG Accounting's domain is known, e.g.
+  // "routes": [{ "pattern": "example.com", "custom_domain": true }],
+  "assets": {
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ag-accounting-db",
+      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Daily cleanup: deletes contact requests older than the retention period.
+  "triggers": {
+    "crons": ["0 8 * * *"]
+  }
+}
