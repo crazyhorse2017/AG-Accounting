@@ -17,7 +17,7 @@
     {
       "binding": "DB",
       "database_name": "ag-accounting-db",
-      "database_id": "REPLACE_WITH_D1_DATABASE_ID",
+      "database_id": "e5a85942-6b6f-461b-976c-dff9a2257a83",
       "migrations_dir": "migrations"
     }
   ],

@@ -68,8 +68,8 @@ Cloudflare build (or any machine with Node).
 
 Not done yet, and only with explicit approval. The steps mirror Prizm's `DEPLOY.md`:
 
-1. Create a D1 database `ag-accounting-db` in the Cloudflare dashboard, put its ID in
-   `wrangler.jsonc`, and run `migrations/0001_init.sql` in the D1 console.
+1. **Done 2026-11-25:** D1 database `ag-accounting-db` (Eastern North America) exists,
+   its ID is in `wrangler.jsonc`, and `migrations/0001_init.sql` has been applied.
 2. Upload this folder to a GitHub repository and connect it in Cloudflare under
    **Workers & Pages → Create → Import a repository**. In the Worker's
    **Settings → Build**, set:
