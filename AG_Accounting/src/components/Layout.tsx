@@ -48,11 +48,11 @@ function Header({ pathname }: { pathname: string }) {
   return (
     <header className="border-b border-line bg-white print:hidden">
       <Container className="flex items-center justify-between gap-4 py-4">
-        <Link to="/" className="no-underline" aria-label={`${business.name} home`}>
+        <Link to="/" className="shrink-0 no-underline" aria-label={`${business.name} home`}>
           <Wordmark name={business.name} />
         </Link>
 
-        <nav aria-label="Main" className="hidden items-center gap-1 md:flex">
+        <nav aria-label="Main" className="hidden items-center gap-1 whitespace-nowrap xl:flex">
           {NAV.map((item) => (
             <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={isActive(item.to) ? 'page' : undefined}>
               {item.label}
@@ -65,7 +65,7 @@ function Header({ pathname }: { pathname: string }) {
 
         <button
           type="button"
-          className="rounded-md border border-line px-3 py-2 font-medium md:hidden"
+          className="rounded-md border border-line px-3 py-2 font-medium xl:hidden"
           aria-expanded={open}
           aria-controls="mobile-nav"
           onClick={() => setOpen((v) => !v)}
@@ -75,7 +75,7 @@ function Header({ pathname }: { pathname: string }) {
       </Container>
 
       {open && (
-        <nav id="mobile-nav" aria-label="Main" className="border-t border-line md:hidden">
+        <nav id="mobile-nav" aria-label="Main" className="border-t border-line xl:hidden">
           <Container className="flex flex-col gap-1 py-3">
             {NAV.map((item) => (
               <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={isActive(item.to) ? 'page' : undefined}>
