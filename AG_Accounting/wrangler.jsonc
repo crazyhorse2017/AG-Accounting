@@ -6,6 +6,9 @@
   // Custom domain goes here once AG Accounting's domain is known, e.g.
   // "routes": [{ "pattern": "example.com", "custom_domain": true }],
   "assets": {
+    // Only the Vite build output is public. If the build didn't run, deploy fails
+    // instead of publishing the raw source folder.
+    "directory": "./dist",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": ["/api/*"]

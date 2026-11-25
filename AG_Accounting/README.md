@@ -71,8 +71,15 @@ Not done yet, and only with explicit approval. The steps mirror Prizm's `DEPLOY.
 1. Create a D1 database `ag-accounting-db` in the Cloudflare dashboard, put its ID in
    `wrangler.jsonc`, and run `migrations/0001_init.sql` in the D1 console.
 2. Upload this folder to a GitHub repository and connect it in Cloudflare under
-   **Workers & Pages → Create → Import a repository**. Build command `npm run build`,
-   deploy command `npx wrangler deploy`.
+   **Workers & Pages → Create → Import a repository**. In the Worker's
+   **Settings → Build**, set:
+   - **Build command:** `npm run build` (required: it creates `dist/`)
+   - **Deploy command:** `npx wrangler deploy`
+   - **Root directory:** the folder that contains `package.json`
+
+   `wrangler.jsonc` serves only `./dist`. If the build command is missing, the deploy
+   fails with a "directory does not exist" error instead of publishing raw source
+   files (which shows as a blank page with a MIME-type error for `/src/main.tsx`).
 3. After the first deploy, add the secret `RATE_KEY_SALT` (any long random string).
 4. Optional email notifications for new messages: set `BREVO_API_KEY` (secret),
    `NOTIFY_TO` and `NOTIFY_FROM`. Without them, messages are only stored in D1.

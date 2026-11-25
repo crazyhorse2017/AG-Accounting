@@ -76,6 +76,12 @@ check(pkg.get("scripts", {}).get("build") == "vite build", "package.json build s
 wrangler = json.loads(strip_jsonc(read("wrangler.jsonc")))
 check(wrangler.get("main") == "./src/worker/index.ts", "wrangler main must be ./src/worker/index.ts")
 check("/api/*" in wrangler.get("assets", {}).get("run_worker_first", []), "wrangler assets.run_worker_first must include /api/*")
+# Only the build output may be public. Serving the project root once published raw
+# source (index.html -> /src/main.tsx) and produced a blank page.
+check(wrangler.get("assets", {}).get("directory") == "./dist", "wrangler assets.directory must be ./dist (the Vite build output)")
+vite_config = read("vite.config.ts")
+check("@cloudflare/vite-plugin" not in vite_config, "vite.config.ts must not use @cloudflare/vite-plugin (wrangler.jsonc serves ./dist directly)")
+check("outDir: 'dist'" in vite_config, "vite.config.ts must build into dist")
 d1 = wrangler.get("d1_databases", [])
 check(len(d1) == 1 and d1[0].get("binding") == "DB", "wrangler needs exactly one D1 binding named DB")
 if d1 and d1[0].get("database_id", "").startswith("REPLACE_"):
