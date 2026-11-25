@@ -3,7 +3,7 @@ import { Link } from '../lib/router.tsx';
 import type { Source } from '../content/status.ts';
 
 const buttonBase =
-  'inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-semibold no-underline transition-colors';
+  'inline-flex select-none items-center justify-center rounded-md px-5 py-3 text-base font-semibold no-underline transition-colors';
 
 const buttonVariants = {
   primary: 'bg-brand-800 text-white hover:bg-brand-700',
@@ -62,6 +62,53 @@ export function Section({ title, children, className = '' }: { title?: string; c
         {children}
       </Container>
     </section>
+  );
+}
+
+const linkCardClass =
+  'group block h-full select-none rounded-lg border border-line bg-white p-5 text-ink no-underline shadow-sm transition ' +
+  'hover:-translate-y-0.5 hover:border-brand-600 hover:shadow-md focus-visible:border-brand-600 active:translate-y-0 active:shadow-sm ' +
+  'motion-reduce:transform-none';
+
+type LinkCardProps = {
+  /** In-site path (client-side navigation). */
+  to?: string;
+  /** External URL (opens in a new tab). Use either `to` or `href`. */
+  href?: string;
+  title: ReactNode;
+  headingLevel?: 2 | 3;
+  children?: ReactNode;
+};
+
+/**
+ * A card that is one big link: the whole box is clickable, shows hover and focus
+ * states, and its text can't be selected (it behaves like a button).
+ */
+export function LinkCard({ to, href, title, headingLevel = 3, children }: LinkCardProps) {
+  const Heading = headingLevel === 2 ? 'h2' : 'h3';
+  const body = (
+    <>
+      <Heading className="flex items-start justify-between gap-3 text-lg text-brand-800">
+        <span className="group-hover:underline group-focus-visible:underline">{title}</span>
+        <span aria-hidden="true" className="mt-0.5 font-sans text-brand-600 transition group-hover:translate-x-0.5 motion-reduce:transform-none">
+          {href ? '↗' : '→'}
+        </span>
+      </Heading>
+      {children && <div className="mt-1 text-sm text-muted">{children}</div>}
+    </>
+  );
+  if (href) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={linkCardClass}>
+        {body}
+        <span className="sr-only"> (opens in a new tab)</span>
+      </a>
+    );
+  }
+  return (
+    <Link to={to ?? '/'} className={linkCardClass}>
+      {body}
+    </Link>
   );
 }
 

@@ -1,5 +1,5 @@
 import { resourceGroups } from '../content/site.ts';
-import { ExternalLink, Notice, PageHeader, Section } from '../components/ui.tsx';
+import { LinkCard, Notice, PageHeader, Section } from '../components/ui.tsx';
 
 export function ResourcesPage() {
   return (
@@ -18,16 +18,13 @@ export function ResourcesPage() {
               </h2>
               <ul className="grid gap-4 sm:grid-cols-2">
                 {group.resources.map((r) => (
-                  <li key={r.url} className="rounded-lg border border-line bg-white p-5">
-                    <h3 className="text-lg">
-                      <ExternalLink href={r.url} className="text-brand-800">
-                        {r.title}
-                      </ExternalLink>
-                    </h3>
-                    <p className="mt-1 text-muted">{r.description}</p>
-                    <p className="mt-3 text-xs text-muted">
-                      Source: {r.source} · Link checked {r.lastReviewed}
-                    </p>
+                  <li key={r.url}>
+                    <LinkCard href={r.url} title={r.title}>
+                      <p className="text-base">{r.description}</p>
+                      <p className="mt-3 text-xs">
+                        Source: {r.source} · Link checked {r.lastReviewed}
+                      </p>
+                    </LinkCard>
                   </li>
                 ))}
               </ul>

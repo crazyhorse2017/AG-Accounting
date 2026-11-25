@@ -4,7 +4,7 @@ import type { OfficialLink } from '../content/taxCenter.ts';
 import { dueDates, FILING_STATUS_LABELS, federal, ohio } from '../content/taxYear.ts';
 import type { FilingStatus } from '../content/taxYear.ts';
 import { isVisible, visibleItems } from '../content/status.ts';
-import { DraftBadge, ExternalLink, Notice, PageHeader, Section, SourceList } from '../components/ui.tsx';
+import { DraftBadge, ExternalLink, LinkCard, Notice, PageHeader, Section, SourceList } from '../components/ui.tsx';
 import { Link } from '../lib/router.tsx';
 import { longDate, money, percent } from '../lib/format.ts';
 
@@ -65,23 +65,25 @@ export function TaxCenterHubPage() {
         ) : (
           <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {pages.map((p) => (
-              <li key={p.id} className="rounded-lg border border-line bg-white p-5">
-                <h2 className="text-lg">
-                  <Link to={p.path} className="text-brand-800">
-                    {p.title}
-                  </Link>
-                  <DraftBadge status={p.status} />
-                </h2>
-                <p className="mt-1 text-sm text-muted">{p.intro}</p>
+              <li key={p.id}>
+                <LinkCard
+                  to={p.path}
+                  headingLevel={2}
+                  title={
+                    <>
+                      {p.title}
+                      <DraftBadge status={p.status} />
+                    </>
+                  }
+                >
+                  {p.intro}
+                </LinkCard>
               </li>
             ))}
-            <li className="rounded-lg border border-line bg-white p-5">
-              <h2 className="text-lg">
-                <Link to="/calculators" className="text-brand-800">
-                  Calculators
-                </Link>
-              </h2>
-              <p className="mt-1 text-sm text-muted">Tax, paycheck, retirement, loan, and savings estimates.</p>
+            <li>
+              <LinkCard to="/calculators" headingLevel={2} title="Calculators">
+                Tax, paycheck, retirement, loan, and savings estimates.
+              </LinkCard>
             </li>
           </ul>
         )}
@@ -273,15 +275,19 @@ function LinkGrid({ links }: { links: OfficialLink[] }) {
   return (
     <ul className="grid gap-4 sm:grid-cols-2">
       {visible.map((l) => (
-        <li key={l.id} className="rounded-lg border border-line bg-white p-5">
-          <h3 className="text-lg">
-            <ExternalLink href={l.url} className="text-brand-800">
-              {l.title}
-            </ExternalLink>
-            <DraftBadge status={l.status} />
-          </h3>
-          <p className="mt-1 text-sm text-muted">{l.description}</p>
-          {l.agency && <p className="mt-2 text-xs text-muted">{l.agency === 'Local' ? 'Local (city) tax agency' : l.agency}</p>}
+        <li key={l.id}>
+          <LinkCard
+            href={l.url}
+            title={
+              <>
+                {l.title}
+                <DraftBadge status={l.status} />
+              </>
+            }
+          >
+            <p>{l.description}</p>
+            {l.agency && <p className="mt-2 text-xs">{l.agency === 'Local' ? 'Local (city) tax agency' : l.agency}</p>}
+          </LinkCard>
         </li>
       ))}
     </ul>

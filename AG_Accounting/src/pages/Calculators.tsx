@@ -4,8 +4,7 @@ import type { Calculator } from '../calculators/registry.ts';
 import { defaultValues } from '../calculators/types.ts';
 import type { CalcResult, InputDef, Values } from '../calculators/types.ts';
 import { isVisible, visibleItems } from '../content/status.ts';
-import { ButtonLink, DraftBadge, Notice, PageHeader, Section, SourceList } from '../components/ui.tsx';
-import { Link } from '../lib/router.tsx';
+import { ButtonLink, DraftBadge, LinkCard, Notice, PageHeader, Section, SourceList } from '../components/ui.tsx';
 import { formatValue } from '../lib/format.ts';
 import { NotFoundPage } from './NotFound.tsx';
 
@@ -52,14 +51,18 @@ export function CalculatorsIndexPage() {
                     </h2>
                     <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                       {list.map((c) => (
-                        <li key={c.id} className="rounded-lg border border-line bg-white p-5">
-                          <h3 className="text-lg">
-                            <Link to={`/calculators/${c.id}`} className="text-brand-800">
-                              {c.title}
-                            </Link>
-                            <DraftBadge status={c.status} />
-                          </h3>
-                          <p className="mt-1 text-sm text-muted">{c.summary}</p>
+                        <li key={c.id}>
+                          <LinkCard
+                            to={`/calculators/${c.id}`}
+                            title={
+                              <>
+                                {c.title}
+                                <DraftBadge status={c.status} />
+                              </>
+                            }
+                          >
+                            {c.summary}
+                          </LinkCard>
                         </li>
                       ))}
                     </ul>
