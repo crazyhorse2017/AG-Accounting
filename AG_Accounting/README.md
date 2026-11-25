@@ -70,7 +70,20 @@ uv run --no-project --python 3.12 python tools/review_packet.py            # PDF
 uv run --no-project --python 3.12 python tools/approve.py <id> <id> ...    # after his marks come back
 uv run --no-project --python 3.12 python tools/build_ics.py                # refresh the calendar if dates changed
 uv run --no-project --python 3.12 python tools/check_links.py              # monthly: every official link still works
+uv run --no-project --python 3.12 python tools/build_pdfs.py               # approved white papers -> public/white-papers/*.pdf
+uv run --no-project --python 3.12 python tools/build_pdfs.py --preview <slug>   # draft PDF for review (review-packets/)
+uv run --no-project --python 3.12 python tools/check_videos.py             # every video is a real, official IRS upload
 ```
+
+- **Articles** (= blog = newsletter archive): `src/content/articles/<slug>.md`
+- **White papers:** `src/content/white-papers/<slug>.md` (PDFs are built only once approved)
+- **Facts:** `src/content/data/facts/quick-facts.json` and `history-facts.json`
+- **Videos:** `src/content/data/videos.json` (official IRS YouTube uploads only)
+
+Markdown files start with front matter (`id`, `status`, `reviewedOn`, `title`, `slug`,
+`category`, `summary`, `published`, and one `source: Title | https://...` line per source).
+Supported Markdown: `##`/`###` headings, paragraphs, `-` and `1.` lists, `>` callouts,
+`**bold**`, `*italic*`, and links to `https://` or site paths. Raw HTML is rejected.
 
 `review-packets/` is git-ignored: packets are for printing or emailing, not the repo.
 

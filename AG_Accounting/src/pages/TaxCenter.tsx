@@ -85,6 +85,26 @@ export function TaxCenterHubPage() {
                 Tax, paycheck, retirement, loan, and savings estimates.
               </LinkCard>
             </li>
+            <li>
+              <LinkCard to="/articles" headingLevel={2} title="Articles and tax tips">
+                Plain-language explanations, and our newsletter archive.
+              </LinkCard>
+            </li>
+            <li>
+              <LinkCard to="/resources/white-papers" headingLevel={2} title="White papers">
+                In-depth guides to download as PDFs.
+              </LinkCard>
+            </li>
+            <li>
+              <LinkCard to="/resources/videos" headingLevel={2} title="Tax videos">
+                Short explainers from the IRS.
+              </LinkCard>
+            </li>
+            <li>
+              <LinkCard to="/resources/facts" headingLevel={2} title="Tax facts and history">
+                A new fact every day.
+              </LinkCard>
+            </li>
           </ul>
         )}
       </Section>

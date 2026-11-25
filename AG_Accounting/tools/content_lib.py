@@ -37,11 +37,68 @@ def walk_items(node):
             yield from walk_items(value)
 
 
+MD_DIRS = [ROOT / "src" / "content" / "articles", ROOT / "src" / "content" / "white-papers"]
+
+
+def md_files() -> list[Path]:
+    return sorted(p for d in MD_DIRS if d.exists() for p in d.glob("*.md"))
+
+
+def parse_md(path: Path):
+    """Return (meta, sources, body) for a Markdown file with --- front matter ---."""
+    text = path.read_text(encoding="utf-8").replace("\r\n", "\n")
+    meta: dict[str, str] = {}
+    sources: list[dict] = []
+    if not text.startswith("---\n") or text.find("\n---", 4) == -1:
+        return meta, sources, text
+    end = text.find("\n---", 4)
+    for line in text[4:end].split("\n"):
+        if ":" not in line:
+            continue
+        key, _, value = line.partition(":")
+        key, value = key.strip(), value.strip()
+        if key == "source":
+            title, _, url = value.partition("|")
+            sources.append({"title": title.strip(), "url": url.strip()})
+        else:
+            meta[key] = value
+    return meta, sources, text[end + 4 :].lstrip("\n")
+
+
+def md_item(path: Path) -> dict:
+    meta, sources, body = parse_md(path)
+    return {
+        "id": meta.get("id", path.stem),
+        "status": meta.get("status", "draft"),
+        "reviewedOn": meta.get("reviewedOn") or None,
+        "title": meta.get("title", path.stem),
+        "summary": meta.get("summary", ""),
+        "category": meta.get("category", ""),
+        "slug": meta.get("slug", path.stem),
+        "sources": sources,
+        "_body": body,
+        "_kind": path.parent.name,
+    }
+
+
+def set_md_review(path: Path, status: str, reviewed_on: str | None) -> None:
+    """Rewrite the status/reviewedOn lines in a Markdown file's front matter."""
+    text = path.read_text(encoding="utf-8").replace("\r\n", "\n")
+    end = text.find("\n---", 4)
+    head, rest = text[:end], text[end:]
+    lines = [l for l in head.split("\n") if not l.startswith(("status:", "reviewedOn:"))]
+    lines.insert(1, f"status: {status}")
+    lines.insert(2, f"reviewedOn: {reviewed_on or ''}".rstrip())
+    path.write_text("\n".join(lines) + rest, encoding="utf-8")
+
+
 def all_items():
-    """Yield (path, item) for every reviewable item in every data file."""
+    """Yield (path, item) for every reviewable item in every data file and Markdown file."""
     for path in data_files():
         for item in walk_items(load(path)):
             yield path, item
+    for path in md_files():
+        yield path, md_item(path)
 
 
 def describe(item) -> str:
@@ -105,7 +162,7 @@ def readable_figures(data, prefix: str = "") -> list[str]:
 def body_text(item) -> list[str]:
     """The reviewable wording of an item, as lines for a review packet."""
     lines: list[str] = []
-    for key in ("intro", "summary", "definition", "situation", "body", "description"):
+    for key in ("intro", "summary", "definition", "situation", "body", "description", "text"):
         if item.get(key):
             lines.append(str(item[key]))
     if item.get("date"):
@@ -116,6 +173,13 @@ def body_text(item) -> list[str]:
         lines.append(f"- {entry}")
     if isinstance(item.get("data"), dict):
         lines.extend(readable_figures(item["data"]))
+    if item.get("youtubeId"):
+        lines.append(f"Video: https://www.youtube.com/watch?v={item['youtubeId']} ({round(item.get('durationSeconds', 0) / 60)} min)")
+    if item.get("year"):
+        lines.insert(0, f"Year: {item['year']}" + (f" (date {item['monthDay']})" if item.get("monthDay") else ""))
+    if item.get("_body"):
+        lines.append("Full text:")
+        lines.extend(l for l in item["_body"].split("\n") if l.strip())
     for src in item.get("sources") or []:
         lines.append(f"Source: {src.get('title')} ({src.get('url')})")
     return lines

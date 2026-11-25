@@ -15,7 +15,7 @@ import argparse
 import datetime as dt
 import sys
 
-from content_lib import data_files, load, save, walk_items
+from content_lib import data_files, load, md_files, md_item, save, set_md_review, walk_items
 
 
 def main() -> int:
@@ -48,13 +48,18 @@ def main() -> int:
                 changed = True
         if changed:
             save(path, doc)
+    for path in md_files():
+        iid = md_item(path)["id"]
+        if iid in wanted:
+            found.add(iid)
+            set_md_review(path, "draft" if args.revert else "approved", None if args.revert else args.date)
 
     action = "Reverted to draft" if args.revert else f"Approved (reviewed {args.date})"
     print(f"{action}: {len(found)} item(s)")
     missing = sorted(wanted - found)
     for m in missing:
         print(f"  NOT FOUND: {m}")
-    print("Run the checks, then build_ics.py if due dates changed, then deploy.")
+    print("Next: build_ics.py (due dates) and build_pdfs.py (white papers), run the checks, then deploy.")
     return 1 if missing else 0
 
 

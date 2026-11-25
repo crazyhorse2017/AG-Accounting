@@ -13,10 +13,14 @@ const NAV: { to: RoutePath; label: string }[] = [
   { to: '/about', label: 'About' },
   { to: '/tax-center', label: 'Tax Center' },
   { to: '/calculators', label: 'Calculators' },
+  { to: '/articles', label: 'Articles' },
   { to: '/payments', label: 'Pay an invoice' },
 ];
 
 const FOOTER_EXTRA: { to: RoutePath; label: string }[] = [
+  { to: '/resources/white-papers', label: 'White papers' },
+  { to: '/resources/videos', label: 'Tax videos' },
+  { to: '/resources/facts', label: 'Tax facts' },
   { to: '/resources', label: 'Helpful links' },
   { to: '/privacy', label: 'Privacy' },
 ];

@@ -166,11 +166,15 @@ ALLOWED_HOSTS = (
     "www.irs.gov", "irs.gov", "tax.ohio.gov", "codes.ohio.gov", "www.ssa.gov",
     "www.ritaohio.com", "www.ccaohio.gov",
     "www.paypal.com", "paypal.com", "www.paypal.me", "paypal.me",
+    "www.youtube-nocookie.com", "www.youtube.com",
+    "www.congress.gov", "www.archives.gov", "home.treasury.gov", "www.treasury.gov",
+    "www.eftps.gov", "www.uscis.gov", "jfs.ohio.gov", "info.bwc.ohio.gov",
 )
 content = read("src/content/site.ts")
 link_sources = {"src/content/site.ts": content}
 link_sources.update({p.relative_to(ROOT).as_posix(): p.read_text(encoding="utf-8") for p in (SRC / "content" / "data").rglob("*.json")})
 link_sources.update({p.relative_to(ROOT).as_posix(): t for p, t in ui_files.items()})
+link_sources.update({p.relative_to(ROOT).as_posix(): p.read_text(encoding="utf-8") for p in (SRC / "content").glob("*/*.md")})
 for rel, text in link_sources.items():
     for url in re.findall(r"https?://[^'\"\s)`<>]+", text):
         host = re.sub(r"^https?://", "", url).split("/", 1)[0]
@@ -221,6 +225,31 @@ import subprocess  # noqa: E402
 
 ics = subprocess.run([sys.executable, str(ROOT / "tools" / "build_ics.py"), "--check"], capture_output=True, text=True)
 check(ics.returncode == 0, "public/tax-calendar.ics is out of date (run tools/build_ics.py)")
+
+pdfs = subprocess.run([sys.executable, str(ROOT / "tools" / "build_pdfs.py"), "--check"], capture_output=True, text=True)
+check(pdfs.returncode == 0, "white-paper PDFs are out of date (run tools/build_pdfs.py): " + pdfs.stdout.strip().replace("\n", "; "))
+
+# Articles and white papers: complete front matter, URL-safe slugs that match the file name.
+from content_lib import md_files, md_item  # noqa: E402
+
+ARTICLE_CATEGORIES = {"personal-tax", "business-tax", "personal-tax-planning", "business-tax-planning", "niche", "word-to-the-wise"}
+for p in md_files():
+    it = md_item(p)
+    rel = p.relative_to(ROOT).as_posix()
+    check(it["slug"] == p.stem, f"{rel}: slug must match the file name")
+    check(re.fullmatch(r"[a-z0-9-]+", p.stem) is not None, f"{rel}: file name must be lowercase-with-dashes")
+    check(bool(it["title"]) and bool(it["summary"]), f"{rel}: needs title and summary")
+    check(len(it["sources"]) > 0, f"{rel}: needs at least one source line")
+    check(len(it["_body"].split()) >= 150, f"{rel}: body looks too short")
+    check("<" not in re.sub(r"<(?=\d)", "", it["_body"]), f"{rel}: raw HTML is not allowed in Markdown")
+    check(not re.search(r"^\s*\|.*\|\s*$", it["_body"], re.M), f"{rel}: Markdown tables aren't supported; use a list")
+    if it["_kind"] == "articles":
+        check(it["category"] in ARTICLE_CATEGORIES, f"{rel}: unknown category {it['category']!r}")
+
+videos_doc = json.loads(read("src/content/data/videos.json"))
+for v in videos_doc["items"]:
+    check(re.fullmatch(r"[A-Za-z0-9_-]{11}", v.get("youtubeId", "")) is not None, f"video {v['id']}: bad youtubeId")
+    check(v.get("topic") in {t["id"] for t in videos_doc["topics"]}, f"video {v['id']}: unknown topic")
 
 if draft_count:
     (failures if LAUNCH else warnings).append(f"content: {draft_count} reviewable item(s) still in draft (run tools/review_packet.py)")

@@ -14,16 +14,17 @@ from content_lib import ROOT
 
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"
 # Some government sites block automated requests; they're checked by hand instead.
-SKIP_HOSTS = {"www.ssa.gov"}
+SKIP_HOSTS = {"www.ssa.gov", "www.youtube-nocookie.com"}  # youtube: embed template, checked by check_videos.py
 SOFT_404 = re.compile(r"page not found|not found|404|^resources for\s*$", re.I)
 
 
 def collect() -> list[str]:
     urls: set[str] = set()
-    for path in list((ROOT / "src").rglob("*.ts")) + list((ROOT / "src").rglob("*.tsx")) + list((ROOT / "src").rglob("*.json")):
+    src = ROOT / "src"
+    for path in [p for ext in ("*.ts", "*.tsx", "*.json", "*.md") for p in src.rglob(ext)]:
         if "worker" in path.relative_to(ROOT / "src").parts:
             continue  # API endpoints, not pages visitors open
-        urls |= set(re.findall(r"https://[^\s'\"`)<>]+", path.read_text(encoding="utf-8")))
+        urls |= set(re.findall(r"https://[A-Za-z0-9-]+\.[A-Za-z0-9.-]+[^\s'\"`)<>|\\]*", path.read_text(encoding="utf-8")))
     return sorted(u.rstrip(".,") for u in urls)
 
 

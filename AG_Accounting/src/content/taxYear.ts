@@ -70,6 +70,26 @@ type FederalData = {
     socialSecurityBenefitBase: PerStatus<number>;
     socialSecurityBenefitAdjustedBase: PerStatus<number>;
   };
+  more: {
+    supplementalWithholdingRate: number;
+    supplementalWithholdingRateOver1M: number;
+    homeSaleExclusion: PerStatus<number>;
+    earlyDistributionAdditionalTaxRate: number;
+    capitalLossLimit: PerStatus<number>;
+  };
+  rmd: {
+    startAgeBornBefore1960: number;
+    startAgeBorn1960OrLater: number;
+    distributionPeriodByAge: Record<string, number>;
+  };
+  ssClaiming: {
+    fullRetirementAgeBorn1960OrLater: number;
+    earlyReductionPerMonthFirst36: number;
+    earlyReductionPerMonthAfter36: number;
+    delayedCreditPerYear: number;
+    earliestClaimAge: number;
+    latestCreditAge: number;
+  };
 };
 
 const FEDERAL_IDS: Record<keyof FederalData, string> = {
@@ -82,6 +102,9 @@ const FEDERAL_IDS: Record<keyof FederalData, string> = {
   retirement: 'fed-2026-retirement-limits',
   mileage: 'fed-2026-mileage',
   other: 'fed-2026-other-figures',
+  more: 'fed-2026-more-figures',
+  rmd: 'fed-rmd-uniform-lifetime-table',
+  ssClaiming: 'fed-social-security-claiming',
 };
 
 type RawItem = Omit<Reviewable, 'status'> & { status: string; title: string; data: unknown };

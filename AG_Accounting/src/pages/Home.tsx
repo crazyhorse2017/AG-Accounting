@@ -1,4 +1,8 @@
+import { lazy, Suspense } from 'react';
 import { business, highlights, services } from '../content/site.ts';
+
+// Facts and articles load separately so the home page stays fast.
+const DailyContent = lazy(() => import('../components/DailyContent.tsx'));
 import { ButtonLink, Container, Section } from '../components/ui.tsx';
 import { Link } from '../lib/router.tsx';
 
@@ -59,6 +63,10 @@ export function HomePage() {
           </Link>
         </p>
       </Section>
+
+      <Suspense fallback={null}>
+        <DailyContent />
+      </Suspense>
 
       <Section title="Why clients stay" className="bg-white">
         <ul className="grid gap-6 md:grid-cols-3">

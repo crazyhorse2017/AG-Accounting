@@ -28,6 +28,12 @@ const AppointmentChecklistPage = lazy(() => tc().then((m) => ({ default: m.Appoi
 const calc = () => import('./pages/Calculators.tsx');
 const CalculatorsIndexPage = lazy(() => calc().then((m) => ({ default: m.CalculatorsIndexPage })));
 const CalculatorPage = lazy(() => calc().then((m) => ({ default: m.CalculatorPage })));
+const lib = () => import('./pages/Library.tsx');
+const ArticlesIndexPage = lazy(() => lib().then((m) => ({ default: m.ArticlesIndexPage })));
+const ArticlePage = lazy(() => lib().then((m) => ({ default: m.ArticlePage })));
+const WhitePapersPage = lazy(() => lib().then((m) => ({ default: m.WhitePapersPage })));
+const VideosPage = lazy(() => lib().then((m) => ({ default: m.VideosPage })));
+const FactsPage = lazy(() => lib().then((m) => ({ default: m.FactsPage })));
 
 type PageDef = { title: (params: Record<string, string>) => string; render: (params: Record<string, string>) => ReactNode };
 
@@ -53,6 +59,11 @@ const PAGES: Record<RoutePattern, PageDef> = {
   '/tax-center/appointment-checklist': { title: t('Tax appointment checklist'), render: () => <AppointmentChecklistPage /> },
   '/calculators': { title: t('Calculators'), render: () => <CalculatorsIndexPage /> },
   '/calculators/:slug': { title: () => `Calculator | ${business.name}`, render: (p) => <CalculatorPage slug={p.slug} /> },
+  '/articles': { title: t('Articles and tax tips'), render: () => <ArticlesIndexPage /> },
+  '/articles/:slug': { title: () => `Article | ${business.name}`, render: (p) => <ArticlePage slug={p.slug} /> },
+  '/resources/white-papers': { title: t('White papers'), render: () => <WhitePapersPage /> },
+  '/resources/videos': { title: t('Tax videos'), render: () => <VideosPage /> },
+  '/resources/facts': { title: t('Tax facts and history'), render: () => <FactsPage /> },
 };
 
 function Loading() {

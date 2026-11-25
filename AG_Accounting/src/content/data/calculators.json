@@ -592,6 +592,597 @@
       "status": "draft",
       "reviewedOn": null,
       "sources": []
+    },
+    {
+      "id": "refund-or-balance-due",
+      "category": "tax",
+      "title": "Refund or balance due estimate",
+      "summary": "Estimate whether you’ll get a refund or owe when you file.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-standard-deduction",
+        "fed-2026-child-tax-credit"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "ohio-municipal-income-tax",
+      "category": "tax",
+      "title": "Ohio city income tax",
+      "summary": "Estimate city income tax where you work and where you live, including the credit between them.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "time-to-savings-goal",
+      "category": "savings",
+      "title": "Time to reach a savings goal",
+      "summary": "See how many months it takes to reach a goal at your saving pace.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "savings-account-comparison",
+      "category": "savings",
+      "title": "Savings account comparison",
+      "summary": "Compare what two savings rates earn over time.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "recurring-deposit",
+      "category": "savings",
+      "title": "Recurring deposit growth",
+      "summary": "See how regular monthly deposits grow.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "rent-vs-buy",
+      "category": "real-estate",
+      "title": "Rent vs. buy",
+      "summary": "Compare the net cost of renting and buying over the years you plan to stay.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "rental-cash-flow",
+      "category": "real-estate",
+      "title": "Rental property cash flow",
+      "summary": "Estimate monthly cash flow from a rental property.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "cap-rate",
+      "category": "real-estate",
+      "title": "Cap rate",
+      "summary": "Measure a rental property’s return before financing.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "cash-on-cash-return",
+      "category": "real-estate",
+      "title": "Cash-on-cash return",
+      "summary": "Measure yearly cash flow against the cash you put in.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "property-tax-estimate",
+      "category": "real-estate",
+      "title": "Property tax estimate",
+      "summary": "Estimate yearly property tax from value and tax rate.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "home-sale-gain-exclusion",
+      "category": "real-estate",
+      "title": "Home sale gain exclusion",
+      "summary": "Estimate the taxable gain when you sell your main home.",
+      "dataIds": [
+        "fed-2026-more-figures"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "closing-cost-estimate",
+      "category": "real-estate",
+      "title": "Closing cost estimate",
+      "summary": "Estimate the cash you’ll need at closing.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "home-equity",
+      "category": "real-estate",
+      "title": "Home equity",
+      "summary": "Find your equity and how much you might borrow against it.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "home-affordability",
+      "category": "mortgage",
+      "title": "How much house can I afford?",
+      "summary": "Estimate an affordable home price from your income and debts.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "amortization-schedule",
+      "category": "mortgage",
+      "title": "Mortgage amortization schedule",
+      "summary": "See every payment’s interest, principal and remaining balance.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "pmi-estimate",
+      "category": "mortgage",
+      "title": "PMI estimate",
+      "summary": "Estimate private mortgage insurance and when it ends.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "points-break-even",
+      "category": "mortgage",
+      "title": "Mortgage points break-even",
+      "summary": "Find how long it takes for buying points to pay off.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "fixed-vs-adjustable",
+      "category": "mortgage",
+      "title": "Fixed vs. adjustable rate",
+      "summary": "Compare a fixed-rate mortgage with an adjustable-rate mortgage.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "balance-transfer",
+      "category": "credit-cards",
+      "title": "Balance transfer savings",
+      "summary": "See whether a balance transfer saves money after the fee.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "snowball-vs-avalanche",
+      "category": "credit-cards",
+      "title": "Snowball vs. avalanche",
+      "summary": "Compare two ways to pay off several debts.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "credit-card-interest-cost",
+      "category": "credit-cards",
+      "title": "Credit card interest cost",
+      "summary": "See what carrying a balance costs each month and year.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "credit-utilization",
+      "category": "credit-cards",
+      "title": "Credit utilization",
+      "summary": "Check how much of your available credit you’re using.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "take-home-pay",
+      "category": "paycheck",
+      "title": "Take-home pay",
+      "summary": "Estimate your paycheck after federal, Ohio and city taxes and deductions.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-standard-deduction",
+        "fed-2026-payroll-taxes",
+        "oh-2026-income-tax"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "bonus-withholding",
+      "category": "paycheck",
+      "title": "Bonus withholding",
+      "summary": "Estimate how much is withheld from a bonus.",
+      "dataIds": [
+        "fed-2026-more-figures",
+        "fed-2026-payroll-taxes"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "raise-impact",
+      "category": "paycheck",
+      "title": "What a raise really adds",
+      "summary": "See how much of a raise you keep after taxes.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-standard-deduction",
+        "fed-2026-payroll-taxes",
+        "oh-2026-income-tax"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "pretax-401k-impact",
+      "category": "paycheck",
+      "title": "Pre-tax 401(k) effect on your paycheck",
+      "summary": "See how much a 401(k) contribution really reduces take-home pay.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-standard-deduction",
+        "oh-2026-income-tax",
+        "fed-2026-retirement-limits"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "w4-extra-withholding",
+      "category": "paycheck",
+      "title": "Extra withholding for your W-4",
+      "summary": "Figure the extra amount per paycheck to avoid owing at tax time.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "roth-vs-traditional",
+      "category": "retirement",
+      "title": "Roth vs. traditional",
+      "summary": "Compare Roth and traditional retirement contributions.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "required-minimum-distribution",
+      "category": "retirement",
+      "title": "Required minimum distribution (RMD)",
+      "summary": "Estimate this year’s required withdrawal from a retirement account.",
+      "dataIds": [
+        "fed-rmd-uniform-lifetime-table"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "retirement-income-withdrawal",
+      "category": "retirement",
+      "title": "Retirement income and how long it lasts",
+      "summary": "See what your savings can pay each year and how long it may last.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "social-security-claiming-age",
+      "category": "retirement",
+      "title": "Social Security claiming age",
+      "summary": "Compare monthly and lifetime benefits by the age you start.",
+      "dataIds": [
+        "fed-social-security-claiming"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "catch-up-contributions",
+      "category": "retirement",
+      "title": "Catch-up contributions",
+      "summary": "See how catch-up contributions after 50 add up.",
+      "dataIds": [
+        "fed-2026-retirement-limits"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "early-withdrawal-cost",
+      "category": "retirement",
+      "title": "Early withdrawal cost",
+      "summary": "See what you lose to taxes and the 10% additional tax on an early withdrawal.",
+      "dataIds": [
+        "fed-2026-more-figures"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "college-savings-529",
+      "category": "kids",
+      "title": "College savings (529)",
+      "summary": "Estimate future college costs and how much to save each month.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "allowance-planner",
+      "category": "kids",
+      "title": "Allowance planner",
+      "summary": "Split an allowance into saving, giving and spending.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "first-car-cost",
+      "category": "kids",
+      "title": "First car cost",
+      "summary": "Add up the real monthly cost of a first car.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "summer-job-take-home",
+      "category": "kids",
+      "title": "Summer job take-home pay",
+      "summary": "Estimate what you’ll keep from a summer job.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-standard-deduction",
+        "fed-2026-payroll-taxes",
+        "oh-2026-income-tax"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "dividend-yield",
+      "category": "investment",
+      "title": "Dividend yield",
+      "summary": "Find a stock’s dividend yield and your dividend income.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "dollar-cost-averaging",
+      "category": "investment",
+      "title": "Dollar-cost averaging",
+      "summary": "See how regular investing affects your average cost.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "portfolio-rebalancing",
+      "category": "investment",
+      "title": "Portfolio rebalancing",
+      "summary": "Find what to buy or sell to get back to your target mix.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "bond-yield",
+      "category": "investment",
+      "title": "Bond yield",
+      "summary": "Find a bond’s current yield and approximate yield to maturity.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "inflation-adjusted-return",
+      "category": "investment",
+      "title": "Inflation-adjusted return",
+      "summary": "Turn a return into its real, after-inflation value.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "capital-gain-on-sale",
+      "category": "investment",
+      "title": "Capital gain or loss on a sale",
+      "summary": "Estimate the gain or loss and the federal tax when you sell an investment.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-capital-gains",
+        "fed-2026-more-figures"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "personal-loan",
+      "category": "loans",
+      "title": "Personal loan",
+      "summary": "Find the payment and true cost of a personal loan, including fees.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "biweekly-payments",
+      "category": "loans",
+      "title": "Biweekly vs. monthly payments",
+      "summary": "See what paying half your payment every two weeks saves.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "loan-amortization",
+      "category": "loans",
+      "title": "Loan amortization schedule",
+      "summary": "See each payment’s interest, principal and balance.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "debt-consolidation",
+      "category": "loans",
+      "title": "Debt consolidation",
+      "summary": "Compare your current debts with a consolidation loan.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "business-loan-payment",
+      "category": "loans",
+      "title": "Business loan payment",
+      "summary": "Find the payment and interest on a business loan.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "interest-only-vs-amortizing",
+      "category": "loans",
+      "title": "Interest-only vs. amortizing",
+      "summary": "Compare an interest-only loan with a regular loan.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "lease-vs-buy",
+      "category": "automobile",
+      "title": "Lease vs. buy a car",
+      "summary": "Compare the cost of leasing and buying over the lease term.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "car-affordability",
+      "category": "automobile",
+      "title": "Car affordability",
+      "summary": "Find the car price that fits your monthly budget.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "trade-in-effect",
+      "category": "automobile",
+      "title": "Trade-in value effect",
+      "summary": "See how a trade-in changes sales tax and the amount you finance.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "total-cost-of-ownership",
+      "category": "automobile",
+      "title": "Total cost of car ownership",
+      "summary": "Add up depreciation, interest, insurance, fuel and repairs.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "auto-loan-early-payoff",
+      "category": "automobile",
+      "title": "Auto loan early payoff",
+      "summary": "See the interest and time saved by paying extra.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "gas-vs-electric",
+      "category": "automobile",
+      "title": "Gas vs. electric fuel cost",
+      "summary": "Compare fuel costs for a gas car and an electric car.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
     }
   ]
 }

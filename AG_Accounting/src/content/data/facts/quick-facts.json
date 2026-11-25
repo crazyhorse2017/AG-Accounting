@@ -1,0 +1,2644 @@
+{
+  "note": "Short tax facts, one sentence each, with a source. One is shown each day.",
+  "items": [
+    {
+      "id": "fact-the-2026-standard-deduction-is-16100-for-single-filers-24150-for",
+      "topic": "rates",
+      "text": "The 2026 standard deduction is $16,100 for single filers, $24,150 for heads of household, and $32,200 for married couples filing jointly.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-in-2026-people-65-or-older-or-blind-add-2050-to",
+      "topic": "rates",
+      "text": "In 2026, people 65 or older (or blind) add $2,050 to the standard deduction if unmarried, or $1,650 each if married.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-for-2026-the-37-top-federal-rate-applies-to-taxable-income",
+      "topic": "rates",
+      "text": "For 2026, the 37% top federal rate applies to taxable income over $640,600 for single filers and $768,700 for joint filers.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-for-2026-a-single-filer-pays-10-federal-tax-on-the",
+      "topic": "rates",
+      "text": "For 2026, a single filer pays 10% federal tax on the first $12,400 of taxable income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-federal-brackets-are-progressive-moving-into-a-higher-bracket-only-raises",
+      "topic": "rates",
+      "text": "Federal brackets are progressive: moving into a higher bracket only raises the rate on the dollars above that bracket’s starting point.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-longterm-capital-gains-can-be-taxed-at-0-for-2026-that",
+      "topic": "rates",
+      "text": "Long-term capital gains can be taxed at 0%: for 2026, that covers taxable income up to $49,450 for single filers and $98,900 for joint filers.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-for-2026-longterm-capital-gains-above-545500-of-taxable-income-for",
+      "topic": "rates",
+      "text": "For 2026, long-term capital gains above $545,500 of taxable income for single filers ($613,700 joint) are taxed at 20%.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-ohio-taxes-2026-nonbusiness-income-above-26050-at-a-flat-275",
+      "topic": "rates",
+      "text": "Ohio taxes 2026 nonbusiness income above $26,050 at a flat 2.75% rate.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "Ohio Revised Code 5747.02",
+          "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-social-security-wage-base-is-184500-wages-above-that",
+      "topic": "rates",
+      "text": "The 2026 Social Security wage base is $184,500. Wages above that aren’t subject to the 6.2% Social Security tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 751",
+          "url": "https://www.irs.gov/taxtopics/tc751"
+        }
+      ]
+    },
+    {
+      "id": "fact-medicare-tax-of-145-applies-to-all-wages-with-no-cap",
+      "topic": "rates",
+      "text": "Medicare tax of 1.45% applies to all wages, with no cap.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 751",
+          "url": "https://www.irs.gov/taxtopics/tc751"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-extra-09-additional-medicare-tax-applies-to-wages-over-200000",
+      "topic": "rates",
+      "text": "An extra 0.9% Additional Medicare Tax applies to wages over $200,000 for single filers and $250,000 for joint filers.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 560",
+          "url": "https://www.irs.gov/taxtopics/tc560"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-38-net-investment-income-tax-can-apply-to-investment-income",
+      "topic": "rates",
+      "text": "The 3.8% Net Investment Income Tax can apply to investment income for people with modified AGI over $200,000 ($250,000 joint).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 559",
+          "url": "https://www.irs.gov/taxtopics/tc559"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-annual-gift-tax-exclusion-is-19000-per-recipient",
+      "topic": "rates",
+      "text": "The 2026 annual gift tax exclusion is $19,000 per recipient.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-103",
+          "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-federal-estate-tax-basic-exclusion-amount-is-15-million",
+      "topic": "rates",
+      "text": "The 2026 federal estate tax basic exclusion amount is $15 million per person.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-foreign-earned-income-exclusion-is-132900",
+      "topic": "rates",
+      "text": "The 2026 foreign earned income exclusion is $132,900.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-103",
+          "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-limit-for-health-flexible-spending-account-contributions-is-3400",
+      "topic": "rates",
+      "text": "The 2026 limit for health flexible spending account contributions is $3,400.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-103",
+          "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"
+        }
+      ]
+    },
+    {
+      "id": "fact-employers-can-provide-up-to-340-a-month-in-taxfree-transit",
+      "topic": "rates",
+      "text": "Employers can provide up to $340 a month in tax-free transit or parking benefits in 2026.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-103",
+          "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-child-tax-credit-is-worth-up-to-2200-per-qualifying",
+      "topic": "credits",
+      "text": "The Child Tax Credit is worth up to $2,200 per qualifying child for 2026, with up to $1,700 of it refundable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-maximum-2026-earned-income-tax-credit-is-8231-for-families",
+      "topic": "credits",
+      "text": "The maximum 2026 Earned Income Tax Credit is $8,231 for families with three or more qualifying children.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-workers-without-qualifying-children-can-claim-the-eitc-too-the-2026",
+      "topic": "credits",
+      "text": "Workers without qualifying children can claim the EITC too: the 2026 maximum is $664.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-cant-claim-the-2026-eitc-if-your-investment-income-is",
+      "topic": "credits",
+      "text": "You can’t claim the 2026 EITC if your investment income is over $12,200.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-tax-credit-cuts-your-tax-dollar-for-dollar-a-deduction",
+      "topic": "credits",
+      "text": "A tax credit cuts your tax dollar for dollar; a deduction only lowers the income your tax is figured on.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-refundable-credit-can-give-you-a-refund-even-if-you",
+      "topic": "credits",
+      "text": "A refundable credit can give you a refund even if you owe no tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-adoption-credit-is-up-to-17670-per-child-and",
+      "topic": "credits",
+      "text": "The 2026 adoption credit is up to $17,670 per child, and up to $5,120 of it can be refundable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-american-opportunity-tax-credit-is-worth-up-to-2500-per",
+      "topic": "credits",
+      "text": "The American Opportunity Tax Credit is worth up to $2,500 per eligible student, and up to $1,000 of it is refundable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 970",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-970"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-lifetime-learning-credit-is-worth-up-to-2000-per-tax",
+      "topic": "credits",
+      "text": "The Lifetime Learning Credit is worth up to $2,000 per tax return.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 970",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-970"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-may-be-able-to-deduct-up-to-2500-of-student",
+      "topic": "credits",
+      "text": "You may be able to deduct up to $2,500 of student loan interest a year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 456",
+          "url": "https://www.irs.gov/taxtopics/tc456"
+        }
+      ]
+    },
+    {
+      "id": "fact-starting-with-2026-the-child-and-dependent-care-credit-can-cover",
+      "topic": "credits",
+      "text": "Starting with 2026, the child and dependent care credit can cover up to 50% of qualifying expenses for lower-income families.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts"
+        }
+      ]
+    },
+    {
+      "id": "fact-from-2025-through-2028-people-65-and-older-may-deduct-an",
+      "topic": "new-law",
+      "text": "From 2025 through 2028, people 65 and older may deduct an extra $6,000 each, on top of the regular senior standard deduction, with a phase-out above $75,000 of income ($150,000 joint).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts, individuals and workers",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers"
+        }
+      ]
+    },
+    {
+      "id": "fact-from-2025-through-2028-workers-may-deduct-up-to-25000-a",
+      "topic": "new-law",
+      "text": "From 2025 through 2028, workers may deduct up to $25,000 a year of qualified tips.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts, individuals and workers",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers"
+        }
+      ]
+    },
+    {
+      "id": "fact-from-2025-through-2028-workers-may-deduct-up-to-12500-of",
+      "topic": "new-law",
+      "text": "From 2025 through 2028, workers may deduct up to $12,500 of qualified overtime pay ($25,000 for joint filers), with a phase-out above $150,000 of income ($300,000 joint).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts, individuals and workers",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers"
+        }
+      ]
+    },
+    {
+      "id": "fact-from-2025-through-2028-interest-on-a-loan-for-a-qualifying",
+      "topic": "new-law",
+      "text": "From 2025 through 2028, interest on a loan for a qualifying new personal vehicle may be deductible, up to $10,000 a year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts, individuals and workers",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts-individuals-and-workers"
+        }
+      ]
+    },
+    {
+      "id": "fact-starting-with-2026-people-who-dont-itemize-may-deduct-up-to",
+      "topic": "new-law",
+      "text": "Starting with 2026, people who don’t itemize may deduct up to $1,000 of cash gifts to qualified charities ($2,000 for joint filers).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts"
+        }
+      ]
+    },
+    {
+      "id": "fact-trump-accounts-for-children-began-accepting-contributions-on-july-4-2026",
+      "topic": "new-law",
+      "text": "Trump Accounts for children began accepting contributions on July 4, 2026, with a one-time $1,000 federal contribution for each eligible child.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-put-up-to-24500-into-a-401k-in-2026",
+      "topic": "retirement",
+      "text": "You can put up to $24,500 into a 401(k) in 2026, plus up to $8,000 more if you’re 50 or older.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-111",
+          "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+        }
+      ]
+    },
+    {
+      "id": "fact-people-aged-60-through-63-get-a-larger-2026-401k-catchup",
+      "topic": "retirement",
+      "text": "People aged 60 through 63 get a larger 2026 401(k) catch-up limit: $11,250.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-111",
+          "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-ira-contribution-limit-is-7500-or-8600-if-youre",
+      "topic": "retirement",
+      "text": "The 2026 IRA contribution limit is $7,500, or $8,600 if you’re 50 or older.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-111",
+          "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-make-ira-contributions-for-a-tax-year-up-until",
+      "topic": "retirement",
+      "text": "You can make IRA contributions for a tax year up until that year’s filing deadline, usually April 15.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-A",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-a"
+        }
+      ]
+    },
+    {
+      "id": "fact-required-minimum-distributions-generally-start-at-age-73-or-age-75",
+      "topic": "retirement",
+      "text": "Required minimum distributions generally start at age 73, or age 75 for people born in 1960 or later.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: RMD FAQs",
+          "url": "https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs"
+        }
+      ]
+    },
+    {
+      "id": "fact-roth-iras-dont-require-minimum-distributions-while-the-original-owner-is",
+      "topic": "retirement",
+      "text": "Roth IRAs don’t require minimum distributions while the original owner is alive.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: RMD FAQs",
+          "url": "https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs"
+        }
+      ]
+    },
+    {
+      "id": "fact-taking-money-out-of-a-retirement-plan-before-age-59-can",
+      "topic": "retirement",
+      "text": "Taking money out of a retirement plan before age 59½ can add a 10% additional tax unless an exception applies.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 557",
+          "url": "https://www.irs.gov/taxtopics/tc557"
+        }
+      ]
+    },
+    {
+      "id": "fact-up-to-85-of-social-security-benefits-can-be-subject-to",
+      "topic": "retirement",
+      "text": "Up to 85% of Social Security benefits can be subject to federal income tax, depending on your other income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 915",
+          "url": "https://www.irs.gov/publications/p915"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-2026-social-security-costofliving-adjustment-is-28",
+      "topic": "retirement",
+      "text": "The 2026 Social Security cost-of-living adjustment is 2.8%.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 751",
+          "url": "https://www.irs.gov/taxtopics/tc751"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-simple-ira-allows-up-to-17000-of-employee-contributions-in",
+      "topic": "retirement",
+      "text": "A SIMPLE IRA allows up to $17,000 of employee contributions in 2026.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-111",
+          "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+        }
+      ]
+    },
+    {
+      "id": "fact-filing-electronically-with-direct-deposit-is-the-fastest-way-to-get",
+      "topic": "filing",
+      "text": "Filing electronically with direct deposit is the fastest way to get a refund.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Refunds",
+          "url": "https://www.irs.gov/refunds"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-issues-most-refunds-for-efiled-returns-in-less-than",
+      "topic": "filing",
+      "text": "The IRS issues most refunds for e-filed returns in less than 21 days.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Refunds",
+          "url": "https://www.irs.gov/refunds"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-extension-gives-you-more-time-to-file-but-not-more",
+      "topic": "filing",
+      "text": "An extension gives you more time to file, but not more time to pay. Tax owed is still due by the April deadline.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 304",
+          "url": "https://www.irs.gov/taxtopics/tc304"
+        }
+      ]
+    },
+    {
+      "id": "fact-form-4868-gives-individuals-an-automatic-sixmonth-extension-to-file",
+      "topic": "filing",
+      "text": "Form 4868 gives individuals an automatic six-month extension to file.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 304",
+          "url": "https://www.irs.gov/taxtopics/tc304"
+        }
+      ]
+    },
+    {
+      "id": "fact-to-claim-a-refund-you-generally-must-file-within-three-years",
+      "topic": "filing",
+      "text": "To claim a refund, you generally must file within three years of the return’s due date.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Filing past due tax returns",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/filing-past-due-tax-returns"
+        }
+      ]
+    },
+    {
+      "id": "fact-head-of-household-status-gives-a-bigger-standard-deduction-than-single",
+      "topic": "filing",
+      "text": "Head of household status gives a bigger standard deduction than single status: $24,150 vs. $16,100 for 2026.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-married-couples-filing-jointly-are-both-responsible-for-the-tax-on",
+      "topic": "filing",
+      "text": "Married couples filing jointly are both responsible for the tax on the return, even if only one had income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-form-1040x-is-used-to-fix-a-return-youve-already-filed",
+      "topic": "filing",
+      "text": "Form 1040-X is used to fix a return you’ve already filed.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: About Form 1040-X",
+          "url": "https://www.irs.gov/forms-pubs/about-form-1040x"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-move-form-8822-tells-the-irs-your-new-address",
+      "topic": "filing",
+      "text": "If you move, Form 8822 tells the IRS your new address so letters reach you.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: About Form 8822",
+          "url": "https://www.irs.gov/forms-pubs/about-form-8822"
+        }
+      ]
+    },
+    {
+      "id": "fact-employers-must-give-workers-their-w2-by-january-31-or-the",
+      "topic": "filing",
+      "text": "Employers must give workers their W-2 by January 31 (or the next business day).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 509",
+          "url": "https://www.irs.gov/publications/p509"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-often-postpones-deadlines-for-people-in-federally-declared-disaster",
+      "topic": "filing",
+      "text": "The IRS often postpones deadlines for people in federally declared disaster areas.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 509",
+          "url": "https://www.irs.gov/publications/p509"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-failuretofile-penalty-is-generally-5-of-unpaid-tax-for-each",
+      "topic": "penalties",
+      "text": "The failure-to-file penalty is generally 5% of unpaid tax for each month a return is late, up to 25%.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Failure to file penalty",
+          "url": "https://www.irs.gov/payments/failure-to-file-penalty"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-failuretopay-penalty-is-generally-05-of-unpaid-tax-per-month",
+      "topic": "penalties",
+      "text": "The failure-to-pay penalty is generally 0.5% of unpaid tax per month, up to 25%.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Failure to pay penalty",
+          "url": "https://www.irs.gov/payments/failure-to-pay-penalty"
+        }
+      ]
+    },
+    {
+      "id": "fact-filing-on-time-even-when-you-cant-pay-avoids-the-larger",
+      "topic": "penalties",
+      "text": "Filing on time even when you can’t pay avoids the larger failure-to-file penalty.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Failure to file penalty",
+          "url": "https://www.irs.gov/payments/failure-to-file-penalty"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-cant-pay-in-full-the-irs-offers-payment-plans",
+      "topic": "penalties",
+      "text": "If you can’t pay in full, the IRS offers payment plans, and many can be set up online.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Payment plans",
+          "url": "https://www.irs.gov/payments/payment-plans-installment-agreements"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-may-owe-an-estimated-tax-penalty-if-you-didnt-pay",
+      "topic": "penalties",
+      "text": "You may owe an estimated tax penalty if you didn’t pay enough during the year through withholding or estimated payments.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 306",
+          "url": "https://www.irs.gov/taxtopics/tc306"
+        }
+      ]
+    },
+    {
+      "id": "fact-selfemployment-tax-is-153-124-for-social-security-and-29-for",
+      "topic": "business",
+      "text": "Self-employment tax is 15.3%: 12.4% for Social Security and 2.9% for Medicare.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Self-employment tax",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-generally-owe-selfemployment-tax-if-your-net-earnings-from-selfemployment",
+      "topic": "business",
+      "text": "You generally owe self-employment tax if your net earnings from self-employment are $400 or more.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Self-employment tax",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes"
+        }
+      ]
+    },
+    {
+      "id": "fact-half-of-your-selfemployment-tax-is-deductible-when-you-figure-your",
+      "topic": "business",
+      "text": "Half of your self-employment tax is deductible when you figure your adjusted gross income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Self-employment tax",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes"
+        }
+      ]
+    },
+    {
+      "id": "fact-estimated-tax-payments-are-usually-due-april-15-june-15-september",
+      "topic": "business",
+      "text": "Estimated tax payments are usually due April 15, June 15, September 15, and January 15.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Estimated taxes",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/estimated-taxes"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-simplified-home-office-deduction-is-5-per-square-foot-of",
+      "topic": "business",
+      "text": "The simplified home office deduction is $5 per square foot of qualifying space, up to 300 square feet.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Simplified home office deduction",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/simplified-option-for-home-office-deduction"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-business-standard-mileage-rate-was-725-cents-a-mile-for",
+      "topic": "business",
+      "text": "The business standard mileage rate was 72.5 cents a mile for January through June 2026 and 76 cents from July 1, 2026.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Standard mileage rates",
+          "url": "https://www.irs.gov/tax-professionals/standard-mileage-rates"
+        }
+      ]
+    },
+    {
+      "id": "fact-commuting-between-your-home-and-your-regular-workplace-isnt-deductible-as",
+      "topic": "business",
+      "text": "Commuting between your home and your regular workplace isn’t deductible as a business expense.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 463",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-463"
+        }
+      ]
+    },
+    {
+      "id": "fact-business-meals-are-generally-only-50-deductible",
+      "topic": "business",
+      "text": "Business meals are generally only 50% deductible.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 463",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-463"
+        }
+      ]
+    },
+    {
+      "id": "fact-payments-to-contractors-made-after-2025-must-be-reported-on-form",
+      "topic": "business",
+      "text": "Payments to contractors made after 2025 must be reported on Form 1099-NEC once they reach $2,000 for the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-bartering-is-taxable-the-fair-market-value-of-goods-or-services",
+      "topic": "business",
+      "text": "Bartering is taxable: the fair market value of goods or services you receive counts as income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 420",
+          "url": "https://www.irs.gov/taxtopics/tc420"
+        }
+      ]
+    },
+    {
+      "id": "fact-employment-tax-records-should-be-kept-at-least-four-years",
+      "topic": "business",
+      "text": "Employment tax records should be kept at least four years.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How long should I keep records?",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records"
+        }
+      ]
+    },
+    {
+      "id": "fact-gambling-winnings-are-taxable-income-and-some-gambling-losses-may-be",
+      "topic": "income",
+      "text": "Gambling winnings are taxable income, and some gambling losses may be deductible if you itemize.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 419",
+          "url": "https://www.irs.gov/taxtopics/tc419"
+        }
+      ]
+    },
+    {
+      "id": "fact-unemployment-compensation-is-taxable-on-your-federal-return",
+      "topic": "income",
+      "text": "Unemployment compensation is taxable on your federal return.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 418",
+          "url": "https://www.irs.gov/taxtopics/tc418"
+        }
+      ]
+    },
+    {
+      "id": "fact-tips-are-income-employees-must-report-tips-of-20-or-more",
+      "topic": "income",
+      "text": "Tips are income. Employees must report tips of $20 or more in a month to their employer.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 761",
+          "url": "https://www.irs.gov/taxtopics/tc761"
+        }
+      ]
+    },
+    {
+      "id": "fact-alimony-under-divorce-or-separation-agreements-made-after-2018-isnt-deductible",
+      "topic": "income",
+      "text": "Alimony under divorce or separation agreements made after 2018 isn’t deductible by the payer or taxable to the recipient.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 452",
+          "url": "https://www.irs.gov/taxtopics/tc452"
+        }
+      ]
+    },
+    {
+      "id": "fact-selling-digital-assets-such-as-cryptocurrency-can-be-a-taxable-event",
+      "topic": "income",
+      "text": "Selling digital assets such as cryptocurrency can be a taxable event, and Form 1040 asks about digital asset activity.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Digital assets",
+          "url": "https://www.irs.gov/filing/digital-assets"
+        }
+      ]
+    },
+    {
+      "id": "fact-up-to-3000-of-net-capital-losses-a-year-1500-if",
+      "topic": "income",
+      "text": "Up to $3,000 of net capital losses a year ($1,500 if married filing separately) can offset other income; the rest carries forward.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 409",
+          "url": "https://www.irs.gov/taxtopics/tc409"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-investment-held-more-than-one-year-produces-a-longterm-gain",
+      "topic": "income",
+      "text": "An investment held more than one year produces a long-term gain or loss; one year or less is short-term.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 409",
+          "url": "https://www.irs.gov/taxtopics/tc409"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-meet-the-ownership-and-use-tests-you-can-exclude",
+      "topic": "income",
+      "text": "If you meet the ownership and use tests, you can exclude up to $250,000 of gain on selling your home ($500,000 for most married couples filing jointly).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 701",
+          "url": "https://www.irs.gov/taxtopics/tc701"
+        }
+      ]
+    },
+    {
+      "id": "fact-in-most-cases-keep-tax-records-for-three-years-after-you",
+      "topic": "records",
+      "text": "In most cases, keep tax records for three years after you file.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How long should I keep records?",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records"
+        }
+      ]
+    },
+    {
+      "id": "fact-keep-records-about-property-such-as-a-home-or-investments-until",
+      "topic": "records",
+      "text": "Keep records about property, such as a home or investments, until the time to amend expires for the year you sell it.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How long should I keep records?",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-irs-tax-transcript-can-show-your-past-return-information-if",
+      "topic": "records",
+      "text": "An IRS tax transcript can show your past return information if you’ve lost a copy.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Get transcript",
+          "url": "https://www.irs.gov/individuals/get-transcript"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-usually-contacts-people-first-by-regular-mail-not-by",
+      "topic": "safety",
+      "text": "The IRS usually contacts people first by regular mail, not by phone, email, text, or social media.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How to know it’s really the IRS",
+          "url": "https://www.irs.gov/help/how-to-know-its-the-irs"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-wont-demand-immediate-payment-by-gift-card-prepaid-debit",
+      "topic": "safety",
+      "text": "The IRS won’t demand immediate payment by gift card, prepaid debit card, or wire transfer.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How to know it’s really the IRS",
+          "url": "https://www.irs.gov/help/how-to-know-its-the-irs"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-identity-protection-pin-is-a-sixdigit-number-that-helps-stop",
+      "topic": "safety",
+      "text": "An Identity Protection PIN is a six-digit number that helps stop someone from filing a tax return with your Social Security number.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Get an Identity Protection PIN",
+          "url": "https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin"
+        }
+      ]
+    },
+    {
+      "id": "fact-anyone-with-an-ssn-or-itin-who-can-verify-their-identity",
+      "topic": "safety",
+      "text": "Anyone with an SSN or ITIN who can verify their identity can get an IRS Identity Protection PIN.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Get an Identity Protection PIN",
+          "url": "https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-taxpayer-advocate-service-is-an-independent-office-inside-the-irs",
+      "topic": "safety",
+      "text": "The Taxpayer Advocate Service is an independent office inside the IRS that helps people whose tax problems aren’t being resolved.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Taxpayer Advocate Service",
+          "url": "https://www.irs.gov/taxpayer-advocate"
+        }
+      ]
+    },
+    {
+      "id": "fact-every-taxpayer-has-ten-rights-under-the-taxpayer-bill-of-rights",
+      "topic": "safety",
+      "text": "Every taxpayer has ten rights under the Taxpayer Bill of Rights, including the right to be informed and the right to appeal.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Taxpayer Bill of Rights",
+          "url": "https://www.irs.gov/taxpayer-bill-of-rights"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-tax-withholding-estimator-can-help-you-fill-out-a",
+      "topic": "withholding",
+      "text": "The IRS Tax Withholding Estimator can help you fill out a new W-4 so you don’t owe a lot or over-withhold.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Tax Withholding Estimator",
+          "url": "https://www.irs.gov/individuals/tax-withholding-estimator"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-very-large-refund-usually-means-too-much-was-withheld-from",
+      "topic": "withholding",
+      "text": "A very large refund usually means too much was withheld from your pay during the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Tax Withholding Estimator",
+          "url": "https://www.irs.gov/individuals/tax-withholding-estimator"
+        }
+      ]
+    },
+    {
+      "id": "fact-bonuses-are-often-withheld-at-a-flat-22-federal-rate-but",
+      "topic": "withholding",
+      "text": "Bonuses are often withheld at a flat 22% federal rate, but they’re taxed like other wages when you file.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 15",
+          "url": "https://www.irs.gov/publications/p15"
+        }
+      ]
+    },
+    {
+      "id": "fact-your-filing-status-generally-depends-on-whether-youre-married-on-the",
+      "topic": "filing",
+      "text": "Your filing status generally depends on whether you’re married on the last day of the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-there-are-five-filing-statuses-single-married-filing-jointly-married-filing",
+      "topic": "filing",
+      "text": "There are five filing statuses: single, married filing jointly, married filing separately, head of household, and qualifying surviving spouse.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-more-than-one-filing-status-applies-to-you-you-can",
+      "topic": "filing",
+      "text": "If more than one filing status applies to you, you can generally choose the one that gives you the lowest tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-qualifying-surviving-spouse-can-use-jointreturn-tax-rates-for-up",
+      "topic": "filing",
+      "text": "A qualifying surviving spouse can use joint-return tax rates for up to two years after a spouse’s death if they have a dependent child.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-whether-you-must-file-a-return-depends-on-your-filing-status",
+      "topic": "filing",
+      "text": "Whether you must file a return depends on your filing status, age, and gross income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-even-if-you-arent-required-to-file-filing-may-be-worth",
+      "topic": "filing",
+      "text": "Even if you aren’t required to file, filing may be worth it to get back withholding or claim refundable credits.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-dependents-can-be-either-a-qualifying-child-or-a-qualifying-relative",
+      "topic": "filing",
+      "text": "Dependents can be either a qualifying child or a qualifying relative, and each has its own tests.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 501",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-501"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-dependents-own-standard-deduction-is-limited-but-its-at-least",
+      "topic": "filing",
+      "text": "A dependent’s own standard deduction is limited, but it’s at least $1,350 for 2026.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-most-taxpayers-take-the-standard-deduction-because-its-larger-than-their",
+      "topic": "filing",
+      "text": "Most taxpayers take the standard deduction because it’s larger than their itemized deductions.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 551",
+          "url": "https://www.irs.gov/taxtopics/tc551"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-itemize-or-take-the-standard-deduction-whichever-is-larger",
+      "topic": "filing",
+      "text": "You can itemize or take the standard deduction, whichever is larger, but not both.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 501",
+          "url": "https://www.irs.gov/taxtopics/tc501"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-youre-married-filing-separately-and-your-spouse-itemizes-you-must",
+      "topic": "filing",
+      "text": "If you’re married filing separately and your spouse itemizes, you must itemize too.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 551",
+          "url": "https://www.irs.gov/taxtopics/tc551"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-choose-to-have-your-refund-split-across-more-than",
+      "topic": "filing",
+      "text": "You can choose to have your refund split across more than one bank account.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Refunds",
+          "url": "https://www.irs.gov/refunds"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-wheres-my-refund-tool-updates-once-a-day-usually",
+      "topic": "filing",
+      "text": "The IRS Where’s My Refund? tool updates once a day, usually overnight.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Refunds",
+          "url": "https://www.irs.gov/refunds"
+        }
+      ]
+    },
+    {
+      "id": "fact-irs-free-file-lets-eligible-taxpayers-prepare-and-file-their-federal",
+      "topic": "filing",
+      "text": "IRS Free File lets eligible taxpayers prepare and file their federal return online at no cost.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Free File",
+          "url": "https://www.irs.gov/e-file-do-your-taxes-for-free"
+        }
+      ]
+    },
+    {
+      "id": "fact-publication-17-is-the-irss-main-guide-to-filing-an-individual",
+      "topic": "filing",
+      "text": "Publication 17 is the IRS’s main guide to filing an individual federal return.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-publication-509-lists-the-years-federal-tax-deadlines-for-individuals-businesses",
+      "topic": "filing",
+      "text": "Publication 509 lists the year’s federal tax deadlines for individuals, businesses, and employers.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 509",
+          "url": "https://www.irs.gov/publications/p509"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-a-tax-deadline-falls-on-a-weekend-or-legal-holiday",
+      "topic": "filing",
+      "text": "If a tax deadline falls on a weekend or legal holiday, it moves to the next business day.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 509",
+          "url": "https://www.irs.gov/publications/p509"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-amended-return-generally-must-be-filed-within-three-years-of",
+      "topic": "filing",
+      "text": "An amended return generally must be filed within three years of the original return or two years of paying the tax, whichever is later, to get a refund.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: About Form 1040-X",
+          "url": "https://www.irs.gov/forms-pubs/about-form-1040x"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-view-your-federal-balance-payment-history-and-transcripts-in",
+      "topic": "filing",
+      "text": "You can view your federal balance, payment history, and transcripts in your IRS Online Account.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Your Online Account",
+          "url": "https://www.irs.gov/your-account"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-cant-file-on-time-filing-for-an-extension-avoids",
+      "topic": "filing",
+      "text": "If you can’t file on time, filing for an extension avoids the failure-to-file penalty, but interest still runs on unpaid tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 304",
+          "url": "https://www.irs.gov/taxtopics/tc304"
+        }
+      ]
+    },
+    {
+      "id": "fact-interest-from-bank-accounts-is-generally-taxable-even-if-you-dont",
+      "topic": "income",
+      "text": "Interest from bank accounts is generally taxable, even if you don’t receive a Form 1099-INT.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 403",
+          "url": "https://www.irs.gov/taxtopics/tc403"
+        }
+      ]
+    },
+    {
+      "id": "fact-interest-on-most-state-and-local-government-bonds-is-exempt-from",
+      "topic": "income",
+      "text": "Interest on most state and local government bonds is exempt from federal income tax, but still has to be reported.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 403",
+          "url": "https://www.irs.gov/taxtopics/tc403"
+        }
+      ]
+    },
+    {
+      "id": "fact-qualified-dividends-are-taxed-at-the-lower-longterm-capital-gains-rates",
+      "topic": "income",
+      "text": "Qualified dividends are taxed at the lower long-term capital gains rates.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 409",
+          "url": "https://www.irs.gov/taxtopics/tc409"
+        }
+      ]
+    },
+    {
+      "id": "fact-scholarships-used-for-tuition-and-required-fees-are-generally-taxfree-amounts",
+      "topic": "income",
+      "text": "Scholarships used for tuition and required fees are generally tax-free; amounts used for room and board are generally taxable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 421",
+          "url": "https://www.irs.gov/taxtopics/tc421"
+        }
+      ]
+    },
+    {
+      "id": "fact-social-security-benefits-are-reported-to-you-each-year-on-form",
+      "topic": "income",
+      "text": "Social Security benefits are reported to you each year on Form SSA-1099.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 915",
+          "url": "https://www.irs.gov/publications/p915"
+        }
+      ]
+    },
+    {
+      "id": "fact-income-from-a-side-business-is-taxable-even-if-its-small",
+      "topic": "income",
+      "text": "Income from a side business is taxable even if it’s small and even if you don’t get a 1099.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 334",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-334"
+        }
+      ]
+    },
+    {
+      "id": "fact-money-you-get-from-selling-personal-items-for-less-than-you",
+      "topic": "income",
+      "text": "Money you get from selling personal items for less than you paid generally isn’t taxable, but a gain on a sale is.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 409",
+          "url": "https://www.irs.gov/taxtopics/tc409"
+        }
+      ]
+    },
+    {
+      "id": "fact-rental-income-is-taxable-and-you-can-deduct-ordinary-and-necessary",
+      "topic": "income",
+      "text": "Rental income is taxable, and you can deduct ordinary and necessary expenses of renting the property.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 527",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-527"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-rent-out-a-home-for-fewer-than-15-days",
+      "topic": "income",
+      "text": "If you rent out a home for fewer than 15 days during the year and use it as a home, the rent generally isn’t taxable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 527",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-527"
+        }
+      ]
+    },
+    {
+      "id": "fact-depreciation-lets-rental-property-owners-deduct-the-cost-of-the-building",
+      "topic": "income",
+      "text": "Depreciation lets rental property owners deduct the cost of the building (not the land) over time.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 527",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-527"
+        }
+      ]
+    },
+    {
+      "id": "fact-gambling-winnings-must-be-reported-even-if-you-dont-receive-a",
+      "topic": "income",
+      "text": "Gambling winnings must be reported even if you don’t receive a Form W-2G.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 419",
+          "url": "https://www.irs.gov/taxtopics/tc419"
+        }
+      ]
+    },
+    {
+      "id": "fact-prizes-and-awards-including-the-value-of-noncash-prizes-are-generally",
+      "topic": "income",
+      "text": "Prizes and awards, including the value of non-cash prizes, are generally taxable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-cash-gift-cards-and-gifts-of-property-you-receive-arent-taxable",
+      "topic": "income",
+      "text": "Cash, gift cards, and gifts of property you receive aren’t taxable income to you, though the giver may need to file a gift tax return.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-sell-your-main-home-and-qualify-for-the-exclusion",
+      "topic": "income",
+      "text": "If you sell your main home and qualify for the exclusion, you may not need to report the sale unless you received a Form 1099-S.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 701",
+          "url": "https://www.irs.gov/taxtopics/tc701"
+        }
+      ]
+    },
+    {
+      "id": "fact-to-use-the-home-sale-exclusion-you-generally-must-have-owned",
+      "topic": "income",
+      "text": "To use the home sale exclusion, you generally must have owned and lived in the home for at least two of the five years before the sale.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 701",
+          "url": "https://www.irs.gov/taxtopics/tc701"
+        }
+      ]
+    },
+    {
+      "id": "fact-losses-on-the-sale-of-your-personal-home-or-personal-belongings",
+      "topic": "income",
+      "text": "Losses on the sale of your personal home or personal belongings aren’t deductible.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 409",
+          "url": "https://www.irs.gov/taxtopics/tc409"
+        }
+      ]
+    },
+    {
+      "id": "fact-your-basis-in-an-investment-usually-includes-what-you-paid-plus",
+      "topic": "income",
+      "text": "Your basis in an investment usually includes what you paid plus commissions and fees.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 409",
+          "url": "https://www.irs.gov/taxtopics/tc409"
+        }
+      ]
+    },
+    {
+      "id": "fact-inherited-property-generally-gets-a-basis-equal-to-its-fair-market",
+      "topic": "income",
+      "text": "Inherited property generally gets a basis equal to its fair market value on the date of death.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-digital-assets-received-as-payment-for-goods-or-services-are-taxable",
+      "topic": "income",
+      "text": "Digital assets received as payment for goods or services are taxable at their fair market value when received.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Digital assets",
+          "url": "https://www.irs.gov/filing/digital-assets"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-child-and-dependent-care-credit-applies-to-care-for-children",
+      "topic": "credits",
+      "text": "The child and dependent care credit applies to care for children under 13 or a spouse or dependent who can’t care for themselves.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 602",
+          "url": "https://www.irs.gov/taxtopics/tc602"
+        }
+      ]
+    },
+    {
+      "id": "fact-for-the-child-and-dependent-care-credit-qualifying-expenses-are-capped",
+      "topic": "credits",
+      "text": "For the child and dependent care credit, qualifying expenses are capped at $3,000 for one person and $6,000 for two or more.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Working Families Tax Cuts",
+          "url": "https://www.irs.gov/newsroom/working-families-tax-cuts"
+        }
+      ]
+    },
+    {
+      "id": "fact-day-camp-can-count-toward-the-child-and-dependent-care-credit",
+      "topic": "credits",
+      "text": "Day camp can count toward the child and dependent care credit, but overnight camp doesn’t.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 602",
+          "url": "https://www.irs.gov/taxtopics/tc602"
+        }
+      ]
+    },
+    {
+      "id": "fact-to-claim-the-child-care-credit-you-must-report-the-care",
+      "topic": "credits",
+      "text": "To claim the child care credit you must report the care provider’s name, address, and taxpayer ID number.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 602",
+          "url": "https://www.irs.gov/taxtopics/tc602"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-american-opportunity-tax-credit-can-be-claimed-for-the-first",
+      "topic": "credits",
+      "text": "The American Opportunity Tax Credit can be claimed for the first four years of higher education.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 970",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-970"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-lifetime-learning-credit-has-no-limit-on-the-number-of",
+      "topic": "credits",
+      "text": "The Lifetime Learning Credit has no limit on the number of years you can claim it, and it covers courses to improve job skills.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 970",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-970"
+        }
+      ]
+    },
+    {
+      "id": "fact-form-1098t-from-the-school-helps-you-figure-education-credits-but",
+      "topic": "credits",
+      "text": "Form 1098-T from the school helps you figure education credits, but the credit is based on what you actually paid.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 970",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-970"
+        }
+      ]
+    },
+    {
+      "id": "fact-eligible-educators-can-deduct-some-unreimbursed-classroom-expenses-even-if-they",
+      "topic": "credits",
+      "text": "Eligible educators can deduct some unreimbursed classroom expenses even if they don’t itemize.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 458",
+          "url": "https://www.irs.gov/taxtopics/tc458"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-earned-income-tax-credit-is-refundable-so-it-can-produce",
+      "topic": "credits",
+      "text": "The Earned Income Tax Credit is refundable, so it can produce a refund even if you owe no tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Earned Income Tax Credit",
+          "url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc"
+        }
+      ]
+    },
+    {
+      "id": "fact-to-claim-the-eitc-you-need-earned-income-and-you-your",
+      "topic": "credits",
+      "text": "To claim the EITC, you need earned income, and you, your spouse, and any qualifying children generally need valid Social Security numbers.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Earned Income Tax Credit",
+          "url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc"
+        }
+      ]
+    },
+    {
+      "id": "fact-by-law-the-irs-cant-issue-refunds-that-include-the-eitc",
+      "topic": "credits",
+      "text": "By law, the IRS can’t issue refunds that include the EITC or the Additional Child Tax Credit before mid-February.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Refunds",
+          "url": "https://www.irs.gov/refunds"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-qualifying-child-for-the-child-tax-credit-must-be-under",
+      "topic": "credits",
+      "text": "A qualifying child for the Child Tax Credit must be under age 17 at the end of the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Child Tax Credit",
+          "url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit-and-credit-for-other-dependents"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-500-credit-for-other-dependents-can-apply-to-older-children",
+      "topic": "credits",
+      "text": "The $500 credit for other dependents can apply to older children and other relatives who don’t qualify for the Child Tax Credit.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Child Tax Credit",
+          "url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit-and-credit-for-other-dependents"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-home-mortgage-interest-deduction-is-available-only-if-you-itemize",
+      "topic": "deductions",
+      "text": "The home mortgage interest deduction is available only if you itemize.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 501",
+          "url": "https://www.irs.gov/taxtopics/tc501"
+        }
+      ]
+    },
+    {
+      "id": "fact-medical-expenses-are-deductible-only-to-the-extent-they-exceed-75",
+      "topic": "deductions",
+      "text": "Medical expenses are deductible only to the extent they exceed 7.5% of your adjusted gross income, and only if you itemize.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 501",
+          "url": "https://www.irs.gov/taxtopics/tc501"
+        }
+      ]
+    },
+    {
+      "id": "fact-for-any-single-charitable-gift-of-250-or-more-you-need",
+      "topic": "deductions",
+      "text": "For any single charitable gift of $250 or more, you need a written acknowledgment from the charity.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-gifts-to-individuals-even-people-in-need-arent-deductible-as-charitable",
+      "topic": "deductions",
+      "text": "Gifts to individuals, even people in need, aren’t deductible as charitable contributions.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-value-of-your-time-volunteering-isnt-deductible-but-some-outofpocket",
+      "topic": "deductions",
+      "text": "The value of your time volunteering isn’t deductible, but some out-of-pocket volunteer costs can be.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-deduct-student-loan-interest-even-if-you-dont-itemize",
+      "topic": "deductions",
+      "text": "You can deduct student loan interest even if you don’t itemize, subject to income limits.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 456",
+          "url": "https://www.irs.gov/taxtopics/tc456"
+        }
+      ]
+    },
+    {
+      "id": "fact-contributions-to-a-traditional-ira-may-be-deductible-depending-on-your",
+      "topic": "deductions",
+      "text": "Contributions to a traditional IRA may be deductible, depending on your income and whether you’re covered by a workplace plan.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-A",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-a"
+        }
+      ]
+    },
+    {
+      "id": "fact-health-savings-account-contributions-can-lower-your-taxable-income-and-qualified",
+      "topic": "deductions",
+      "text": "Health Savings Account contributions can lower your taxable income, and qualified withdrawals for medical costs are tax-free.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-roth-ira-contributions-arent-deductible-but-qualified-withdrawals-including-earnings-are",
+      "topic": "retirement",
+      "text": "Roth IRA contributions aren’t deductible, but qualified withdrawals, including earnings, are tax-free.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-A",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-a"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-contribute-to-a-roth-ira-only-if-your-income",
+      "topic": "retirement",
+      "text": "You can contribute to a Roth IRA only if your income is below certain limits.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-A",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-a"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-spouse-with-little-or-no-income-may-still-be-able",
+      "topic": "retirement",
+      "text": "A spouse with little or no income may still be able to contribute to an IRA based on the working spouse’s income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-A",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-a"
+        }
+      ]
+    },
+    {
+      "id": "fact-rolling-over-a-retirement-distribution-within-60-days-generally-avoids-tax",
+      "topic": "retirement",
+      "text": "Rolling over a retirement distribution within 60 days generally avoids tax on it.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-B",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-b"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-direct-rollover-between-retirement-accounts-avoids-the-mandatory-20-withholding",
+      "topic": "retirement",
+      "text": "A direct rollover between retirement accounts avoids the mandatory 20% withholding that applies to some plan distributions paid to you.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 590-B",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-590-b"
+        }
+      ]
+    },
+    {
+      "id": "fact-your-first-required-minimum-distribution-can-wait-until-april-1-of",
+      "topic": "retirement",
+      "text": "Your first required minimum distribution can wait until April 1 of the year after you reach the required age, but then two are due that year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: RMD FAQs",
+          "url": "https://www.irs.gov/retirement-plans/retirement-plan-and-ira-required-minimum-distributions-faqs"
+        }
+      ]
+    },
+    {
+      "id": "fact-exceptions-to-the-10-early-distribution-tax-include-certain-disability-medical",
+      "topic": "retirement",
+      "text": "Exceptions to the 10% early distribution tax include certain disability, medical expense, and separation-from-service situations.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 557",
+          "url": "https://www.irs.gov/taxtopics/tc557"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-age-60-to-63-super-catchup-for-workplace-plans-was",
+      "topic": "retirement",
+      "text": "The age 60 to 63 “super catch-up” for workplace plans was created by the SECURE 2.0 Act.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-111",
+          "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+        }
+      ]
+    },
+    {
+      "id": "fact-workplace-retirement-contributions-generally-must-come-out-of-a-paycheck-by",
+      "topic": "retirement",
+      "text": "Workplace retirement contributions generally must come out of a paycheck by December 31 to count for that year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS news release IR-2025-111",
+          "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-social-security-is-your-only-income-your-benefits-generally-arent",
+      "topic": "retirement",
+      "text": "If Social Security is your only income, your benefits generally aren’t taxable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 915",
+          "url": "https://www.irs.gov/publications/p915"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-ask-to-have-federal-tax-withheld-from-social-security",
+      "topic": "retirement",
+      "text": "You can ask to have federal tax withheld from Social Security benefits using Form W-4V.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 915",
+          "url": "https://www.irs.gov/publications/p915"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-sole-proprietor-reports-business-income-and-expenses-on-schedule-c",
+      "topic": "business",
+      "text": "A sole proprietor reports business income and expenses on Schedule C with their individual return.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 334",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-334"
+        }
+      ]
+    },
+    {
+      "id": "fact-a-business-expense-must-be-both-ordinary-and-necessary-to-be",
+      "topic": "business",
+      "text": "A business expense must be both ordinary and necessary to be deductible.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 334",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-334"
+        }
+      ]
+    },
+    {
+      "id": "fact-startup-costs-can-be-partly-deducted-in-the-first-year-and",
+      "topic": "business",
+      "text": "Startup costs can be partly deducted in the first year and the rest spread over 15 years.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 583",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-583"
+        }
+      ]
+    },
+    {
+      "id": "fact-an-employer-identification-number-ein-is-free-to-get-directly-from",
+      "topic": "business",
+      "text": "An Employer Identification Number (EIN) is free to get directly from the IRS.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 583",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-583"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-generally-need-an-ein-if-you-have-employees-operate-as",
+      "topic": "business",
+      "text": "You generally need an EIN if you have employees, operate as a corporation or partnership, or file certain excise or employment tax returns.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 583",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-583"
+        }
+      ]
+    },
+    {
+      "id": "fact-whether-a-worker-is-an-employee-or-an-independent-contractor-depends",
+      "topic": "business",
+      "text": "Whether a worker is an employee or an independent contractor depends on the control the business has over the work, not just the job title.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 15",
+          "url": "https://www.irs.gov/publications/p15"
+        }
+      ]
+    },
+    {
+      "id": "fact-employers-must-withhold-income-tax-and-the-employee-share-of-social",
+      "topic": "business",
+      "text": "Employers must withhold income tax and the employee share of Social Security and Medicare from wages, and pay a matching employer share.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 15",
+          "url": "https://www.irs.gov/publications/p15"
+        }
+      ]
+    },
+    {
+      "id": "fact-employers-report-wages-and-withholding-to-the-irs-quarterly-on-form",
+      "topic": "business",
+      "text": "Employers report wages and withholding to the IRS quarterly on Form 941.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 15",
+          "url": "https://www.irs.gov/publications/p15"
+        }
+      ]
+    },
+    {
+      "id": "fact-federal-unemployment-tax-futa-is-paid-only-by-employers-not-withheld",
+      "topic": "business",
+      "text": "Federal unemployment tax (FUTA) is paid only by employers, not withheld from employees’ wages.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 15",
+          "url": "https://www.irs.gov/publications/p15"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-home-office-deduction-requires-space-used-regularly-and-exclusively-for",
+      "topic": "business",
+      "text": "The home office deduction requires space used regularly and exclusively for business.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 587",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-587"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-use-either-the-standard-mileage-rate-or-actual-car",
+      "topic": "business",
+      "text": "You can use either the standard mileage rate or actual car expenses, but rules limit switching methods.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 463",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-463"
+        }
+      ]
+    },
+    {
+      "id": "fact-business-gifts-are-deductible-only-up-to-25-per-recipient-per",
+      "topic": "business",
+      "text": "Business gifts are deductible only up to $25 per recipient per year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 463",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-463"
+        }
+      ]
+    },
+    {
+      "id": "fact-travel-expenses-are-deductible-when-youre-away-from-your-tax-home",
+      "topic": "business",
+      "text": "Travel expenses are deductible when you’re away from your tax home overnight for business.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 463",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-463"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-qualified-business-income-deduction-can-be-up-to-20-of",
+      "topic": "business",
+      "text": "The qualified business income deduction can be up to 20% of qualified business income for many pass-through business owners.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 334",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-334"
+        }
+      ]
+    },
+    {
+      "id": "fact-starting-in-2026-the-qualified-business-income-deduction-has-a-minimum",
+      "topic": "business",
+      "text": "Starting in 2026, the qualified business income deduction has a minimum of $400 for taxpayers with at least $1,000 of qualified business income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Rev. Proc. 2025-32",
+          "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf"
+        }
+      ]
+    },
+    {
+      "id": "fact-payments-by-credit-card-or-payment-app-may-be-reported-to",
+      "topic": "business",
+      "text": "Payments by credit card or payment app may be reported to you on Form 1099-K.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 334",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-334"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-close-a-business-you-generally-need-to-file-final",
+      "topic": "business",
+      "text": "If you close a business, you generally need to file final returns and mark them as final.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 583",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-583"
+        }
+      ]
+    },
+    {
+      "id": "fact-keep-records-that-support-your-business-income-and-deductions-for-as",
+      "topic": "business",
+      "text": "Keep records that support your business income and deductions for as long as they may be needed for the tax law.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 583",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-583"
+        }
+      ]
+    },
+    {
+      "id": "fact-irs-interest-on-unpaid-tax-is-figured-daily-so-paying-sooner",
+      "topic": "penalties",
+      "text": "IRS interest on unpaid tax is figured daily, so paying sooner reduces what you owe.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Failure to pay penalty",
+          "url": "https://www.irs.gov/payments/failure-to-pay-penalty"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-a-return-is-more-than-60-days-late-a-minimum",
+      "topic": "penalties",
+      "text": "If a return is more than 60 days late, a minimum failure-to-file penalty applies.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Failure to file penalty",
+          "url": "https://www.irs.gov/payments/failure-to-file-penalty"
+        }
+      ]
+    },
+    {
+      "id": "fact-firsttime-penalty-relief-may-be-available-if-you-have-a-clean",
+      "topic": "penalties",
+      "text": "First-time penalty relief may be available if you have a clean history with the IRS.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Failure to file penalty",
+          "url": "https://www.irs.gov/payments/failure-to-file-penalty"
+        }
+      ]
+    },
+    {
+      "id": "fact-setting-up-a-payment-plan-can-reduce-the-failuretopay-penalty-rate",
+      "topic": "penalties",
+      "text": "Setting up a payment plan can reduce the failure-to-pay penalty rate while the plan is in effect.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Payment plans",
+          "url": "https://www.irs.gov/payments/payment-plans-installment-agreements"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-estimated-tax-penalty-may-be-waived-if-the-underpayment-was",
+      "topic": "penalties",
+      "text": "The estimated tax penalty may be waived if the underpayment was due to a casualty, disaster, or other unusual circumstance.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 306",
+          "url": "https://www.irs.gov/taxtopics/tc306"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-pay-the-irs-directly-from-a-bank-account-for",
+      "topic": "penalties",
+      "text": "You can pay the IRS directly from a bank account for free using IRS Direct Pay.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Payments",
+          "url": "https://www.irs.gov/payments"
+        }
+      ]
+    },
+    {
+      "id": "fact-tax-preparers-must-sign-returns-and-include-their-preparer-tax-identification",
+      "topic": "safety",
+      "text": "Tax preparers must sign returns and include their Preparer Tax Identification Number.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Recognize tax scams and fraud",
+          "url": "https://www.irs.gov/help/tax-scams/recognize-tax-scams-and-fraud"
+        }
+      ]
+    },
+    {
+      "id": "fact-never-sign-a-blank-tax-return-or-one-you-havent-reviewed",
+      "topic": "safety",
+      "text": "Never sign a blank tax return or one you haven’t reviewed: you’re responsible for what’s on it.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Recognize tax scams and fraud",
+          "url": "https://www.irs.gov/help/tax-scams/recognize-tax-scams-and-fraud"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-receive-an-irs-letter-compare-it-with-your-return",
+      "topic": "safety",
+      "text": "If you receive an IRS letter, compare it with your return carefully; many issues can be resolved by mail.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Taxpayer Advocate Service",
+          "url": "https://www.irs.gov/taxpayer-advocate"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-have-the-right-to-appeal-most-irs-decisions-to-the",
+      "topic": "safety",
+      "text": "You have the right to appeal most IRS decisions to the IRS Independent Office of Appeals.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Taxpayer Bill of Rights",
+          "url": "https://www.irs.gov/taxpayer-bill-of-rights"
+        }
+      ]
+    },
+    {
+      "id": "fact-help-from-the-taxpayer-advocate-service-is-free",
+      "topic": "safety",
+      "text": "Help from the Taxpayer Advocate Service is free.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Taxpayer Advocate Service",
+          "url": "https://www.irs.gov/taxpayer-advocate"
+        }
+      ]
+    },
+    {
+      "id": "fact-the-irs-doesnt-call-to-demand-payment-without-first-sending-a",
+      "topic": "safety",
+      "text": "The IRS doesn’t call to demand payment without first sending a bill by mail.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How to know it’s really the IRS",
+          "url": "https://www.irs.gov/help/how-to-know-its-the-irs"
+        }
+      ]
+    },
+    {
+      "id": "fact-be-wary-of-ghost-preparers-who-wont-sign-the-return-they",
+      "topic": "safety",
+      "text": "Be wary of “ghost preparers” who won’t sign the return they prepared.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Recognize tax scams and fraud",
+          "url": "https://www.irs.gov/help/tax-scams/recognize-tax-scams-and-fraud"
+        }
+      ]
+    },
+    {
+      "id": "fact-scammers-often-promise-a-large-refund-for-a-fee-the-irs",
+      "topic": "safety",
+      "text": "Scammers often promise a large refund for a fee; the IRS warns against anyone who bases fees on the size of your refund.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Recognize tax scams and fraud",
+          "url": "https://www.irs.gov/help/tax-scams/recognize-tax-scams-and-fraud"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-change-your-w4-at-any-time-during-the-year",
+      "topic": "withholding",
+      "text": "You can change your W-4 at any time during the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Tax Withholding Estimator",
+          "url": "https://www.irs.gov/individuals/tax-withholding-estimator"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-both-spouses-work-completing-the-w4-step-2-helps-avoid",
+      "topic": "withholding",
+      "text": "If both spouses work, completing the W-4 Step 2 helps avoid under-withholding.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: Tax Withholding Estimator",
+          "url": "https://www.irs.gov/individuals/tax-withholding-estimator"
+        }
+      ]
+    },
+    {
+      "id": "fact-withholding-is-treated-as-paid-evenly-through-the-year-which-can",
+      "topic": "withholding",
+      "text": "Withholding is treated as paid evenly through the year, which can help cover a shortfall late in the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 505",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-505"
+        }
+      ]
+    },
+    {
+      "id": "fact-you-can-have-federal-tax-withheld-from-unemployment-benefits-by-filing",
+      "topic": "withholding",
+      "text": "You can have federal tax withheld from unemployment benefits by filing Form W-4V.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 418",
+          "url": "https://www.irs.gov/taxtopics/tc418"
+        }
+      ]
+    },
+    {
+      "id": "fact-gambling-winnings-over-certain-amounts-may-have-federal-tax-withheld-at",
+      "topic": "withholding",
+      "text": "Gambling winnings over certain amounts may have federal tax withheld at 24%.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Topic 419",
+          "url": "https://www.irs.gov/taxtopics/tc419"
+        }
+      ]
+    },
+    {
+      "id": "fact-keep-copies-of-your-filed-tax-returns-they-help-when-preparing",
+      "topic": "records",
+      "text": "Keep copies of your filed tax returns; they help when preparing future returns and amending past ones.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS: How long should I keep records?",
+          "url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records"
+        }
+      ]
+    },
+    {
+      "id": "fact-if-you-lose-a-w2-contact-your-employer-first-if-that",
+      "topic": "records",
+      "text": "If you lose a W-2, contact your employer first; if that doesn’t work, the IRS can help.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 17",
+          "url": "https://www.irs.gov/publications/p17"
+        }
+      ]
+    },
+    {
+      "id": "fact-records-of-home-improvements-help-reduce-the-taxable-gain-when-you",
+      "topic": "records",
+      "text": "Records of home improvements help reduce the taxable gain when you sell your home.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 523",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-523"
+        }
+      ]
+    },
+    {
+      "id": "fact-electronic-records-are-acceptable-to-the-irs-if-theyre-accurate-and",
+      "topic": "records",
+      "text": "Electronic records are acceptable to the IRS if they’re accurate and readable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS Publication 583",
+          "url": "https://www.irs.gov/forms-pubs/about-publication-583"
+        }
+      ]
+    }
+  ]
+}

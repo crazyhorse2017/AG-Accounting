@@ -5,6 +5,7 @@ import type { CalculatorImpl } from './types.ts';
 import { taxCalculators } from './impl/tax.ts';
 import { businessCalculators } from './impl/business.ts';
 import { personalCalculators } from './impl/personal.ts';
+import { moreCalculators } from './impl/more.ts';
 
 export type CalculatorMeta = Reviewable & {
   category: string;
@@ -19,6 +20,7 @@ export const CALCULATOR_IMPLS: Record<string, CalculatorImpl> = {
   ...taxCalculators,
   ...businessCalculators,
   ...personalCalculators,
+  ...moreCalculators,
 };
 
 export const CALCULATOR_CATEGORIES: { id: string; title: string }[] = calculatorsFile.categories;

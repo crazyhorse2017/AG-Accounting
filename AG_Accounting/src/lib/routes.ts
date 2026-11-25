@@ -22,6 +22,11 @@ export const ROUTES = [
   '/tax-center/appointment-checklist',
   '/calculators',
   '/calculators/:slug',
+  '/articles',
+  '/articles/:slug',
+  '/resources/white-papers',
+  '/resources/videos',
+  '/resources/facts',
 ] as const;
 
 export type RoutePattern = (typeof ROUTES)[number];

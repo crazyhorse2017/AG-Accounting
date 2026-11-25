@@ -1,0 +1,2291 @@
+{
+  "note": "Official IRS videos only, taken from the IRS.gov video list (https://www.irs.gov/newsroom/videos). Verify with tools/check_videos.py.",
+  "topics": [
+    {
+      "id": "filing",
+      "title": "Filing basics"
+    },
+    {
+      "id": "credits",
+      "title": "Credits and deductions"
+    },
+    {
+      "id": "business",
+      "title": "Small business and self-employed"
+    },
+    {
+      "id": "payments",
+      "title": "Payments, refunds and notices"
+    },
+    {
+      "id": "scams",
+      "title": "Scams and identity theft"
+    },
+    {
+      "id": "retirement",
+      "title": "Retirement and life events"
+    }
+  ],
+  "items": [
+    {
+      "id": "video-amending-a-return",
+      "youtubeId": "X7Bol664lhw",
+      "title": "Amending a return",
+      "topic": "filing",
+      "durationSeconds": 86,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/amending-a-return-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-changed-your-name-after-marriage-or-divorce",
+      "youtubeId": "LaokAs6pq70",
+      "title": "Changed your name after marriage or divorce?",
+      "topic": "filing",
+      "durationSeconds": 73,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/changed-your-name-after-marriage-or-divorce-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-do-i-need-to-fill-out-a-new-w-4",
+      "youtubeId": "yuEiRudGffE",
+      "title": "Do I need to fill out a new W-4?",
+      "topic": "filing",
+      "durationSeconds": 113,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/do-i-need-to-fill-out-a-new-w-4-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-do-it-yourself-free-tax-preparation",
+      "youtubeId": "3zmzQgWs-YI",
+      "title": "Do-it-yourself free tax preparation",
+      "topic": "filing",
+      "durationSeconds": 90,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/do-it-yourself-free-tax-preparation-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-extension-of-time-to-file",
+      "youtubeId": "0YEgkRSLRGY",
+      "title": "Extension of time to file",
+      "topic": "filing",
+      "durationSeconds": 120,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/extension-of-time-to-file-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-file-your-irs-tax-return-electronically-for-free",
+      "youtubeId": "yiQ-C7lGw0o",
+      "title": "File your IRS tax return electronically for free",
+      "topic": "filing",
+      "durationSeconds": 106,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/file-your-irs-tax-return-electronically-for-free-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-first-time-filing-a-tax-return",
+      "youtubeId": "fQwp-wJ9CWo",
+      "title": "First time filing a tax return?",
+      "topic": "filing",
+      "durationSeconds": 219,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/first-time-filing-a-tax-return-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-free-help-preparing-your-tax-return",
+      "youtubeId": "zmUPHj3AvZc",
+      "title": "Free help preparing your tax return",
+      "topic": "filing",
+      "durationSeconds": 59,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/free-help-preparing-your-tax-return-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-get-ready-to-file-your-taxes",
+      "youtubeId": "wA52fWjFRek",
+      "title": "Get ready to file your taxes",
+      "topic": "filing",
+      "durationSeconds": 97,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/get-ready-to-file-your-taxes-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-get-right-with-your-taxes",
+      "youtubeId": "dbhhKocY9EY",
+      "title": "Get right with your taxes",
+      "topic": "filing",
+      "durationSeconds": 400,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/get-right-with-your-taxes-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-have-you-checked-your-withholding-lately",
+      "youtubeId": "zO1-fWOle9Y",
+      "title": "Have you checked your withholding lately?",
+      "topic": "filing",
+      "durationSeconds": 76,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/have-you-checked-your-withholding-lately-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-help-for-taxpayers",
+      "youtubeId": "Z-JTsA4C1Eo",
+      "title": "Help for taxpayers",
+      "topic": "filing",
+      "durationSeconds": 115,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/help-for-taxpayers-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-how-to-file-for-free-using-irs-free-file",
+      "youtubeId": "o3mjZI5hetQ",
+      "title": "Here's how to file for free using IRS Free File",
+      "topic": "filing",
+      "durationSeconds": 63,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-how-to-file-for-free-using-irs-free-file-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-interactive-tax-assistant",
+      "youtubeId": "y6HkaBkdKdU",
+      "title": "Interactive Tax Assistant",
+      "topic": "filing",
+      "durationSeconds": 83,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/interactive-tax-assistant-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-app",
+      "youtubeId": "EMk_Q4vdubI",
+      "title": "IRS app",
+      "topic": "filing",
+      "durationSeconds": 59,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-app-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-tax-calendar",
+      "youtubeId": "AdtNcKueEW4",
+      "title": "IRS Tax Calendar",
+      "topic": "filing",
+      "durationSeconds": 64,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-tax-calendar-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-making-an-appointment-for-irs-tax-help",
+      "youtubeId": "BGe4JA0vvGQ",
+      "title": "Making an appointment for IRS tax help",
+      "topic": "filing",
+      "durationSeconds": 107,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/making-an-appointment-for-irs-tax-help-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-missing-w-2",
+      "youtubeId": "cB9T3nrhKtU",
+      "title": "Missing W-2",
+      "topic": "filing",
+      "durationSeconds": 90,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/missing-w-2-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-six-reasons-why-you-should-file-your-taxes-electronically",
+      "youtubeId": "s09YWoGtftM",
+      "title": "Six reasons why you should file your taxes electronically",
+      "topic": "filing",
+      "durationSeconds": 104,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/six-reasons-why-you-should-file-your-taxes-electronically-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tax-filing-status",
+      "youtubeId": "iuhjG_PGch0",
+      "title": "Tax filing status",
+      "topic": "filing",
+      "durationSeconds": 109,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tax-filing-status-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tax-return-errors-tips-to-avoid-them",
+      "youtubeId": "vj46zvukdqk",
+      "title": "Tax return errors-tips to avoid them",
+      "topic": "filing",
+      "durationSeconds": 161,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tax-return-errors-tips-to-avoid-them-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-taxable-and-nontaxable-income",
+      "youtubeId": "k-oc6kkJl0Y",
+      "title": "Taxable and nontaxable income",
+      "topic": "filing",
+      "durationSeconds": 135,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/taxable-and-nontaxable-income-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-wheres-my-tax-refund",
+      "youtubeId": "gN0aNGqXyKA",
+      "title": "Where’s my tax refund?",
+      "topic": "filing",
+      "durationSeconds": 80,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/wheres-my-tax-refund-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-refund-claim-it-or-lose-it",
+      "youtubeId": "6GwcfEESr4g",
+      "title": "Refund: Claim it or lose it",
+      "topic": "filing",
+      "durationSeconds": 124,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/refund-claim-it-or-lose-it-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-document-upload-tool",
+      "youtubeId": "6cv1YvxyPA8",
+      "title": "Document Upload Tool",
+      "topic": "filing",
+      "durationSeconds": 3806,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/document-upload-tool-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-individual-taxpayer-identification-number-itin",
+      "youtubeId": "quKa03B1drk",
+      "title": "Individual taxpayer identification number (ITIN)",
+      "topic": "filing",
+      "durationSeconds": 96,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/individual-taxpayer-identification-number-itin-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-renting-your-vacation-home",
+      "youtubeId": "oEMKRVBTBJ0",
+      "title": "Renting Your vacation home",
+      "topic": "filing",
+      "durationSeconds": 99,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/renting-your-vacation-home-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-able-accounts",
+      "youtubeId": "P7dO63wVCd8",
+      "title": "ABLE accounts",
+      "topic": "credits",
+      "durationSeconds": 100,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/able-accounts-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-day-camp-and-other-child-care-expenses",
+      "youtubeId": "JMe64u_mvP0",
+      "title": "Day camp and other child care expenses",
+      "topic": "credits",
+      "durationSeconds": 72,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/day-camp-and-other-child-care-expenses-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-education-tax-credits",
+      "youtubeId": "Buy8uVSh93k",
+      "title": "Education tax credits",
+      "topic": "credits",
+      "durationSeconds": 118,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/education-tax-credits-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-get-to-know-the-earned-income-tax-credit-and-how-it-can-help",
+      "youtubeId": "Mi0fBLTLtng",
+      "title": "Get to know the Earned Income Tax Credit and how it can help you",
+      "topic": "credits",
+      "durationSeconds": 93,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/get-to-know-the-earned-income-tax-credit-and-how-it-can-help-you-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-gift-tax",
+      "youtubeId": "3NcfJuqBUGU",
+      "title": "Gift tax",
+      "topic": "credits",
+      "durationSeconds": 64,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/gift-tax-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-mortgage-interest-deduction",
+      "youtubeId": "xyHdUVv36lg",
+      "title": "Mortgage interest deduction",
+      "topic": "credits",
+      "durationSeconds": 109,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/mortgage-interest-deduction-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-premium-tax-credit-changes-in-circumstances",
+      "youtubeId": "XNveUOx4mIA",
+      "title": "Premium tax credit: Changes in circumstances",
+      "topic": "credits",
+      "durationSeconds": 96,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/premium-tax-credit-changes-in-circumstances-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-much-do-you-know-about-refundable-credits",
+      "youtubeId": "n3oEtZ6MLZ4",
+      "title": "How Much Do You Know About Refundable Credits?",
+      "topic": "credits",
+      "durationSeconds": 5438,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-much-do-you-know-about-refundable-credits-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-2025-adoption-tax-credit",
+      "youtubeId": "YsRLzvteMaY",
+      "title": "2025 Adoption Tax Credit",
+      "topic": "credits",
+      "durationSeconds": 3724,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/2025-adoption-tax-credit-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-changes-to-the-adoption-tax-credit-under-the-working-familie",
+      "youtubeId": "WEdjtXBNa3k",
+      "title": "Changes to the Adoption Tax Credit under the Working Families Tax Cuts",
+      "topic": "credits",
+      "durationSeconds": 59,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/changes-to-the-adoption-tax-credit-under-the-working-families-tax-cuts-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-working-families-tax-cuts-individual-tax-provisions",
+      "youtubeId": "vidWvvTVfpY",
+      "title": "Working Families Tax Cuts: Individual Tax Provisions",
+      "topic": "credits",
+      "durationSeconds": 7601,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/understanding-the-working-families-tax-cuts-individual-tax-provisions-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-understanding-trump-accounts-working-families-tax-cuts",
+      "youtubeId": "vKfkq6A_QOU",
+      "title": "Understanding Trump Accounts: Working Families Tax Cuts",
+      "topic": "credits",
+      "durationSeconds": 7237,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/understanding-trump-accounts-working-families-tax-cuts-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-are-you-making-extra-cash-selling-stuff-or-providing-a-servi",
+      "youtubeId": "TojpxBWKTNo",
+      "title": "Are you making extra cash selling stuff or providing a service?",
+      "topic": "business",
+      "durationSeconds": 78,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/are-you-making-extra-cash-selling-stuff-or-providing-a-service-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-business-tax-account-overview",
+      "youtubeId": "zrqnNxpW894",
+      "title": "Business tax account overview",
+      "topic": "business",
+      "durationSeconds": 75,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/business-tax-account-overview-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-check-out-irs-gov-for-small-biz-resources",
+      "youtubeId": "Crd0Q5VMnEQ",
+      "title": "Check out IRS.gov for small biz resources",
+      "topic": "business",
+      "durationSeconds": 67,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/check-out-irsgov-for-small-biz-resources-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-corporations-raising-capital-and-distributing-profits",
+      "youtubeId": "qPtQcdAuFj4",
+      "title": "Corporations: Raising capital and distributing profits",
+      "topic": "business",
+      "durationSeconds": 101,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/corporations-raising-capital-and-distributing-profits-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-employee-achievement-awards",
+      "youtubeId": "Uh6JhQaSzmk",
+      "title": "Employee achievement awards",
+      "topic": "business",
+      "durationSeconds": 78,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/employee-achievement-awards-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-five-things-to-know-about-the-employer-identification-number",
+      "youtubeId": "-vD0KoIS124",
+      "title": "Five things to know about the employer identification number",
+      "topic": "business",
+      "durationSeconds": 90,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/five-things-to-know-about-the-employer-identification-number-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-what-businesses-should-know-about-getting-an-employer",
+      "youtubeId": "8OApf67_Ufs",
+      "title": "Here’s what businesses should know about getting an employer identification number",
+      "topic": "business",
+      "durationSeconds": 71,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-what-businesses-should-know-about-getting-an-employer-identification-number-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-what-to-do-if-you-must-close-your-business",
+      "youtubeId": "1a1neKiCsfo",
+      "title": "Here's what to do if you must close your business",
+      "topic": "business",
+      "durationSeconds": 60,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-what-to-do-if-you-must-close-your-business-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-gig-economy-taxes-income-and-what-you-must-know",
+      "youtubeId": "mVR7OnCwnJg",
+      "title": "Gig economy: Taxes, income, and what you must know",
+      "topic": "business",
+      "durationSeconds": 105,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/gig-economy-taxes-income-and-what-you-must-know-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-small-business-self-employed-tax-center",
+      "youtubeId": "ZK9pQXD7hKE",
+      "title": "IRS Small Business Self-Employed Tax Center",
+      "topic": "business",
+      "durationSeconds": 218,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-small-business-self-employed-tax-center-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-llc-taxes-liability-and-irs-elections-made-simple",
+      "youtubeId": "dQQ8Ga6IHuo",
+      "title": "LLC: Taxes, liability, and IRS elections made simple",
+      "topic": "business",
+      "durationSeconds": 81,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/llc-taxes-liability-and-irs-elections-made-simple-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-miscellaneous-income",
+      "youtubeId": "ZEybWZmC-0w",
+      "title": "Miscellaneous income",
+      "topic": "business",
+      "durationSeconds": 75,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/miscellaneous-income-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-partnerships-taxes-liability-and-how-they-work",
+      "youtubeId": "X8WGjuRXWn0",
+      "title": "Partnerships: Taxes, liability, and how they work",
+      "topic": "business",
+      "durationSeconds": 85,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/partnerships-taxes-liability-and-how-they-work-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-qualified-business-income-deduction",
+      "youtubeId": "oj2SSXWKbwY",
+      "title": "Qualified business income deduction",
+      "topic": "business",
+      "durationSeconds": 105,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/qualified-business-income-deduction-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-s-corporation-pass-through-taxation-and-irs-filing-basics",
+      "youtubeId": "v6nN-U3_qWE",
+      "title": "S Corporation: Pass-through taxation and IRS filing basics",
+      "topic": "business",
+      "durationSeconds": 82,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/s-corporation-pass-through-taxation-and-irs-filing-basics-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-small-business-health-care-tax-credit",
+      "youtubeId": "1LrHZ4aftD4",
+      "title": "Small business Health Care Tax Credit",
+      "topic": "business",
+      "durationSeconds": 150,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/2014-small-business-health-care-tax-credit-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-small-business-tax-workshop",
+      "youtubeId": "WrHjqFa9WPk",
+      "title": "Small business tax workshop",
+      "topic": "business",
+      "durationSeconds": 82,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/small-business-tax-workshop-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-sole-proprietorship-control-risk-and-liability-basics",
+      "youtubeId": "Igs1S9DeYs8",
+      "title": "Sole proprietorship: Control, risk, and liability basics",
+      "topic": "business",
+      "durationSeconds": 55,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/sole-proprietorship-control-risk-and-liability-basics-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-the-work-opportunity-tax-credit-benefits-employers",
+      "youtubeId": "AdidUSv9XwU",
+      "title": "The Work Opportunity Tax Credit benefits employers",
+      "topic": "business",
+      "durationSeconds": 68,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/the-work-opportunity-tax-credit-benefits-employers-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-your-taxes-in-the-sharing-economy",
+      "youtubeId": "JlS7nxN6mxE",
+      "title": "Your taxes in the sharing economy",
+      "topic": "business",
+      "durationSeconds": 109,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/your-taxes-in-the-sharing-economy-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-estimated-tax-payments",
+      "youtubeId": "eMxTgPtpvmE",
+      "title": "Estimated tax payments",
+      "topic": "business",
+      "durationSeconds": 157,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/estimated-tax-payments-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-working-families-tax-cuts-business-tax-provisions",
+      "youtubeId": "Vlh6oqEdajA",
+      "title": "Working Families Tax Cuts: Business Tax Provisions",
+      "topic": "business",
+      "durationSeconds": 7996,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/understanding-the-working-families-tax-cuts-business-tax-provisions-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-and-payroll-professionals-partners-in-every-paycheck",
+      "youtubeId": "t7JT2EcCESE",
+      "title": "IRS and Payroll Professionals: Partners in Every Paycheck",
+      "topic": "business",
+      "durationSeconds": 5502,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-and-payroll-professionals-partners-in-every-paycheck-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-complete-form-8300-part-i",
+      "youtubeId": "PN2dO8Y2Ou0",
+      "title": "How to complete Form 8300 – Part I",
+      "topic": "business",
+      "durationSeconds": 357,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-complete-form-8300-part-i-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-complete-form-8300-part-ii",
+      "youtubeId": "ZzkXwfJ2a-E",
+      "title": "How to complete Form 8300 – Part II",
+      "topic": "business",
+      "durationSeconds": 540,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-complete-form-8300-part-ii-youtube-video-script"
+        }
+      ]
+    },
+    {
+      "id": "video-appealing-a-collection-action",
+      "youtubeId": "ICJhOFcMMhw",
+      "title": "Appealing a collection action",
+      "topic": "payments",
+      "durationSeconds": 251,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/appealing-a-collection-action-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-appealing-an-examination-dispute",
+      "youtubeId": "NUgCLX3hmoo",
+      "title": "Appealing an examination dispute",
+      "topic": "payments",
+      "durationSeconds": 253,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/appealing-an-examination-dispute-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-audits-by-mail-what-to-do",
+      "youtubeId": "JaGwHJ0JQOc",
+      "title": "Audits by mail: What to do",
+      "topic": "payments",
+      "durationSeconds": 173,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/audits-by-mail-what-to-do-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-cant-pay-your-taxes-why-its-still-important-to-file-your-tax",
+      "youtubeId": "98BTLB6_TIs",
+      "title": "Can't pay your taxes? Why it's still important to file your tax return",
+      "topic": "payments",
+      "durationSeconds": 161,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/cant-pay-your-taxes-why-its-still-important-to-file-your-tax-return-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-communicate-with-irs-office-of-appeals-using-secure-messagin",
+      "youtubeId": "xQwAO1O7Nl0",
+      "title": "Communicate with IRS Office of Appeals using secure messaging",
+      "topic": "payments",
+      "durationSeconds": 102,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/communicate-with-irs-office-of-appeals-using-secure-messaging-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-how-to-avoid-irs-penalties-and-interest",
+      "youtubeId": "X_Fovbz5RNg",
+      "title": "Here’s how to avoid IRS penalties and interest",
+      "topic": "payments",
+      "durationSeconds": 76,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-how-to-avoid-irs-penalties-and-interest-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-what-to-do-if-you-owe-taxes-but-cant-pay",
+      "youtubeId": "f7f4Hye-9g0",
+      "title": "Here’s what to do if you owe taxes, but can’t pay",
+      "topic": "payments",
+      "durationSeconds": 45,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-what-to-do-if-you-owe-taxes-but-cant-pay-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-what-to-know-about-refundable-credits-audits-by-mail",
+      "youtubeId": "_eQzbceUgsA",
+      "title": "Here’s what to know about refundable credits audits by mail",
+      "topic": "payments",
+      "durationSeconds": 158,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-what-to-know-about-refundable-credits-audits-by-mail-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-complete-form-656-oic-offer-in-compromise",
+      "youtubeId": "xmzIKr5RkVs",
+      "title": "How to complete Form 656 OIC - Offer in compromise",
+      "topic": "payments",
+      "durationSeconds": 231,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-complete-form-656-oic-offer-in-compromise-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-pay-your-taxes",
+      "youtubeId": "bZjTIHPyY94",
+      "title": "How to pay your taxes",
+      "topic": "payments",
+      "durationSeconds": 111,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-pay-your-taxes-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-settle-your-debt-with-the-irs-on-your-own",
+      "youtubeId": "2iPm5UzwECE",
+      "title": "How to settle your debt with the IRS on your own",
+      "topic": "payments",
+      "durationSeconds": 98,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-settle-your-debt-with-the-irs-on-your-own-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-letter-cp2000-proposed-changes-to-your-tax-return",
+      "youtubeId": "3R0POvqL3Ko",
+      "title": "IRS Letter CP2000: Proposed changes to your tax return",
+      "topic": "payments",
+      "durationSeconds": 215,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-letter-cp2000-proposed-changes-to-your-tax-return-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-letter-cp3219a-statutory-notice-of-deficiency",
+      "youtubeId": "DM0ohTywLS4",
+      "title": "IRS Letter CP3219A: Statutory notice of deficiency",
+      "topic": "payments",
+      "durationSeconds": 158,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-letter-cp3219a-statutory-notice-of-deficiency-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-looking-to-settle-for-less-with-the-irs",
+      "youtubeId": "X-f5y4fvSsc",
+      "title": "Looking to settle for less with the IRS?",
+      "topic": "payments",
+      "durationSeconds": 248,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/looking-to-settle-for-less-with-the-irs-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-need-a-payment-plan-consider-using-the-online-payment-agreem",
+      "youtubeId": "R78jpEIw4-g",
+      "title": "Need a payment plan? Consider using the online payment agreement application",
+      "topic": "payments",
+      "durationSeconds": 105,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/need-a-payment-plan-consider-using-the-online-payment-agreement-application-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-offer-in-compromise",
+      "youtubeId": "imMIMk5mIa8",
+      "title": "Offer in compromise",
+      "topic": "payments",
+      "durationSeconds": 44,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/offer-in-compromise-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-offer-in-compromise-form-656-oic-booklet",
+      "youtubeId": "qsZwc33HhT4",
+      "title": "Offer in Compromise Form 656 OIC Booklet",
+      "topic": "payments",
+      "durationSeconds": 367,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/offer-in-compromise-form-656-oic-booklet-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-options-for-paying-your-federal-taxes",
+      "youtubeId": "gafE8nkBzRQ",
+      "title": "Options for paying your federal taxes",
+      "topic": "payments",
+      "durationSeconds": 115,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/options-for-paying-your-federal-taxes-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-organizing-files-for-correspondence-exams",
+      "youtubeId": "AKCzZcGcjdU",
+      "title": "Organizing files for correspondence exams",
+      "topic": "payments",
+      "durationSeconds": 120,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/organizing-files-for-correspondence-exams-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-owe-taxes-but-cant-pay",
+      "youtubeId": "eLzYpiFXSZ4",
+      "title": "Owe taxes but can't pay?",
+      "topic": "payments",
+      "durationSeconds": 81,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/owe-taxes-but-cant-pay-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-set-up-an-irs-payment-plan-online",
+      "youtubeId": "OTP0KBDYzSk",
+      "title": "Set up an IRS payment plan online",
+      "topic": "payments",
+      "durationSeconds": 211,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/set-up-an-irs-payment-plan-online-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-welcome-to-irs-appeals",
+      "youtubeId": "VZ5ZT8BQrOc",
+      "title": "Welcome to IRS Appeals",
+      "topic": "payments",
+      "durationSeconds": 143,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/welcome-to-irs-appeals-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-navigating-through-the-restart-of-automated-collection-notic",
+      "youtubeId": "QMXgKZE9bpg",
+      "title": "Navigating through the restart of automated collection notices and penalty relief",
+      "topic": "payments",
+      "durationSeconds": 3597,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/navigating-through-the-restart-of-automated-collection-notices-and-penalty-relief-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-how-to-know-that-private-collection-agency-calling-you",
+      "youtubeId": "Fia--L6PAzU",
+      "title": "Here’s how to know that private collection agency calling you is legit",
+      "topic": "payments",
+      "durationSeconds": 80,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-how-to-know-that-private-collection-agency-calling-you-is-legit-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-avoid-phishing-emails",
+      "youtubeId": "qmBDJeCI_h4",
+      "title": "Avoid phishing emails",
+      "topic": "scams",
+      "durationSeconds": 76,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/avoid-phishing-emails-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-dirty-dozen",
+      "youtubeId": "ghQp0DxzY6g",
+      "title": "Dirty dozen",
+      "topic": "scams",
+      "durationSeconds": 40,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/dirty-dozen-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-dont-fall-for-employee-retention-credit-scams",
+      "youtubeId": "p3mmROYjyYM",
+      "title": "Don’t fall for Employee Retention Credit scams",
+      "topic": "scams",
+      "durationSeconds": 38,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/dont-fall-for-employee-retention-credit-scams-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-easy-steps-to-protect-your-computer-and-phone",
+      "youtubeId": "V3hdiCtKj5s",
+      "title": "Easy steps to protect your computer and phone",
+      "topic": "scams",
+      "durationSeconds": 78,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/easy-steps-to-protect-your-computer-and-phone-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-get-an-identity-protection-pin",
+      "youtubeId": "YhfSZuwGrlY",
+      "title": "Get an identity protection PIN",
+      "topic": "scams",
+      "durationSeconds": 81,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/get-an-identity-protection-pin-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-gift-card-scam",
+      "youtubeId": "Z9yRuyXt9vQ",
+      "title": "Gift card scam",
+      "topic": "scams",
+      "durationSeconds": 63,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/gift-card-scam-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-heres-what-to-know-about-tax-scams-so-you-can-avoid-them",
+      "youtubeId": "0F4EGJbsDLc",
+      "title": "Here’s what to know about tax scams so you can avoid them",
+      "topic": "scams",
+      "durationSeconds": 99,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/heres-what-to-know-about-tax-scams-so-you-can-avoid-them-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-avoid-tax-scams",
+      "youtubeId": "NglAffwNFho",
+      "title": "How to avoid tax scams",
+      "topic": "scams",
+      "durationSeconds": 94,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-avoid-tax-scams-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-irs-phone-scams",
+      "youtubeId": "S4GjJ_kaX1g",
+      "title": "IRS phone scams",
+      "topic": "scams",
+      "durationSeconds": 56,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/irs-phone-scams-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-protect-your-identity",
+      "youtubeId": "pXUfQJW7U3A",
+      "title": "Protect Your identity",
+      "topic": "scams",
+      "durationSeconds": 56,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/protect-your-identity-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tigta-fraud-is-real-just-hang-up-on-fraud",
+      "youtubeId": "OPrFbzMNHb8",
+      "title": "TIGTA: Fraud is real! Just hang up on fraud",
+      "topic": "scams",
+      "durationSeconds": 30,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tigta-fraud-is-real-just-hang-up-on-fraud-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tigta-the-irs-is-calling-me-can-this-be-for-real",
+      "youtubeId": "TNuVkmabc9U",
+      "title": "TIGTA-The IRS is calling me? Can this be for real?",
+      "topic": "scams",
+      "durationSeconds": 60,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tigta-the-irs-is-calling-me-can-this-be-for-real-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-w-2-scam",
+      "youtubeId": "WgBgmrRGSU4",
+      "title": "W-2 scam",
+      "topic": "scams",
+      "durationSeconds": 127,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/w-2-scam-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tax-security-2-0-the-taxes-security-together-checklist",
+      "youtubeId": "-_D25-mE77g",
+      "title": "Tax security 2.0: The Taxes-Security-Together checklist",
+      "topic": "scams",
+      "durationSeconds": 124,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tax-security-2-0-taxes-security-together-checklist-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-choose-a-tax-preparer-wisely",
+      "youtubeId": "qP5c-ZOMct4",
+      "title": "Choose a tax preparer wisely",
+      "topic": "scams",
+      "durationSeconds": 142,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/2016-choose-a-tax-preparer-wisely-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-how-to-use-the-tax-return-preparer-directory",
+      "youtubeId": "F11wwZJZ6_I",
+      "title": "How to use the Tax Return Preparer Directory",
+      "topic": "scams",
+      "durationSeconds": 97,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/how-to-use-the-tax-return-preparer-directory-youtube-video-text-script-0"
+        }
+      ]
+    },
+    {
+      "id": "video-ira-retirement-plan-60-day-rollover-waivers",
+      "youtubeId": "fWkExFld6Yw",
+      "title": "IRA/retirement plan 60-day rollover waivers",
+      "topic": "retirement",
+      "durationSeconds": 57,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/ira-retirement-plan-60-day-rollover-waivers-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-is-social-security-taxable",
+      "youtubeId": "qhZJA2eZWtM",
+      "title": "Is Social Security taxable?",
+      "topic": "retirement",
+      "durationSeconds": 128,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/is-social-security-taxable-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-getting-married",
+      "youtubeId": "t9KPqIanpsU",
+      "title": "Getting married?",
+      "topic": "retirement",
+      "durationSeconds": 160,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/getting-married-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-dealing-with-disasters-from-an-individual-tax-perspective",
+      "youtubeId": "zOxf4inBsrQ",
+      "title": "Dealing with Disasters from an Individual Tax Perspective",
+      "topic": "retirement",
+      "durationSeconds": 5989,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/dealing-with-disasters-from-an-individual-tax-perspective-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-preparing-for-disasters",
+      "youtubeId": "ky_sc2mKH2Q",
+      "title": "Preparing for disasters",
+      "topic": "retirement",
+      "durationSeconds": 62,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/preparing-for-disasters-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tax-benefits-for-members-of-the-military",
+      "youtubeId": "SRYppoVk9zM",
+      "title": "Tax benefits for members of the military",
+      "topic": "retirement",
+      "durationSeconds": 65,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tax-benefits-for-members-of-the-military-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-tax-resources-for-members-of-the-military",
+      "youtubeId": "MfIAwisISCg",
+      "title": "Tax resources for members of the military",
+      "topic": "retirement",
+      "durationSeconds": 102,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/tax-resources-for-members-of-the-military-youtube-video-text-script"
+        }
+      ]
+    },
+    {
+      "id": "video-nil-and-taxes-what-student-athletes-need-to-know",
+      "youtubeId": "vwh3_xKqiiM",
+      "title": "NIL and Taxes: What Student-Athletes Need to Know",
+      "topic": "retirement",
+      "durationSeconds": 211,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/nil-and-taxes-what-student-athletes-need-to-know-youtube-video-transcript"
+        }
+      ]
+    },
+    {
+      "id": "video-top-nil-tax-tips-every-student-athlete-should-know",
+      "youtubeId": "bwDQgM-DmDM",
+      "title": "Top NIL tax tips every student-athlete should know",
+      "topic": "retirement",
+      "durationSeconds": 195,
+      "description": "",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        {
+          "title": "IRS.gov: Videos (official IRS video list)",
+          "url": "https://www.irs.gov/newsroom/videos"
+        },
+        {
+          "title": "IRS.gov: Transcript",
+          "url": "https://www.irs.gov/newsroom/top-nil-tax-tips-every-student-athlete-should-know-youtube-video-transcript"
+        }
+      ]
+    }
+  ]
+}
