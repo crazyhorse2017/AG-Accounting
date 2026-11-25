@@ -1,0 +1,22 @@
+{
+  "taxYear": 2026,
+  "items": [
+    {
+      "id": "oh-2026-income-tax",
+      "title": "2026 Ohio income tax on nonbusiness income",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "Ohio Revised Code 5747.02", "url": "https://codes.ohio.gov/ohio-revised-code/section-5747.02" },
+        { "title": "Ohio Dept. of Taxation: What's new", "url": "https://tax.ohio.gov/individual/who-must-file/whats-new" }
+      ],
+      "data": {
+        "zeroBracketMax": 26050,
+        "baseTaxAboveThreshold": 332,
+        "rateAboveThreshold": 0.0275,
+        "businessIncomeRate": 0.03,
+        "note": "Ohio taxable nonbusiness income up to $26,050 is taxed at 0%. Above that, the tax is $332 plus 2.75% of the amount over $26,050. Exemptions and credits are not included."
+      }
+    }
+  ]
+}

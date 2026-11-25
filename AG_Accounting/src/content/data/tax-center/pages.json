@@ -1,0 +1,95 @@
+{
+  "note": "Intro text for each Tax Center page. A page is shown only when its item is approved (or in draft-preview builds).",
+  "items": [
+    {
+      "id": "page-tax-center",
+      "path": "/tax-center",
+      "title": "Tax Center",
+      "intro": "Rates, deadlines, forms, and official tools in one place. Everything here links to the IRS or Ohio agencies, and each page shows when we last reviewed it.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "page-rates",
+      "path": "/tax-center/rates",
+      "title": "2026 tax rates and limits",
+      "intro": "The main federal and Ohio figures for the 2026 tax year: the returns you file in early 2027.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "page-due-dates",
+      "path": "/tax-center/due-dates",
+      "title": "Tax due dates",
+      "intro": "Key federal, Ohio, and local deadlines for filing 2026 returns and paying 2027 estimated taxes. Not every date applies to everyone.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "page-forms",
+      "path": "/tax-center/forms",
+      "title": "IRS forms and publications",
+      "intro": "The forms and guides people ask about most. Each link opens the official IRS page, which always has the current version.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "page-refunds",
+      "path": "/tax-center/refunds",
+      "title": "Refunds and payments",
+      "intro": "Check a refund or make a payment directly with the IRS, the State of Ohio, or your local tax agency. We don’t receive or control refund information.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "page-glossary",
+      "path": "/tax-center/glossary",
+      "title": "Tax glossary",
+      "intro": "Plain-language explanations of common tax terms. These are general definitions, not advice for your situation.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 17", "url": "https://www.irs.gov/publications/p17" }]
+    },
+    {
+      "id": "page-taxpayer-rights",
+      "path": "/tax-center/taxpayer-rights",
+      "title": "Your rights as a taxpayer",
+      "intro": "Every taxpayer has ten basic rights when dealing with the IRS, known as the Taxpayer Bill of Rights. Here they are in brief.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS: Taxpayer Bill of Rights", "url": "https://www.irs.gov/taxpayer-bill-of-rights" }]
+    },
+    {
+      "id": "page-record-retention",
+      "path": "/tax-center/record-retention",
+      "title": "How long to keep tax records",
+      "intro": "General guidance on how long to keep tax records, based on the IRS’s rules. Some situations call for keeping records longer, so ask us if you’re unsure.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS: How long should I keep records?", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records" }]
+    },
+    {
+      "id": "page-withholding",
+      "path": "/tax-center/withholding",
+      "title": "Check your withholding",
+      "intro": "The IRS Tax Withholding Estimator helps you see whether your employer is withholding the right amount of federal tax from your paycheck. If you owed a lot or got a very large refund last year, it’s worth a look.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Tax Withholding Estimator", "url": "https://www.irs.gov/individuals/tax-withholding-estimator" }]
+    },
+    {
+      "id": "page-appointment-checklist",
+      "path": "/tax-center/appointment-checklist",
+      "title": "Tax appointment checklist",
+      "intro": "Bring what applies to you. If you’re not sure whether something matters, bring it and we’ll sort it out together. Please don’t email tax documents.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    }
+  ]
+}

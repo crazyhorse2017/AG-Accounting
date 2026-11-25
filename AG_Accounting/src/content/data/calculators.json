@@ -1,0 +1,597 @@
+{
+  "note": "Calculator list. Formulas live in src/calculators/impl. A calculator is shown only when approved (or in draft-preview builds).",
+  "categories": [
+    {
+      "id": "tax",
+      "title": "Tax"
+    },
+    {
+      "id": "business",
+      "title": "Business"
+    },
+    {
+      "id": "savings",
+      "title": "Savings"
+    },
+    {
+      "id": "real-estate",
+      "title": "Real estate"
+    },
+    {
+      "id": "mortgage",
+      "title": "Mortgage"
+    },
+    {
+      "id": "credit-cards",
+      "title": "Credit cards"
+    },
+    {
+      "id": "paycheck",
+      "title": "Paycheck"
+    },
+    {
+      "id": "retirement",
+      "title": "Retirement"
+    },
+    {
+      "id": "kids",
+      "title": "Kids and young adults"
+    },
+    {
+      "id": "investment",
+      "title": "Investment"
+    },
+    {
+      "id": "loans",
+      "title": "Loans"
+    },
+    {
+      "id": "automobile",
+      "title": "Automobile"
+    }
+  ],
+  "items": [
+    {
+      "id": "federal-income-tax",
+      "category": "tax",
+      "title": "Federal income tax estimate",
+      "summary": "Estimate your 2026 federal income tax from your income, deductions and credits.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-standard-deduction"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "marginal-vs-effective-rate",
+      "category": "tax",
+      "title": "Marginal vs. effective tax rate",
+      "summary": "See how your income is taxed bracket by bracket, and why your average rate is lower than your top rate.",
+      "dataIds": [
+        "fed-2026-brackets"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "standard-vs-itemized",
+      "category": "tax",
+      "title": "Standard vs. itemized deduction",
+      "summary": "Compare your standard deduction with your itemized deductions.",
+      "dataIds": [
+        "fed-2026-standard-deduction"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "self-employment-tax",
+      "category": "tax",
+      "title": "Self-employment tax",
+      "summary": "Estimate Social Security and Medicare tax on self-employment profit.",
+      "dataIds": [
+        "fed-2026-payroll-taxes"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "quarterly-estimated-tax",
+      "category": "tax",
+      "title": "Quarterly estimated tax payments",
+      "summary": "Figure out how much to pay each quarter to avoid an underpayment penalty.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "capital-gains-tax",
+      "category": "tax",
+      "title": "Capital gains tax",
+      "summary": "Estimate tax on investment gains using the 0%, 15% and 20% rates.",
+      "dataIds": [
+        "fed-2026-brackets",
+        "fed-2026-capital-gains"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "ohio-income-tax",
+      "category": "tax",
+      "title": "Ohio income tax estimate",
+      "summary": "Estimate Ohio income tax on nonbusiness income for 2026.",
+      "dataIds": [
+        "oh-2026-income-tax"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "taxable-social-security",
+      "category": "tax",
+      "title": "Taxable Social Security benefits",
+      "summary": "Estimate how much of your Social Security benefits is taxable.",
+      "dataIds": [
+        "fed-2026-other-figures"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "child-tax-credit",
+      "category": "tax",
+      "title": "Child Tax Credit estimate",
+      "summary": "Estimate your Child Tax Credit, including the reduction for higher incomes.",
+      "dataIds": [
+        "fed-2026-child-tax-credit"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "earned-income-credit",
+      "category": "tax",
+      "title": "Earned Income Tax Credit estimate",
+      "summary": "Estimate the EITC for your income and family size.",
+      "dataIds": [
+        "fed-2026-eitc"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "break-even",
+      "category": "business",
+      "title": "Break-even point",
+      "summary": "Find how many sales cover your fixed costs.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "profit-margin",
+      "category": "business",
+      "title": "Profit margin",
+      "summary": "Calculate gross and net profit margins.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "markup-vs-margin",
+      "category": "business",
+      "title": "Markup vs. margin",
+      "summary": "See the difference between markup and margin on a sale.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "mileage-deduction",
+      "category": "business",
+      "title": "Business mileage deduction",
+      "summary": "Estimate your 2026 standard mileage deduction.",
+      "dataIds": [
+        "fed-2026-mileage"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "home-office-simplified",
+      "category": "business",
+      "title": "Home office deduction (simplified method)",
+      "summary": "Estimate the simplified home office deduction.",
+      "dataIds": [
+        "fed-2026-other-figures"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "straight-line-depreciation",
+      "category": "business",
+      "title": "Straight-line depreciation",
+      "summary": "Spread an asset’s cost evenly over its useful life.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "return-on-investment",
+      "category": "business",
+      "title": "Return on investment",
+      "summary": "Measure the return on a business or personal investment.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "employee-true-cost",
+      "category": "business",
+      "title": "True cost of an employee",
+      "summary": "Add up wages, employer taxes and benefits.",
+      "dataIds": [
+        "fed-2026-payroll-taxes"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "inventory-turnover",
+      "category": "business",
+      "title": "Inventory turnover",
+      "summary": "See how quickly you sell through inventory.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "cash-runway",
+      "category": "business",
+      "title": "Cash runway",
+      "summary": "See how many months your cash will last.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "savings-goal",
+      "category": "savings",
+      "title": "Savings goal",
+      "summary": "Find how much to save each month to reach a goal.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "compound-interest",
+      "category": "savings",
+      "title": "Compound interest",
+      "summary": "Watch savings grow with interest and regular additions.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "emergency-fund",
+      "category": "savings",
+      "title": "Emergency fund",
+      "summary": "Figure out your emergency fund target and how long it takes to build.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "rule-of-72",
+      "category": "savings",
+      "title": "Rule of 72",
+      "summary": "Estimate how long it takes money to double.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "inflation-impact",
+      "category": "savings",
+      "title": "Inflation’s effect on savings",
+      "summary": "See how inflation changes what your money buys.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "cd-earnings",
+      "category": "savings",
+      "title": "CD earnings",
+      "summary": "Estimate what a certificate of deposit will earn.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "mortgage-payment",
+      "category": "mortgage",
+      "title": "Mortgage payment",
+      "summary": "Estimate your monthly payment, including taxes and insurance.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "mortgage-extra-payments",
+      "category": "mortgage",
+      "title": "Extra mortgage payments",
+      "summary": "See the interest and time saved by paying extra principal.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "refinance-break-even",
+      "category": "mortgage",
+      "title": "Refinance break-even",
+      "summary": "Find how long it takes for a refinance to pay for itself.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "mortgage-15-vs-30",
+      "category": "mortgage",
+      "title": "15-year vs. 30-year mortgage",
+      "summary": "Compare payments and total interest for 15- and 30-year loans.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "loan-payment",
+      "category": "loans",
+      "title": "Loan payment",
+      "summary": "Find the monthly payment and total interest on a loan.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "loan-comparison",
+      "category": "loans",
+      "title": "Loan comparison",
+      "summary": "Compare two loan offers side by side.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "auto-loan",
+      "category": "automobile",
+      "title": "Auto loan",
+      "summary": "Estimate your car payment and total interest.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "fuel-cost",
+      "category": "automobile",
+      "title": "Fuel cost",
+      "summary": "Estimate what you spend on gas each year.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "credit-card-payoff",
+      "category": "credit-cards",
+      "title": "Credit card payoff time",
+      "summary": "See how long it takes to pay off a card at a set payment.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "credit-card-payoff-by-date",
+      "category": "credit-cards",
+      "title": "Payment to be debt-free by a date",
+      "summary": "Find the monthly payment that clears a card by your target date.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "minimum-payment-cost",
+      "category": "credit-cards",
+      "title": "The cost of minimum payments",
+      "summary": "See how long minimum payments take and what they cost.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "hourly-to-salary",
+      "category": "paycheck",
+      "title": "Hourly to salary",
+      "summary": "Convert an hourly wage to yearly, monthly and weekly pay.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "overtime-pay",
+      "category": "paycheck",
+      "title": "Overtime pay",
+      "summary": "Figure a week’s pay with overtime.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "pay-frequency-converter",
+      "category": "paycheck",
+      "title": "Pay frequency converter",
+      "summary": "Convert pay between weekly, biweekly, monthly and yearly.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "fica-tax",
+      "category": "paycheck",
+      "title": "FICA tax",
+      "summary": "Estimate Social Security and Medicare tax withheld from wages.",
+      "dataIds": [
+        "fed-2026-payroll-taxes"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "401k-growth",
+      "category": "retirement",
+      "title": "401(k) growth with employer match",
+      "summary": "Project your 401(k) balance with your contributions and employer match.",
+      "dataIds": [
+        "fed-2026-retirement-limits"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "contribution-limits",
+      "category": "retirement",
+      "title": "Retirement contribution limit checker",
+      "summary": "Look up your 2026 contribution limit, including catch-up amounts.",
+      "dataIds": [
+        "fed-2026-retirement-limits"
+      ],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "retirement-savings-goal",
+      "category": "retirement",
+      "title": "Retirement savings goal",
+      "summary": "Estimate how much to save for the retirement income you want.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "investment-growth",
+      "category": "investment",
+      "title": "Investment growth",
+      "summary": "Project how an investment grows over time.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "annualized-return",
+      "category": "investment",
+      "title": "Annualized return (CAGR)",
+      "summary": "Turn a total return into a yearly rate.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "expense-ratio-cost",
+      "category": "investment",
+      "title": "Fund fee (expense ratio) cost",
+      "summary": "See how fund fees add up over time.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "budget-50-30-20",
+      "category": "kids",
+      "title": "First budget (50/30/20)",
+      "summary": "Split take-home pay into needs, wants and savings.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "cost-of-a-habit",
+      "category": "kids",
+      "title": "Cost of a habit",
+      "summary": "See what a small regular expense costs over time.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "kids-savings-goal",
+      "category": "kids",
+      "title": "Saving for something special",
+      "summary": "Count the weeks to save for a goal.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "student-loan-payment",
+      "category": "kids",
+      "title": "Student loan payment",
+      "summary": "Estimate a student loan’s monthly payment.",
+      "dataIds": [],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    }
+  ]
+}

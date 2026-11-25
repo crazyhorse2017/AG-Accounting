@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
 import { business, draftItems } from '../content/site.ts';
 import { Link } from '../lib/router.tsx';
-import type { RoutePath } from '../lib/router.tsx';
+
+type RoutePath = string;
 import { Container } from './ui.tsx';
 import { Wordmark } from './Logo.tsx';
 import { formatAddress, telHref } from '../lib/format.ts';
@@ -10,15 +11,21 @@ import { formatAddress, telHref } from '../lib/format.ts';
 const NAV: { to: RoutePath; label: string }[] = [
   { to: '/services', label: 'Services' },
   { to: '/about', label: 'About' },
-  { to: '/resources', label: 'Resources' },
+  { to: '/tax-center', label: 'Tax Center' },
+  { to: '/calculators', label: 'Calculators' },
   { to: '/payments', label: 'Pay an invoice' },
+];
+
+const FOOTER_EXTRA: { to: RoutePath; label: string }[] = [
+  { to: '/resources', label: 'Helpful links' },
+  { to: '/privacy', label: 'Privacy' },
 ];
 
 function DraftBanner() {
   const items = draftItems();
   if (items.length === 0) return null;
   return (
-    <div className="bg-amber-100 px-4 py-2 text-center text-sm text-amber-900" role="note">
+    <div className="bg-amber-100 px-4 py-2 text-center text-sm text-amber-900 print:hidden" role="note">
       Draft site: {items.length} detail{items.length === 1 ? '' : 's'} still need confirmation before launch.
     </div>
   );
@@ -28,13 +35,14 @@ function Header({ pathname }: { pathname: string }) {
   const [open, setOpen] = useState(false);
   useEffect(() => setOpen(false), [pathname]);
 
+  const isActive = (to: RoutePath) => pathname === to || pathname.startsWith(`${to}/`);
   const linkClass = (to: RoutePath) =>
     `block rounded-md px-3 py-2 font-medium no-underline hover:bg-brand-50 ${
-      pathname === to ? 'text-brand-800 underline decoration-2' : 'text-ink'
+      isActive(to) ? 'text-brand-800 underline decoration-2' : 'text-ink'
     }`;
 
   return (
-    <header className="border-b border-line bg-white">
+    <header className="border-b border-line bg-white print:hidden">
       <Container className="flex items-center justify-between gap-4 py-4">
         <Link to="/" className="no-underline" aria-label={`${business.name} home`}>
           <Wordmark name={business.name} />
@@ -42,7 +50,7 @@ function Header({ pathname }: { pathname: string }) {
 
         <nav aria-label="Main" className="hidden items-center gap-1 md:flex">
           {NAV.map((item) => (
-            <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={pathname === item.to ? 'page' : undefined}>
+            <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={isActive(item.to) ? 'page' : undefined}>
               {item.label}
             </Link>
           ))}
@@ -66,7 +74,7 @@ function Header({ pathname }: { pathname: string }) {
         <nav id="mobile-nav" aria-label="Main" className="border-t border-line md:hidden">
           <Container className="flex flex-col gap-1 py-3">
             {NAV.map((item) => (
-              <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={pathname === item.to ? 'page' : undefined}>
+              <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={isActive(item.to) ? 'page' : undefined}>
                 {item.label}
               </Link>
             ))}
@@ -88,7 +96,7 @@ function Header({ pathname }: { pathname: string }) {
 function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-auto border-t border-line bg-brand-900 text-brand-100">
+    <footer className="mt-auto border-t border-line bg-brand-900 text-brand-100 print:hidden">
       <Container className="grid gap-8 py-10 sm:grid-cols-3">
         <div>
           <p className="font-serif text-xl font-bold text-white">{business.name}</p>
@@ -124,7 +132,7 @@ function Footer() {
         <div className="text-sm">
           <p className="mb-2 font-semibold text-white">Site</p>
           <ul className="space-y-1">
-            {[...NAV, { to: '/privacy' as const, label: 'Privacy' }].map((item) => (
+            {[...NAV, ...FOOTER_EXTRA].map((item) => (
               <li key={item.to}>
                 <Link to={item.to} className="text-brand-100">
                   {item.label}

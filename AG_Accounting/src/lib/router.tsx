@@ -1,20 +1,8 @@
 import { useEffect, useState } from 'react';
 import type { AnchorHTMLAttributes, MouseEvent, ReactNode } from 'react';
 
-/** Every page path the site serves. Anything else renders the 404 page. */
-export const ROUTES = ['/', '/services', '/about', '/resources', '/payments', '/contact', '/privacy'] as const;
-
-export type RoutePath = (typeof ROUTES)[number];
-
-export function normalizePath(pathname: string): string {
-  const trimmed = pathname.replace(/\/+$/, '');
-  return trimmed === '' ? '/' : trimmed.toLowerCase();
-}
-
-export function matchRoute(pathname: string): RoutePath | null {
-  const path = normalizePath(pathname);
-  return ROUTES.find((r) => r === path) ?? null;
-}
+export { ROUTES, matchRoute, normalizePath } from './routes.ts';
+export type { RouteMatch, RoutePattern } from './routes.ts';
 
 const NAVIGATE_EVENT = 'ag:navigate';
 
@@ -38,7 +26,7 @@ export function usePathname(): string {
   return pathname;
 }
 
-type LinkProps = { to: RoutePath; children: ReactNode } & Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'>;
+type LinkProps = { to: string; children: ReactNode } & Omit<AnchorHTMLAttributes<HTMLAnchorElement>, 'href'>;
 
 /** In-site link: a real <a href> (works without JS, middle-click, etc.) that navigates client-side. */
 export function Link({ to, children, onClick, ...rest }: LinkProps) {

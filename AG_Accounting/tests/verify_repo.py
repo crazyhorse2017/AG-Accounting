@@ -136,24 +136,98 @@ for path, text in ui_files.items():
     check(not re.search(r"(?i)name=\"(ssn|social|card|cvv|routing|account)", text), f"{rel}: form field looks like sensitive data (hard rule)")
 
 # Every route renders a page and is reachable from somewhere.
-router = read("src/lib/router.tsx")
-routes = re.findall(r"'(/[a-z-]*)'", router.split("export const ROUTES", 1)[1].split("]", 1)[0])
+routes_src = read("src/lib/routes.ts")
+routes = re.findall(r"'(/[a-z:/-]*)'", routes_src.split("export const ROUTES", 1)[1].split("]", 1)[0])
+check(len(routes) >= 19, "could not read ROUTES from src/lib/routes.ts")
 app = read("src/App.tsx")
-layout = read("src/components/Layout.tsx")
+all_ui = "".join(ui_files.values())
+data_text = "".join(p.read_text(encoding="utf-8") for p in (SRC / "content" / "data").rglob("*.json"))
+
+
+def route_matches(path: str) -> bool:
+    segs = path.split("/")
+    for r in routes:
+        rs = r.split("/")
+        if len(rs) == len(segs) and all(a.startswith(":") or a == b for a, b in zip(rs, segs)):
+            return True
+    return False
+
+
 for r in routes:
     check(f"'{r}':" in app, f"route {r} has no page in App.tsx")
-    if r != "/":
-        check(f"'{r}'" in layout or f'"{r}"' in layout, f"route {r} is not linked from the header or footer")
-for m in re.finditer(r'to="(/[^"]*)"', "".join(ui_files.values())):
-    check(m.group(1) in routes, f"link to unknown route {m.group(1)}")
+    if r != "/" and ":" not in r:
+        linked = f"'{r}'" in all_ui or f'"{r}"' in all_ui or f'"path": "{r}"' in data_text
+        check(linked, f"route {r} is not linked from anywhere")
+for m in re.finditer(r'to="(/[^"]*)"', all_ui):
+    check(route_matches(m.group(1)), f"link to unknown route {m.group(1)}")
 
-# External links must be https and on an approved host.
-ALLOWED_HOSTS = ("www.irs.gov", "irs.gov", "tax.ohio.gov", "www.paypal.com", "paypal.com", "www.paypal.me", "paypal.me")
+# External links must be https and on an approved official host.
+ALLOWED_HOSTS = (
+    "www.irs.gov", "irs.gov", "tax.ohio.gov", "codes.ohio.gov", "www.ssa.gov",
+    "www.ritaohio.com", "www.ccaohio.gov",
+    "www.paypal.com", "paypal.com", "www.paypal.me", "paypal.me",
+)
 content = read("src/content/site.ts")
-for url in re.findall(r"https?://[^'\"\s)]+", content):
-    host = re.sub(r"^https?://", "", url).split("/", 1)[0]
-    check(url.startswith("https://"), f"content link is not https: {url}")
-    check(host in ALLOWED_HOSTS, f"content link to unapproved host: {url} (add it to ALLOWED_HOSTS if intended)")
+link_sources = {"src/content/site.ts": content}
+link_sources.update({p.relative_to(ROOT).as_posix(): p.read_text(encoding="utf-8") for p in (SRC / "content" / "data").rglob("*.json")})
+link_sources.update({p.relative_to(ROOT).as_posix(): t for p, t in ui_files.items()})
+for rel, text in link_sources.items():
+    for url in re.findall(r"https?://[^'\"\s)`<>]+", text):
+        host = re.sub(r"^https?://", "", url).split("/", 1)[0]
+        check(url.startswith("https://"), f"{rel}: link is not https: {url}")
+        check(host in ALLOWED_HOSTS, f"{rel}: link to unapproved host: {url} (add it to ALLOWED_HOSTS if intended)")
+
+# ------------------------------------------------------- reviewable content --
+sys.path.insert(0, str(ROOT / "tools"))
+from content_lib import all_items  # noqa: E402
+
+seen_ids: dict[str, str] = {}
+draft_count = 0
+for path, item in all_items():
+    rel = path.relative_to(ROOT).as_posix()
+    iid = item["id"]
+    check(re.fullmatch(r"[a-z0-9][a-z0-9-]*", iid) is not None, f"{rel}: bad id {iid!r}")
+    check(iid not in seen_ids, f"{rel}: duplicate id {iid} (also in {seen_ids.get(iid)})")
+    seen_ids[iid] = rel
+    check(item["status"] in ("draft", "approved"), f"{rel}: {iid} has unknown status {item['status']!r}")
+    if item["status"] == "approved":
+        check(bool(item.get("reviewedOn")) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(item.get("reviewedOn"))) is not None, f"{rel}: approved {iid} needs reviewedOn YYYY-MM-DD")
+    else:
+        draft_count += 1
+        check(item.get("reviewedOn") in (None, ""), f"{rel}: draft {iid} should not have reviewedOn")
+    check(isinstance(item.get("sources", []), list), f"{rel}: {iid} sources must be a list")
+    for src in item.get("sources", []):
+        check(isinstance(src, dict) and src.get("title") and str(src.get("url", "")).startswith("https://"), f"{rel}: {iid} has a bad source entry")
+
+# Tax-year figures must always cite a source.
+for path, item in all_items():
+    if "tax-years" in path.as_posix() and "data" in item:
+        check(len(item.get("sources", [])) > 0, f"{item['id']}: tax figures need at least one source")
+
+# An approved calculator may only depend on approved tax data.
+calc_doc = json.loads(read("src/content/data/calculators.json"))
+status_by_id = {i["id"]: i["status"] for _, i in all_items()}
+for c in calc_doc["items"]:
+    for dep in c.get("dataIds", []):
+        check(dep in status_by_id, f"calculator {c['id']} depends on unknown data {dep}")
+        if c["status"] == "approved":
+            check(status_by_id.get(dep) == "approved", f"calculator {c['id']} is approved but its data {dep} is still a draft")
+impl_text = "".join(p.read_text(encoding="utf-8") for p in (SRC / "calculators" / "impl").glob("*.ts"))
+for c in calc_doc["items"]:
+    check(f"'{c['id']}':" in impl_text, f"calculator {c['id']} has no formula in src/calculators/impl")
+
+# The calendar file must match the approved due dates.
+import subprocess  # noqa: E402
+
+ics = subprocess.run([sys.executable, str(ROOT / "tools" / "build_ics.py"), "--check"], capture_output=True, text=True)
+check(ics.returncode == 0, "public/tax-calendar.ics is out of date (run tools/build_ics.py)")
+
+if draft_count:
+    (failures if LAUNCH else warnings).append(f"content: {draft_count} reviewable item(s) still in draft (run tools/review_packet.py)")
+env_files = [p for p in ROOT.glob(".env*") if p.is_file()]
+if LAUNCH:
+    for p in env_files:
+        check("VITE_SHOW_DRAFTS" not in p.read_text(encoding="utf-8"), f"{p.name}: remove VITE_SHOW_DRAFTS before launch")
 
 # ---------------------------------------------------------------- content --
 drafts = len(re.findall(r"confirmed:\s*false", content))

@@ -1,0 +1,163 @@
+{
+  "taxYear": 2026,
+  "note": "Due dates for filing 2026 returns and paying 2027 estimated taxes. Dates already moved off weekends and federal holidays. Disaster extensions are not included.",
+  "items": [
+    {
+      "id": "due-2027-01-15-q4-estimate",
+      "date": "2027-01-15",
+      "title": "4th-quarter 2026 estimated tax payment",
+      "description": "Last estimated payment for 2026 income not covered by withholding (federal Form 1040-ES; Ohio IT 1040ES; local estimates for RITA or CCA if you make them).",
+      "audience": ["individuals", "self-employed"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-02-01-w2-1099",
+      "date": "2027-02-01",
+      "title": "W-2s and 1099-NECs due",
+      "description": "Employers give employees their W-2s and file them with the government. Businesses send and file Form 1099-NEC for contractors. (January 31 falls on a Sunday.)",
+      "audience": ["employers", "businesses"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-02-01-941-940",
+      "date": "2027-02-01",
+      "title": "4th-quarter payroll return (Form 941) and annual FUTA return (Form 940)",
+      "description": "Employers file the 4th-quarter 2026 Form 941 and the 2026 Form 940.",
+      "audience": ["employers"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-03-15-partnership-s-corp",
+      "date": "2027-03-15",
+      "title": "Partnership and S corporation returns",
+      "description": "Calendar-year partnerships (Form 1065) and S corporations (Form 1120-S) file 2026 returns or request an extension.",
+      "audience": ["businesses"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-04-15-individual",
+      "date": "2027-04-15",
+      "title": "2026 individual tax returns and payments",
+      "description": "Federal Form 1040, Ohio IT 1040 and local (RITA or CCA) returns for 2026 are due, along with any balance owed. Last day to request a filing extension (an extension does not extend the time to pay).",
+      "audience": ["individuals", "self-employed"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" },
+        { "title": "Ohio Dept. of Taxation", "url": "https://tax.ohio.gov/individual" }
+      ]
+    },
+    {
+      "id": "due-2027-04-15-q1-estimate",
+      "date": "2027-04-15",
+      "title": "1st-quarter 2027 estimated tax payment",
+      "description": "First estimated payment for 2027 income not covered by withholding.",
+      "audience": ["individuals", "self-employed"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-04-15-ira-hsa",
+      "date": "2027-04-15",
+      "title": "Last day for 2026 IRA and HSA contributions",
+      "description": "Contributions to a traditional or Roth IRA or an HSA for 2026 must be made by this date.",
+      "audience": ["individuals"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 590-A", "url": "https://www.irs.gov/forms-pubs/about-publication-590-a" }]
+    },
+    {
+      "id": "due-2027-04-30-941-q1",
+      "date": "2027-04-30",
+      "title": "1st-quarter payroll return (Form 941)",
+      "description": "Employers file Form 941 for January through March 2027.",
+      "audience": ["employers"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-06-15-q2-estimate",
+      "date": "2027-06-15",
+      "title": "2nd-quarter 2027 estimated tax payment",
+      "description": "Second estimated payment for 2027.",
+      "audience": ["individuals", "self-employed"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-08-02-941-q2",
+      "date": "2027-08-02",
+      "title": "2nd-quarter payroll return (Form 941)",
+      "description": "Employers file Form 941 for April through June 2027. (July 31 falls on a Saturday.)",
+      "audience": ["employers"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-09-15-q3-estimate",
+      "date": "2027-09-15",
+      "title": "3rd-quarter 2027 estimated tax payment; extended partnership and S corporation returns",
+      "description": "Third estimated payment for 2027. Partnerships and S corporations that got an extension file their 2026 returns.",
+      "audience": ["individuals", "self-employed", "businesses"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-10-15-extended-individual",
+      "date": "2027-10-15",
+      "title": "Extended 2026 individual returns",
+      "description": "If you got an extension, your 2026 return is due.",
+      "audience": ["individuals", "self-employed"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2027-11-01-941-q3",
+      "date": "2027-11-01",
+      "title": "3rd-quarter payroll return (Form 941)",
+      "description": "Employers file Form 941 for July through September 2027. (October 31 falls on a Sunday.)",
+      "audience": ["employers"],
+      "agencies": ["IRS"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    },
+    {
+      "id": "due-2028-01-18-q4-estimate",
+      "date": "2028-01-18",
+      "title": "4th-quarter 2027 estimated tax payment",
+      "description": "Last estimated payment for 2027. (January 15 falls on a Saturday and January 17 is Martin Luther King Jr. Day.)",
+      "audience": ["individuals", "self-employed"],
+      "agencies": ["IRS", "Ohio", "Local"],
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Publication 509", "url": "https://www.irs.gov/publications/p509" }]
+    }
+  ]
+}

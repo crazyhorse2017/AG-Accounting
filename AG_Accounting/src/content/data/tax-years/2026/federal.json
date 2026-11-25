@@ -1,0 +1,197 @@
+{
+  "taxYear": 2026,
+  "items": [
+    {
+      "id": "fed-2026-brackets",
+      "title": "2026 federal income tax brackets",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS Rev. Proc. 2025-32, sec. 4.01", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" },
+        { "title": "IRS news release IR-2025-103", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill" }
+      ],
+      "data": {
+        "single": [
+          { "upTo": 12400, "rate": 0.10 },
+          { "upTo": 50400, "rate": 0.12 },
+          { "upTo": 105700, "rate": 0.22 },
+          { "upTo": 201775, "rate": 0.24 },
+          { "upTo": 256225, "rate": 0.32 },
+          { "upTo": 640600, "rate": 0.35 },
+          { "upTo": null, "rate": 0.37 }
+        ],
+        "mfj": [
+          { "upTo": 24800, "rate": 0.10 },
+          { "upTo": 100800, "rate": 0.12 },
+          { "upTo": 211400, "rate": 0.22 },
+          { "upTo": 403550, "rate": 0.24 },
+          { "upTo": 512450, "rate": 0.32 },
+          { "upTo": 768700, "rate": 0.35 },
+          { "upTo": null, "rate": 0.37 }
+        ],
+        "mfs": [
+          { "upTo": 12400, "rate": 0.10 },
+          { "upTo": 50400, "rate": 0.12 },
+          { "upTo": 105700, "rate": 0.22 },
+          { "upTo": 201775, "rate": 0.24 },
+          { "upTo": 256225, "rate": 0.32 },
+          { "upTo": 384350, "rate": 0.35 },
+          { "upTo": null, "rate": 0.37 }
+        ],
+        "hoh": [
+          { "upTo": 17700, "rate": 0.10 },
+          { "upTo": 67450, "rate": 0.12 },
+          { "upTo": 105700, "rate": 0.22 },
+          { "upTo": 201750, "rate": 0.24 },
+          { "upTo": 256200, "rate": 0.32 },
+          { "upTo": 640600, "rate": 0.35 },
+          { "upTo": null, "rate": 0.37 }
+        ]
+      },
+      "checks": {
+        "note": "Tax at each bracket top, as printed in Rev. Proc. 2025-32 Tables 1-4. Unit tests recompute these.",
+        "single": [1240, 5800, 17966, 41024, 58448, 192979.25],
+        "mfj": [2480, 11600, 35932, 82048, 116896, 206583.5],
+        "mfs": [1240, 5800, 17966, 41024, 58448, 103291.75],
+        "hoh": [1770, 7740, 16155, 39207, 56631, 191171]
+      }
+    },
+    {
+      "id": "fed-2026-standard-deduction",
+      "title": "2026 standard deduction",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS news release IR-2025-103", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill" },
+        { "title": "IRS Rev. Proc. 2025-32", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }
+      ],
+      "data": {
+        "single": 16100,
+        "mfj": 32200,
+        "mfs": 16100,
+        "hoh": 24150,
+        "additionalAgedOrBlind": { "married": 1650, "unmarried": 2050 }
+      }
+    },
+    {
+      "id": "fed-2026-capital-gains",
+      "title": "2026 long-term capital gains rate thresholds",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS Rev. Proc. 2025-32, sec. 4.03", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" }],
+      "data": {
+        "zeroRateMax": { "single": 49450, "mfj": 98900, "mfs": 49450, "hoh": 66200 },
+        "fifteenRateMax": { "single": 545500, "mfj": 613700, "mfs": 306850, "hoh": 579600 }
+      }
+    },
+    {
+      "id": "fed-2026-payroll-taxes",
+      "title": "2026 Social Security and Medicare tax",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "SSA: 2026 contribution and benefit base", "url": "https://www.ssa.gov/oact/COLA/cbb.html" },
+        { "title": "IRS Topic 560, Additional Medicare Tax", "url": "https://www.irs.gov/taxtopics/tc560" },
+        { "title": "IRS: Self-employment tax", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes" }
+      ],
+      "data": {
+        "socialSecurityRate": 0.062,
+        "socialSecurityWageBase": 184500,
+        "medicareRate": 0.0145,
+        "additionalMedicareRate": 0.009,
+        "additionalMedicareThreshold": { "single": 200000, "mfj": 250000, "mfs": 125000, "hoh": 200000 },
+        "selfEmploymentEarningsFactor": 0.9235
+      }
+    },
+    {
+      "id": "fed-2026-child-tax-credit",
+      "title": "2026 Child Tax Credit",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS Rev. Proc. 2025-32, sec. 4.05", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" },
+        { "title": "IRS: Child Tax Credit", "url": "https://www.irs.gov/credits-deductions/individuals/child-tax-credit-and-credit-for-other-dependents" }
+      ],
+      "data": {
+        "perChild": 2200,
+        "refundableMaxPerChild": 1700,
+        "phaseoutStart": { "single": 200000, "mfj": 400000, "mfs": 200000, "hoh": 200000 },
+        "phaseoutPer1000": 50
+      }
+    },
+    {
+      "id": "fed-2026-eitc",
+      "title": "2026 Earned Income Tax Credit",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS Rev. Proc. 2025-32, sec. 4.06", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" },
+        { "title": "IRS: Earned Income Tax Credit", "url": "https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc" }
+      ],
+      "data": {
+        "byChildren": [
+          { "children": 0, "earnedIncomeAmount": 8680, "maxCredit": 664, "phaseoutStartJoint": 18140, "phaseoutEndJoint": 26820, "phaseoutStartOther": 10860, "phaseoutEndOther": 19540 },
+          { "children": 1, "earnedIncomeAmount": 13020, "maxCredit": 4427, "phaseoutStartJoint": 31160, "phaseoutEndJoint": 58863, "phaseoutStartOther": 23890, "phaseoutEndOther": 51593 },
+          { "children": 2, "earnedIncomeAmount": 18290, "maxCredit": 7316, "phaseoutStartJoint": 31160, "phaseoutEndJoint": 65899, "phaseoutStartOther": 23890, "phaseoutEndOther": 58629 },
+          { "children": 3, "earnedIncomeAmount": 18290, "maxCredit": 8231, "phaseoutStartJoint": 31160, "phaseoutEndJoint": 70244, "phaseoutStartOther": 23890, "phaseoutEndOther": 62974 }
+        ],
+        "investmentIncomeLimit": 12200
+      }
+    },
+    {
+      "id": "fed-2026-retirement-limits",
+      "title": "2026 retirement contribution limits",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [{ "title": "IRS news release IR-2025-111", "url": "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500" }],
+      "data": {
+        "employeeDeferral401k": 24500,
+        "catchUp401kAge50": 8000,
+        "catchUp401kAge60to63": 11250,
+        "totalAdditions415c": 72000,
+        "ira": 7500,
+        "iraCatchUpAge50": 1100,
+        "simple": 17000,
+        "simpleCatchUpAge50": 4000,
+        "simpleCatchUpAge60to63": 5250
+      }
+    },
+    {
+      "id": "fed-2026-mileage",
+      "title": "2026 business standard mileage rate",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS: Standard mileage rates", "url": "https://www.irs.gov/tax-professionals/standard-mileage-rates" },
+        { "title": "IRS Notice 2026-10", "url": "https://www.irs.gov/pub/irs-drop/n-26-10.pdf" }
+      ],
+      "data": {
+        "businessCentsPerMile": [
+          { "from": "2026-01-01", "to": "2026-06-30", "cents": 72.5 },
+          { "from": "2026-07-01", "to": "2026-12-31", "cents": 76 }
+        ]
+      }
+    },
+    {
+      "id": "fed-2026-other-figures",
+      "title": "Other 2026 federal figures",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": [
+        { "title": "IRS news release IR-2025-103", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill" },
+        { "title": "IRS Rev. Proc. 2025-32", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf" },
+        { "title": "IRS: Simplified home office deduction", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/simplified-option-for-home-office-deduction" },
+        { "title": "IRS Publication 915", "url": "https://www.irs.gov/publications/p915" }
+      ],
+      "data": {
+        "annualGiftExclusion": 19000,
+        "estateBasicExclusion": 15000000,
+        "kiddieTaxUnearnedIncomeAmount": 1350,
+        "homeOfficeSimplifiedRatePerSqFt": 5,
+        "homeOfficeSimplifiedMaxSqFt": 300,
+        "socialSecurityBenefitBase": { "single": 25000, "mfj": 32000, "hoh": 25000, "mfs": 0 },
+        "socialSecurityBenefitAdjustedBase": { "single": 34000, "mfj": 44000, "hoh": 34000, "mfs": 0 }
+      }
+    }
+  ]
+}

@@ -34,6 +34,11 @@ RUNNER_HTML = """<!doctype html><html><head><meta charset="utf-8"><title>AG test
       if (urls.has(path)) return urls.get(path);
       const source = files[path];
       if (source === undefined) throw new Error('Cannot find module ' + path);
+      if (path.endsWith('.json')) {
+        const jsonUrl = URL.createObjectURL(new Blob(['export default ' + source + ';'], { type: 'text/javascript' }));
+        urls.set(path, jsonUrl);
+        return jsonUrl;
+      }
       let js = ts.transpileModule(source, {
         fileName: path,
         compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022, jsx: ts.JsxEmit.ReactJSX, verbatimModuleSyntax: false },

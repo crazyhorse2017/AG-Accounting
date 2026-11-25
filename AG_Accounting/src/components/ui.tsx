@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react';
 import { Link } from '../lib/router.tsx';
-import type { RoutePath } from '../lib/router.tsx';
+import type { Source } from '../content/status.ts';
 
 const buttonBase =
   'inline-flex items-center justify-center rounded-md px-5 py-3 text-base font-semibold no-underline transition-colors';
@@ -11,7 +11,7 @@ const buttonVariants = {
 } as const;
 
 type ButtonLinkProps = {
-  to: RoutePath;
+  to: string;
   variant?: keyof typeof buttonVariants;
   children: ReactNode;
 };
@@ -62,6 +62,39 @@ export function Section({ title, children, className = '' }: { title?: string; c
         {children}
       </Container>
     </section>
+  );
+}
+
+/** Label shown on content that hasn't been approved yet (only visible in draft-preview builds). */
+export function DraftBadge({ status }: { status: string }) {
+  if (status === 'approved') return null;
+  return (
+    <span className="ml-2 inline-block rounded bg-amber-100 px-2 py-0.5 align-middle font-sans text-xs font-semibold uppercase tracking-wide text-amber-900">
+      Draft
+    </span>
+  );
+}
+
+/** Sources and review date shown under reviewed content. */
+export function SourceList({ sources, reviewedOn }: { sources: readonly Source[]; reviewedOn: string | null }) {
+  if (sources.length === 0 && !reviewedOn) return null;
+  return (
+    <div className="mt-4 text-xs text-muted">
+      {sources.length > 0 && (
+        <p>
+          Source{sources.length === 1 ? '' : 's'}:{' '}
+          {sources.map((s, i) => (
+            <span key={s.url}>
+              {i > 0 && ' · '}
+              <ExternalLink href={s.url} className="text-muted">
+                {s.title}
+              </ExternalLink>
+            </span>
+          ))}
+        </p>
+      )}
+      <p className="mt-1">{reviewedOn ? `Last reviewed ${reviewedOn}` : 'Not yet reviewed by AG Accounting'}</p>
+    </div>
   );
 }
 

@@ -53,7 +53,7 @@ def project_sources(include_tests: bool = False) -> dict[str, str]:
     dirs = [ROOT / "src"] + ([ROOT / "tests"] if include_tests else [])
     for base in dirs:
         for path in sorted(base.rglob("*")):
-            if path.is_file() and path.suffix in (".ts", ".tsx"):
+            if path.is_file() and path.suffix in (".ts", ".tsx", ".json"):
                 files["/" + path.relative_to(ROOT).as_posix()] = path.read_text(encoding="utf-8")
     return files
 

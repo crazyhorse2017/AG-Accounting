@@ -1,0 +1,773 @@
+{
+  "note": "Plain-language glossary. Written from IRS publications; general information only.",
+  "items": [
+    {
+      "id": "glossary-adjusted-gross-income-agi",
+      "term": "Adjusted gross income (AGI)",
+      "definition": "Your total income minus certain adjustments, such as deductible IRA contributions, student loan interest, and half of self-employment tax. Many credits and deductions depend on it.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-alternative-minimum-tax-amt",
+      "term": "Alternative minimum tax (AMT)",
+      "definition": "A separate tax calculation that limits some deductions. You pay whichever is higher: regular tax or AMT.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-amended-return",
+      "term": "Amended return",
+      "definition": "A corrected return (Form 1040-X for individuals) filed to fix mistakes or claim something you missed.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-audit",
+      "term": "Audit",
+      "definition": "An IRS review of a return to check that income, deductions, and credits are reported correctly. Most are handled by mail.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-backup-withholding",
+      "term": "Backup withholding",
+      "definition": "Tax a payer must withhold (generally 24%) from certain payments when you haven’t given them a correct taxpayer ID.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-basis",
+      "term": "Basis",
+      "definition": "What you paid for an asset, adjusted for improvements and depreciation. It’s used to figure your gain or loss when you sell.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-capital-asset",
+      "term": "Capital asset",
+      "definition": "Most property you own for personal use or investment, such as stocks, bonds, and your home.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-capital-gain",
+      "term": "Capital gain",
+      "definition": "The profit when you sell a capital asset for more than its basis.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-capital-loss",
+      "term": "Capital loss",
+      "definition": "The loss when you sell a capital asset for less than its basis. Losses can offset gains, and up to $3,000 a year can offset other income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-carryforward",
+      "term": "Carryforward",
+      "definition": "An unused loss, credit, or deduction that you can apply to a future year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-child-and-dependent-care-credit",
+      "term": "Child and dependent care credit",
+      "definition": "A credit for part of what you pay for care of a child under 13 or a disabled dependent so you can work or look for work.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-child-tax-credit",
+      "term": "Child Tax Credit",
+      "definition": "A credit for each qualifying child under 17 who meets the relationship, residency, and Social Security number rules. Part of it may be refundable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-constructive-receipt",
+      "term": "Constructive receipt",
+      "definition": "Income counts as received when it’s made available to you, even if you don’t actually take it yet.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-cost-of-goods-sold",
+      "term": "Cost of goods sold",
+      "definition": "For businesses that sell products: the cost of the inventory sold during the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-credit",
+      "term": "Credit",
+      "definition": "An amount that reduces your tax dollar for dollar. Refundable credits can produce a refund even if you owe no tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-deduction",
+      "term": "Deduction",
+      "definition": "An amount subtracted from income before tax is figured, which lowers taxable income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-dependent",
+      "term": "Dependent",
+      "definition": "A qualifying child or qualifying relative whom you can claim on your return if the IRS tests are met.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-depreciation",
+      "term": "Depreciation",
+      "definition": "Deducting the cost of business or rental property over its useful life instead of all at once.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-direct-deposit",
+      "term": "Direct deposit",
+      "definition": "Having your refund deposited straight into a bank account. It’s the fastest way to get a refund.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-earned-income",
+      "term": "Earned income",
+      "definition": "Wages, salaries, tips, and net earnings from self-employment. Investment income and pensions are not earned income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-earned-income-tax-credit-eitc",
+      "term": "Earned Income Tax Credit (EITC)",
+      "definition": "A refundable credit for workers with low to moderate income. The amount depends on income, filing status, and number of qualifying children.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-effective-tax-rate",
+      "term": "Effective tax rate",
+      "definition": "Your total tax divided by your income. It’s usually much lower than your top (marginal) rate.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-electronic-filing-e-file",
+      "term": "Electronic filing (e-file)",
+      "definition": "Filing your return electronically. It’s faster and more accurate than paper filing.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-employer-identification-number-ein",
+      "term": "Employer Identification Number (EIN)",
+      "definition": "A nine-digit number the IRS assigns to businesses, employers, estates, and trusts.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-enrolled-agent",
+      "term": "Enrolled agent",
+      "definition": "A tax professional licensed by the IRS who can represent taxpayers before the IRS on any tax matter.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-estimated-tax",
+      "term": "Estimated tax",
+      "definition": "Tax paid during the year on income that isn’t subject to withholding, such as self-employment or investment income. Usually paid quarterly.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-excise-tax",
+      "term": "Excise tax",
+      "definition": "A tax on specific goods or activities, such as fuel or certain business activities.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-exemption-ohio",
+      "term": "Exemption (Ohio)",
+      "definition": "An amount Ohio lets you subtract for yourself and each dependent, based on your income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-extension",
+      "term": "Extension",
+      "definition": "More time to file your return (usually six months). It does not give you more time to pay.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-fair-market-value",
+      "term": "Fair market value",
+      "definition": "The price property would sell for between a willing buyer and a willing seller who both know the relevant facts.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-fica",
+      "term": "FICA",
+      "definition": "Social Security and Medicare taxes withheld from wages. Employers pay a matching amount.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-filing-status",
+      "term": "Filing status",
+      "definition": "The category that determines your tax rates and standard deduction: single, married filing jointly, married filing separately, head of household, or qualifying surviving spouse.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-form-1099",
+      "term": "Form 1099",
+      "definition": "A family of forms reporting income other than wages, such as contract pay, interest, dividends, and retirement distributions.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-fringe-benefit",
+      "term": "Fringe benefit",
+      "definition": "A benefit an employer provides in addition to pay, such as health insurance or a company car. Some are taxable.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-futa",
+      "term": "FUTA",
+      "definition": "The federal unemployment tax that employers pay. Employees don’t pay it.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-gift-tax",
+      "term": "Gift tax",
+      "definition": "A tax on large gifts. Most people never pay it because of the annual exclusion and the lifetime exemption.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-gross-income",
+      "term": "Gross income",
+      "definition": "All income you receive that isn’t specifically excluded from tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-head-of-household",
+      "term": "Head of household",
+      "definition": "A filing status for unmarried people who pay more than half the cost of keeping up a home for a qualifying person.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-health-savings-account-hsa",
+      "term": "Health Savings Account (HSA)",
+      "definition": "A tax-advantaged account for medical costs, available with a high-deductible health plan.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-identity-protection-pin-ip-pin",
+      "term": "Identity Protection PIN (IP PIN)",
+      "definition": "A six-digit number from the IRS that helps stop someone else from filing a return with your Social Security number.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-independent-contractor",
+      "term": "Independent contractor",
+      "definition": "Someone who works for themselves rather than as an employee. They usually receive a 1099-NEC and pay self-employment tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-individual-retirement-arrangement-ira",
+      "term": "Individual Retirement Arrangement (IRA)",
+      "definition": "A personal retirement savings account with tax advantages. Traditional and Roth IRAs are taxed differently.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-individual-taxpayer-identification-number-itin",
+      "term": "Individual Taxpayer Identification Number (ITIN)",
+      "definition": "A tax ID the IRS issues to people who need one but can’t get a Social Security number.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-installment-agreement",
+      "term": "Installment agreement",
+      "definition": "A payment plan with the IRS for paying a tax balance over time.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-itemized-deductions",
+      "term": "Itemized deductions",
+      "definition": "Specific expenses, such as mortgage interest, state and local taxes, and charitable gifts, that you can deduct instead of taking the standard deduction.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-kiddie-tax",
+      "term": "Kiddie tax",
+      "definition": "A rule that taxes some of a child’s investment income at the parent’s rate.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-levy",
+      "term": "Levy",
+      "definition": "A legal seizure of property or money to pay a tax debt, used only after notices.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-lien",
+      "term": "Lien",
+      "definition": "The government’s legal claim against your property when you don’t pay a tax debt.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-long-term-capital-gain",
+      "term": "Long-term capital gain",
+      "definition": "A gain on an asset held more than one year. It’s taxed at lower rates (0%, 15%, or 20%) than ordinary income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-marginal-tax-rate",
+      "term": "Marginal tax rate",
+      "definition": "The rate that applies to your next dollar of income: your top bracket.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-married-filing-jointly",
+      "term": "Married filing jointly",
+      "definition": "A filing status where spouses combine income and deductions on one return. Both are responsible for the tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-married-filing-separately",
+      "term": "Married filing separately",
+      "definition": "A filing status where spouses file their own returns. It often results in higher tax but can make sense in some cases.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-medicare-tax",
+      "term": "Medicare tax",
+      "definition": "A 1.45% tax on all wages (2.9% total with the employer’s share), plus an extra 0.9% on high wages.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-modified-adjusted-gross-income-magi",
+      "term": "Modified adjusted gross income (MAGI)",
+      "definition": "AGI with certain amounts added back. Different tax benefits define it differently.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-municipal-income-tax",
+      "term": "Municipal income tax",
+      "definition": "An income tax charged by many Ohio cities and villages, often collected through RITA or CCA.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-net-investment-income-tax",
+      "term": "Net investment income tax",
+      "definition": "An extra 3.8% tax on investment income for people with income above certain thresholds.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-nonrefundable-credit",
+      "term": "Nonrefundable credit",
+      "definition": "A credit that can lower your tax to zero but can’t produce a refund by itself.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-notice",
+      "term": "Notice",
+      "definition": "A letter from a tax agency. Read it carefully and respond by the deadline, or ask us for help.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-offer-in-compromise",
+      "term": "Offer in compromise",
+      "definition": "An agreement with the IRS to settle a tax debt for less than the full amount, for people who qualify.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-ordinary-income",
+      "term": "Ordinary income",
+      "definition": "Income taxed at regular rates, such as wages, interest, and business income.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-pass-through-entity",
+      "term": "Pass-through entity",
+      "definition": "A business, such as a partnership or S corporation, whose income is taxed on the owners’ returns instead of the business’s.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-payroll-tax",
+      "term": "Payroll tax",
+      "definition": "Taxes on wages: income tax withholding, Social Security, Medicare, and unemployment taxes.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-penalty",
+      "term": "Penalty",
+      "definition": "An extra charge for filing late, paying late, or understating tax. Interest is charged separately.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-power-of-attorney-form-2848",
+      "term": "Power of attorney (Form 2848)",
+      "definition": "A form that lets an authorized representative act for you before the IRS.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-preparer-tax-identification-number-ptin",
+      "term": "Preparer Tax Identification Number (PTIN)",
+      "definition": "The number paid tax preparers must have and include on returns they prepare.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-qualified-business-income-deduction",
+      "term": "Qualified business income deduction",
+      "definition": "A deduction of up to 20% of qualified business income for many owners of pass-through businesses.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-qualified-dividends",
+      "term": "Qualified dividends",
+      "definition": "Dividends that meet IRS rules and are taxed at the lower long-term capital gains rates.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-qualifying-child",
+      "term": "Qualifying child",
+      "definition": "A child who meets the relationship, age, residency, support, and joint-return tests for tax benefits.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-qualifying-relative",
+      "term": "Qualifying relative",
+      "definition": "A dependent who isn’t a qualifying child but meets the relationship or household, income, and support tests.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-refund",
+      "term": "Refund",
+      "definition": "Money returned to you when you paid more tax during the year than you owe.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-refundable-credit",
+      "term": "Refundable credit",
+      "definition": "A credit that can produce a refund even if you owe no tax.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-required-minimum-distribution-rmd",
+      "term": "Required minimum distribution (RMD)",
+      "definition": "The minimum amount you must withdraw each year from most retirement accounts once you reach the required age.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-residency-ohio",
+      "term": "Residency (Ohio)",
+      "definition": "Whether you are a full-year resident, part-year resident, or nonresident of Ohio, which affects how your income is taxed.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-roth-account",
+      "term": "Roth account",
+      "definition": "A retirement account funded with after-tax money. Qualified withdrawals are tax-free.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-s-corporation",
+      "term": "S corporation",
+      "definition": "A corporation that elects to pass its income through to its shareholders’ returns.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-safe-harbor-estimated-tax",
+      "term": "Safe harbor (estimated tax)",
+      "definition": "Paying at least a set percentage of last year’s or this year’s tax during the year to avoid an underpayment penalty.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-schedule-c",
+      "term": "Schedule C",
+      "definition": "The form sole proprietors use to report business income and expenses.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-school-district-income-tax",
+      "term": "School district income tax",
+      "definition": "An Ohio income tax charged by some school districts, filed with Form SD 100.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-self-employment-tax",
+      "term": "Self-employment tax",
+      "definition": "Social Security and Medicare tax for people who work for themselves, figured on Schedule SE.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-short-term-capital-gain",
+      "term": "Short-term capital gain",
+      "definition": "A gain on an asset held one year or less. It’s taxed at ordinary income rates.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-social-security-tax",
+      "term": "Social Security tax",
+      "definition": "A 6.2% tax on wages up to the annual wage base (12.4% for the self-employed).",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-sole-proprietor",
+      "term": "Sole proprietor",
+      "definition": "Someone who owns an unincorporated business alone.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-standard-deduction",
+      "term": "Standard deduction",
+      "definition": "A fixed deduction based on filing status that you can take instead of itemizing.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-state-and-local-tax-salt-deduction",
+      "term": "State and local tax (SALT) deduction",
+      "definition": "An itemized deduction for state and local income or sales taxes and property taxes, up to a yearly cap.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-statute-of-limitations",
+      "term": "Statute of limitations",
+      "definition": "The time limit for the IRS to assess tax or for you to claim a refund, usually three years.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-surviving-spouse-qualifying",
+      "term": "Surviving spouse (qualifying)",
+      "definition": "A filing status for up to two years after a spouse’s death for someone with a dependent child.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-tax-bracket",
+      "term": "Tax bracket",
+      "definition": "A range of income taxed at a given rate. Only the income within that range is taxed at that rate.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-tax-year",
+      "term": "Tax year",
+      "definition": "The 12-month period a return covers. For most people it’s the calendar year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-taxable-income",
+      "term": "Taxable income",
+      "definition": "Income after deductions. It’s the amount your tax rates apply to.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-taxpayer-advocate-service",
+      "term": "Taxpayer Advocate Service",
+      "definition": "An independent IRS office that helps taxpayers resolve problems that normal channels haven’t fixed.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-taxpayer-identification-number-tin",
+      "term": "Taxpayer Identification Number (TIN)",
+      "definition": "Any number used to identify a taxpayer, such as an SSN, ITIN, or EIN.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-transcript",
+      "term": "Transcript",
+      "definition": "A summary of your tax return or account information from the IRS.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-underpayment-penalty",
+      "term": "Underpayment penalty",
+      "definition": "A penalty for not paying enough tax during the year through withholding or estimated payments.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-w-2",
+      "term": "W-2",
+      "definition": "The form employers give employees showing wages and taxes withheld for the year.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-w-4",
+      "term": "W-4",
+      "definition": "The form employees give employers to set federal income tax withholding.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "glossary-withholding",
+      "term": "Withholding",
+      "definition": "Tax taken out of your pay or other income and sent to the government on your behalf.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    }
+  ]
+}

@@ -48,6 +48,32 @@ it, and unknown details are `null` (the UI hides them). The draft banner lists h
 many items remain. Business details shown only as reference (an old site's text,
 screenshots) must be reworded, not copied.
 
+## Phase 02 content (Tax Center and calculators)
+
+Specs: `03_Software_and_Web_Development/Other_Projects/AG Accounting Website/AG Accounting Phase 02 *.md`.
+
+- **Reviewable content** is JSON under `src/content/data/`. Every item has an `id`,
+  a `status` (`draft` or `approved`), `reviewedOn` and `sources`. Only approved items
+  show on the live site.
+- **Draft preview:** to see drafts on a deployed build, set the Cloudflare build
+  variable `VITE_SHOW_DRAFTS=true` (Worker → Settings → Build → Variables). Drafts
+  then show a yellow "Draft" label. **Remove it before launch.**
+- **Tax-year data:** `src/content/data/tax-years/2026/` (federal, Ohio, due dates),
+  read through `src/content/taxYear.ts`. Each figure cites its IRS/Ohio source.
+- **Calculators:** metadata in `src/content/data/calculators.json`, formulas in
+  `src/calculators/impl/*.ts`, shared math in `src/lib/tax.ts` and `src/lib/finance.ts`.
+
+### Review workflow (grandpa approves everything)
+
+```powershell
+uv run --no-project --python 3.12 python tools/review_packet.py            # PDF + email text in review-packets/
+uv run --no-project --python 3.12 python tools/approve.py <id> <id> ...    # after his marks come back
+uv run --no-project --python 3.12 python tools/build_ics.py                # refresh the calendar if dates changed
+uv run --no-project --python 3.12 python tools/check_links.py              # monthly: every official link still works
+```
+
+`review-packets/` is git-ignored: packets are for printing or emailing, not the repo.
+
 ## Checks (run after every change)
 
 ```powershell
