@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react';
 import { business, highlights, services } from '../content/site.ts';
+import { NewsletterSignup } from '../components/NewsletterSignup.tsx';
 
 // Facts and articles load separately so the home page stays fast.
 const DailyContent = lazy(() => import('../components/DailyContent.tsx'));
@@ -67,6 +68,18 @@ export function HomePage() {
       <Suspense fallback={null}>
         <DailyContent />
       </Suspense>
+
+      <Section title="Get tax tips by email">
+        <div className="grid gap-8 lg:grid-cols-[2fr_3fr] lg:items-start">
+          <p className="text-lg text-muted">
+            A monthly newsletter and a short weekly tip, reviewed by AG Accounting. Unsubscribe any time.{' '}
+            <Link to="/newsletter" className="font-semibold text-brand-800">
+              See all email options
+            </Link>
+          </p>
+          <NewsletterSignup compact idPrefix="home-nl" />
+        </div>
+      </Section>
 
       <Section title="Why clients stay" className="bg-white">
         <ul className="grid gap-6 md:grid-cols-3">

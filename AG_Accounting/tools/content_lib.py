@@ -38,10 +38,14 @@ def walk_items(node):
 
 
 MD_DIRS = [ROOT / "src" / "content" / "articles", ROOT / "src" / "content" / "white-papers"]
+EMAIL_DIR = ROOT / "src" / "content" / "emails"
 
 
 def md_files() -> list[Path]:
-    return sorted(p for d in MD_DIRS if d.exists() for p in d.glob("*.md"))
+    files = [p for d in MD_DIRS if d.exists() for p in d.glob("*.md")]
+    if EMAIL_DIR.exists():
+        files += list(EMAIL_DIR.rglob("*.md"))
+    return sorted(files)
 
 
 def parse_md(path: Path):
@@ -76,8 +80,11 @@ def md_item(path: Path) -> dict:
         "category": meta.get("category", ""),
         "slug": meta.get("slug", path.stem),
         "sources": sources,
+        "order": int(meta["order"]) if meta.get("order", "").isdigit() else None,
+        "series": meta.get("series", ""),
         "_body": body,
-        "_kind": path.parent.name,
+        "_kind": "emails" if EMAIL_DIR in path.parents else path.parent.name,
+        "_group": path.parent.name,
     }
 
 

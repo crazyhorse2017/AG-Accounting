@@ -18,6 +18,14 @@ export interface Env {
   BREVO_API_KEY?: string;
   NOTIFY_TO?: string;
   NOTIFY_FROM?: string;
+  /** Newsletter: JSON map of subscription id -> Brevo list id, e.g. {"newsletter":3,"tips":4,...}. */
+  BREVO_LIST_IDS?: string;
+  /** Brevo template id of the double opt-in confirmation email. */
+  BREVO_DOI_TEMPLATE_ID?: string;
+  /** Verified Brevo sender for newsletters and tips, e.g. "AG Accounting <alex@agaccountingohio.com>". */
+  NEWSLETTER_FROM?: string;
+  /** "draft" (default): scheduled jobs create Brevo campaigns for a person to send. "auto": they send. */
+  SEND_MODE?: string;
 }
 
 const MAX_BODY_BYTES = 10_000;
@@ -43,7 +51,7 @@ export async function rateKey(ip: string, salt: string, now: Date): Promise<stri
   return sha256Hex(`${salt}|${day}|${ip}`);
 }
 
-async function readJsonBody(request: Request): Promise<unknown | Response> {
+export async function readJsonBody(request: Request): Promise<unknown | Response> {
   const type = request.headers.get('Content-Type') ?? '';
   if (!type.toLowerCase().startsWith('application/json')) {
     return json({ ok: false, error: 'Unsupported content type.' }, 415);
@@ -59,7 +67,7 @@ async function readJsonBody(request: Request): Promise<unknown | Response> {
   }
 }
 
-function sameOrigin(request: Request): boolean {
+export function sameOrigin(request: Request): boolean {
   const origin = request.headers.get('Origin');
   if (!origin) return true; // Non-browser clients; the other checks still apply.
   return origin === new URL(request.url).origin;

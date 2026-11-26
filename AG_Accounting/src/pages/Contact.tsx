@@ -3,6 +3,7 @@ import type { FormEvent, ReactNode } from 'react';
 import { business } from '../content/site.ts';
 import { Notice, PageHeader, Section } from '../components/ui.tsx';
 import { formatAddress, telHref } from '../lib/format.ts';
+import { Link } from '../lib/router.tsx';
 import { CONTACT_TOPICS, LIMITS, SENSITIVE_DATA_MESSAGE, validateContact } from '../shared/contact.ts';
 import type { ContactInput, FieldErrors } from '../shared/contact.ts';
 
@@ -260,7 +261,13 @@ export function ContactPage() {
                 </ul>
               )}
             </div>
-            <Notice>Need to send documents? Please don’t email them. Ask us about our secure file portal.</Notice>
+            <Notice>
+              Need to send documents? Please don’t email them. Use our{' '}
+              <Link to="/client-portal" className="font-semibold text-brand-800">
+                secure client portal
+              </Link>
+              .
+            </Notice>
           </aside>
         </div>
       </Section>

@@ -37,6 +37,16 @@ export function PrivacyPage() {
           </section>
 
           <section>
+            <h2 className="text-2xl">Newsletter and email</h2>
+            <p className="mt-3">
+              If you sign up for our newsletter, weekly tips, or email series, your email address, optional first name, and the
+              choices you made are stored by our email service provider, Brevo, which sends these emails for us. We don’t keep
+              this information on our website. You’ll receive a confirmation email first, and nothing else is sent until you
+              confirm. Every email includes a link to unsubscribe, and we never sell or share your email address.
+            </p>
+          </section>
+
+          <section>
             <h2 className="text-2xl">Cookies and tracking</h2>
             <p className="mt-3">This website does not use advertising cookies or third-party tracking.</p>
           </section>

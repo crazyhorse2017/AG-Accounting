@@ -153,9 +153,10 @@ def route_matches(path: str) -> bool:
     return False
 
 
+UNLINKED_OK = {"/newsletter/confirmed"}  # reached from Brevo's confirmation redirect
 for r in routes:
     check(f"'{r}':" in app, f"route {r} has no page in App.tsx")
-    if r != "/" and ":" not in r:
+    if r != "/" and ":" not in r and r not in UNLINKED_OK:
         linked = f"'{r}'" in all_ui or f'"{r}"' in all_ui or f'"path": "{r}"' in data_text
         check(linked, f"route {r} is not linked from anywhere")
 for m in re.finditer(r'to="(/[^"]*)"', all_ui):
@@ -240,11 +241,26 @@ for p in md_files():
     check(re.fullmatch(r"[a-z0-9-]+", p.stem) is not None, f"{rel}: file name must be lowercase-with-dashes")
     check(bool(it["title"]) and bool(it["summary"]), f"{rel}: needs title and summary")
     check(len(it["sources"]) > 0, f"{rel}: needs at least one source line")
-    check(len(it["_body"].split()) >= 150, f"{rel}: body looks too short")
+    min_words = 60 if it["_kind"] == "emails" else 150
+    check(len(it["_body"].split()) >= min_words, f"{rel}: body looks too short")
+    if it["_kind"] == "emails":
+        check("{#" not in it["_body"], f"{rel}: '{{#' starts a Brevo template comment; remove it")
+        check(isinstance(it["order"], int), f"{rel}: needs a numeric order")
+        if "drips" in p.parts:
+            check(it["series"] in {"personal", "business", "niche", "wise"}, f"{rel}: unknown drip series {it['series']!r}")
+            check(p.parent.name == it["series"], f"{rel}: file is in the wrong series folder")
     check("<" not in re.sub(r"<(?=\d)", "", it["_body"]), f"{rel}: raw HTML is not allowed in Markdown")
     check(not re.search(r"^\s*\|.*\|\s*$", it["_body"], re.M), f"{rel}: Markdown tables aren't supported; use a list")
     if it["_kind"] == "articles":
         check(it["category"] in ARTICLE_CATEGORIES, f"{rel}: unknown category {it['category']!r}")
+
+emails_built = subprocess.run([sys.executable, str(ROOT / "tools" / "build_emails.py"), "--check"], capture_output=True, text=True)
+check(emails_built.returncode == 0, "src/worker/generated/emails.json is out of date (run tools/build_emails.py)")
+email_doc = json.loads(read("src/content/data/emails.json"))
+footer = next(i for i in email_doc["items"] if i["id"] == "email-footer")
+street = re.search(r"street:\s*'([^']+)'", content)
+check(street is not None and street.group(1) in footer["postalAddress"], "email footer postalAddress must match the office address in site.ts (CAN-SPAM)")
+check("{{ unsubscribe }}" in read("tools/email_lib.py").replace("{{{{ unsubscribe }}}}", "{{ unsubscribe }}"), "email_lib.py must add the {{ unsubscribe }} link")
 
 videos_doc = json.loads(read("src/content/data/videos.json"))
 for v in videos_doc["items"]:

@@ -27,6 +27,9 @@ export const ROUTES = [
   '/resources/white-papers',
   '/resources/videos',
   '/resources/facts',
+  '/newsletter',
+  '/newsletter/confirmed',
+  '/client-portal',
 ] as const;
 
 export type RoutePattern = (typeof ROUTES)[number];
