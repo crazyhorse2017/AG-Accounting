@@ -34,7 +34,8 @@ fields, no file uploads, no logging of submissions, parameterized SQL only.
 |---|---|
 | `src/content/site.ts` | All business info, services, resources and payment settings. Edit here first. |
 | `src/pages/` | Home, Services, About, Resources, Payments, Contact, Privacy, 404 |
-| `src/components/` | Layout (header, footer, draft banner), Logo, shared UI |
+| `src/content/navigation.ts` | Top-bar dropdown menus, mobile menu and footer links (every page must be listed; the audit checks) |
+| `src/components/` | Layout (header with dropdowns, footer, draft banner), Logo, shared UI |
 | `src/shared/contact.ts` | Contact form validation used by both the browser and the Worker |
 | `src/worker/` | `index.ts` (entry, default export only) and `contact.ts` (API handler, cleanup) |
 | `migrations/` | D1 schema |
@@ -55,9 +56,11 @@ Specs: `03_Software_and_Web_Development/Other_Projects/AG Accounting Website/AG 
 - **Reviewable content** is JSON under `src/content/data/`. Every item has an `id`,
   a `status` (`draft` or `approved`), `reviewedOn` and `sources`. Only approved items
   show on the live site.
-- **Draft preview:** to see drafts on a deployed build, set the Cloudflare build
-  variable `VITE_SHOW_DRAFTS=true` (Worker → Settings → Build → Variables). Drafts
-  then show a yellow "Draft" label. **Remove it before launch.**
+- **Draft preview:** `src/content/preview.ts` has `PREVIEW_DRAFTS = true`, so every
+  draft shows on the site with a yellow "Draft" label while the firm reviews it.
+  **Set it to `false` at launch** (`verify_repo.py --launch` fails until you do).
+  The Cloudflare build variable `VITE_SHOW_DRAFTS=true` still works too, but only when
+  set under Settings → **Build** → Variables and followed by a new build.
 - **Tax-year data:** `src/content/data/tax-years/2026/` (federal, Ohio, due dates),
   read through `src/content/taxYear.ts`. Each figure cites its IRS/Ohio source.
 - **Calculators:** metadata in `src/content/data/calculators.json`, formulas in

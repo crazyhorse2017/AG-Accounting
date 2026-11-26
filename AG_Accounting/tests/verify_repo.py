@@ -269,7 +269,16 @@ for v in videos_doc["items"]:
 
 if draft_count:
     (failures if LAUNCH else warnings).append(f"content: {draft_count} reviewable item(s) still in draft (run tools/review_packet.py)")
+nav_src = read("src/content/navigation.ts")
+nav_targets = set(re.findall(r"to: '([^']+)'", nav_src))
+for route in re.findall(r"'(/[^']*)'", read("src/lib/routes.ts").split("] as const")[0]):
+    if ":" in route or route in ("/", "/newsletter/confirmed"):
+        continue
+    check(route in nav_targets or route == "/contact", f"navigation: page {route} is not in the top-bar menus (src/content/navigation.ts)")
 env_files = [p for p in ROOT.glob(".env*") if p.is_file()]
+preview_on = re.search(r"PREVIEW_DRAFTS:\s*boolean\s*=\s*true", read("src/content/preview.ts")) is not None
+if preview_on:
+    (failures if LAUNCH else warnings).append("src/content/preview.ts: PREVIEW_DRAFTS is true (drafts show on the site; set false at launch)")
 if LAUNCH:
     for p in env_files:
         check("VITE_SHOW_DRAFTS" not in p.read_text(encoding="utf-8"), f"{p.name}: remove VITE_SHOW_DRAFTS before launch")

@@ -1,31 +1,12 @@
-import { useEffect, useState } from 'react';
-import type { ReactNode } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import type { FocusEvent, KeyboardEvent, ReactNode } from 'react';
 import { business, draftItems } from '../content/site.ts';
+import { activeLink, NAV_GROUPS } from '../content/navigation.ts';
+import type { NavGroup } from '../content/navigation.ts';
 import { Link } from '../lib/router.tsx';
-
-type RoutePath = string;
 import { Container } from './ui.tsx';
 import { Wordmark } from './Logo.tsx';
 import { formatAddress, telHref } from '../lib/format.ts';
-
-const NAV: { to: RoutePath; label: string }[] = [
-  { to: '/services', label: 'Services' },
-  { to: '/about', label: 'About' },
-  { to: '/tax-center', label: 'Tax Center' },
-  { to: '/calculators', label: 'Calculators' },
-  { to: '/articles', label: 'Articles' },
-  { to: '/payments', label: 'Pay an invoice' },
-];
-
-const FOOTER_EXTRA: { to: RoutePath; label: string }[] = [
-  { to: '/client-portal', label: 'Client portal' },
-  { to: '/newsletter', label: 'Newsletter' },
-  { to: '/resources/white-papers', label: 'White papers' },
-  { to: '/resources/videos', label: 'Tax videos' },
-  { to: '/resources/facts', label: 'Tax facts' },
-  { to: '/resources', label: 'Helpful links' },
-  { to: '/privacy', label: 'Privacy' },
-];
 
 function DraftBanner() {
   const items = draftItems();
@@ -37,33 +18,230 @@ function DraftBanner() {
   );
 }
 
+function Chevron({ open }: { open: boolean }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 20 20"
+      className={`h-4 w-4 transition-transform duration-150 motion-reduce:transition-none ${open ? 'rotate-180' : ''}`}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+    >
+      <path d="M5 8l5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+/** One top-bar dropdown: opens on hover or click, closes on Escape, outside click, or navigation. */
+function Dropdown({
+  group,
+  active,
+  open,
+  onOpen,
+  onClose,
+  onToggle,
+}: {
+  group: NavGroup;
+  active: string | null;
+  open: boolean;
+  onOpen: () => void;
+  onClose: () => void;
+  onToggle: () => void;
+}) {
+  const links = group.links ?? [];
+  const groupActive = links.some((l) => l.to === active);
+  const panelId = `nav-panel-${group.id}`;
+  const buttonRef = useRef<HTMLButtonElement>(null);
+
+  const onKeyDown = (event: KeyboardEvent<HTMLDivElement>) => {
+    if (event.key === 'Escape' && open) {
+      event.stopPropagation();
+      onClose();
+      buttonRef.current?.focus();
+    }
+  };
+
+  const onBlur = (event: FocusEvent<HTMLDivElement>) => {
+    // Keyboard users tabbing out of the panel close it.
+    if (open && !event.currentTarget.contains(event.relatedTarget as Node | null)) onClose();
+  };
+
+  return (
+    <div className="relative" onMouseEnter={onOpen} onMouseLeave={onClose} onKeyDown={onKeyDown} onBlur={onBlur}>
+      <button
+        ref={buttonRef}
+        type="button"
+        aria-expanded={open}
+        aria-controls={panelId}
+        // A mouse click on a hover-opened menu keeps it open; Enter/Space (detail 0) toggles it.
+        onClick={(event) => (event.detail > 0 ? onOpen() : onToggle())}
+        className={`flex items-center gap-1 rounded-md px-3 py-2 font-medium hover:bg-brand-50 ${
+          open ? 'bg-brand-50' : ''
+        } ${groupActive ? 'text-brand-800 underline decoration-2 underline-offset-4' : 'text-ink'}`}
+      >
+        {group.label}
+        <Chevron open={open} />
+      </button>
+
+      {/* pt-2 bridges the gap so moving the mouse from the button to the panel keeps it open. */}
+      <div
+        id={panelId}
+        hidden={!open}
+        className={`absolute top-full z-40 pt-2 ${group.alignRight ? 'right-0' : group.wide ? 'left-1/2 -translate-x-1/2' : 'left-0'}`}
+      >
+        <ul
+          className={`grid gap-1 rounded-xl border border-line bg-white p-2 shadow-xl shadow-brand-900/10 ${
+            group.wide ? 'w-[36rem] grid-cols-2' : 'w-72'
+          }`}
+        >
+          {links.map((link) => {
+            const current = link.to === active;
+            return (
+              <li key={link.to}>
+                <Link
+                  to={link.to}
+                  aria-current={current ? 'page' : undefined}
+                  onClick={onClose}
+                  className={`group block h-full select-none whitespace-normal rounded-lg border-l-4 px-3 py-2 no-underline hover:bg-brand-50 focus-visible:bg-brand-50 ${
+                    current ? 'border-accent-500 bg-brand-50' : 'border-transparent'
+                  }`}
+                >
+                  <span className="block font-semibold text-brand-900 group-hover:text-brand-700">{link.label}</span>
+                  {link.description && <span className="mt-0.5 block text-sm leading-snug text-muted">{link.description}</span>}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+function DesktopNav({ pathname }: { pathname: string }) {
+  const [openId, setOpenId] = useState<string | null>(null);
+  const closeTimer = useRef<number | undefined>(undefined);
+  const navRef = useRef<HTMLElement>(null);
+  const active = activeLink(pathname);
+
+  const cancelClose = () => window.clearTimeout(closeTimer.current);
+  const open = (id: string) => {
+    cancelClose();
+    setOpenId(id);
+  };
+  // A short delay so a mouse passing between the button and the panel doesn't flicker it shut.
+  const close = () => {
+    cancelClose();
+    closeTimer.current = window.setTimeout(() => setOpenId(null), 150);
+  };
+  const closeNow = () => {
+    cancelClose();
+    setOpenId(null);
+  };
+
+  useEffect(closeNow, [pathname]);
+  useEffect(() => {
+    if (openId === null) return;
+    const onPointerDown = (event: PointerEvent) => {
+      if (!navRef.current?.contains(event.target as Node)) closeNow();
+    };
+    document.addEventListener('pointerdown', onPointerDown);
+    return () => document.removeEventListener('pointerdown', onPointerDown);
+  }, [openId]);
+  useEffect(() => cancelClose, []);
+
+  return (
+    <nav ref={navRef} aria-label="Main" className="hidden select-none items-center gap-1 whitespace-nowrap xl:flex">
+      {NAV_GROUPS.map((group) =>
+        group.links ? (
+          <Dropdown
+            key={group.id}
+            group={group}
+            active={active}
+            open={openId === group.id}
+            onOpen={() => open(group.id)}
+            onClose={close}
+            onToggle={() => (openId === group.id ? closeNow() : open(group.id))}
+          />
+        ) : (
+          <Link
+            key={group.id}
+            to={group.to ?? '/'}
+            aria-current={active === group.to ? 'page' : undefined}
+            className={`block rounded-md px-3 py-2 font-medium no-underline hover:bg-brand-50 ${
+              active === group.to ? 'text-brand-800 underline decoration-2 underline-offset-4' : 'text-ink'
+            }`}
+          >
+            {group.label}
+          </Link>
+        ),
+      )}
+      <Link to="/contact" className="ml-2 rounded-md bg-brand-800 px-4 py-2 font-semibold text-white no-underline hover:bg-brand-700">
+        Contact us
+      </Link>
+    </nav>
+  );
+}
+
+function MobileNav({ pathname }: { pathname: string }) {
+  const active = activeLink(pathname);
+  const linkClass = (to: string) =>
+    `block select-none rounded-md px-3 py-2 no-underline hover:bg-brand-50 ${
+      active === to ? 'bg-brand-50 font-semibold text-brand-800' : 'text-ink'
+    }`;
+  return (
+    <nav id="mobile-nav" aria-label="Main" className="border-t border-line xl:hidden">
+      <Container className="grid gap-6 py-4 sm:grid-cols-2 lg:grid-cols-3">
+        {NAV_GROUPS.map((group) => (
+          <div key={group.id}>
+            {group.links ? (
+              <>
+                <p className="px-3 text-xs font-semibold uppercase tracking-wider text-accent-600">{group.label}</p>
+                <ul className="mt-1">
+                  {group.links.map((link) => (
+                    <li key={link.to}>
+                      <Link to={link.to} className={linkClass(link.to)} aria-current={active === link.to ? 'page' : undefined}>
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            ) : (
+              <Link to={group.to ?? '/'} className={`${linkClass(group.to ?? '/')} font-semibold`}>
+                {group.label}
+              </Link>
+            )}
+          </div>
+        ))}
+        <div className="flex flex-col gap-2 sm:col-span-2 lg:col-span-3">
+          <Link to="/contact" className="select-none rounded-md bg-brand-800 px-4 py-2 text-center font-semibold text-white no-underline hover:bg-brand-700">
+            Contact us
+          </Link>
+          {business.phone && (
+            <a href={telHref(business.phone)} className="block select-none rounded-md px-3 py-2 text-center font-semibold text-brand-800">
+              Call {business.phone}
+            </a>
+          )}
+        </div>
+      </Container>
+    </nav>
+  );
+}
+
 function Header({ pathname }: { pathname: string }) {
   const [open, setOpen] = useState(false);
   useEffect(() => setOpen(false), [pathname]);
 
-  const isActive = (to: RoutePath) => pathname === to || pathname.startsWith(`${to}/`);
-  const linkClass = (to: RoutePath) =>
-    `block rounded-md px-3 py-2 font-medium no-underline hover:bg-brand-50 ${
-      isActive(to) ? 'text-brand-800 underline decoration-2' : 'text-ink'
-    }`;
-
   return (
-    <header className="border-b border-line bg-white print:hidden">
+    <header className="relative z-30 border-b border-line bg-white print:hidden">
       <Container className="flex items-center justify-between gap-4 py-4">
         <Link to="/" className="shrink-0 no-underline" aria-label={`${business.name} home`}>
           <Wordmark name={business.name} />
         </Link>
 
-        <nav aria-label="Main" className="hidden items-center gap-1 whitespace-nowrap xl:flex">
-          {NAV.map((item) => (
-            <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={isActive(item.to) ? 'page' : undefined}>
-              {item.label}
-            </Link>
-          ))}
-          <Link to="/contact" className="ml-2 rounded-md bg-brand-800 px-4 py-2 font-semibold text-white no-underline hover:bg-brand-700">
-            Contact us
-          </Link>
-        </nav>
+        <DesktopNav pathname={pathname} />
 
         <button
           type="button"
@@ -76,34 +254,22 @@ function Header({ pathname }: { pathname: string }) {
         </button>
       </Container>
 
-      {open && (
-        <nav id="mobile-nav" aria-label="Main" className="border-t border-line xl:hidden">
-          <Container className="flex flex-col gap-1 py-3">
-            {NAV.map((item) => (
-              <Link key={item.to} to={item.to} className={linkClass(item.to)} aria-current={isActive(item.to) ? 'page' : undefined}>
-                {item.label}
-              </Link>
-            ))}
-            <Link to="/contact" className={linkClass('/contact')}>
-              Contact us
-            </Link>
-            {business.phone && (
-              <a href={telHref(business.phone)} className="block rounded-md px-3 py-2 font-semibold text-brand-800">
-                Call {business.phone}
-              </a>
-            )}
-          </Container>
-        </nav>
-      )}
+      {open && <MobileNav pathname={pathname} />}
     </header>
   );
 }
+
+/** Footer columns: the dropdown groups, with plain top-bar links (Calculators) folded into Tax Center. */
+const FOOTER_COLUMNS = NAV_GROUPS.filter((g) => g.links).map((g) => ({
+  label: g.label,
+  links: [...(g.links ?? []), ...(g.id === 'tax-center' ? NAV_GROUPS.filter((p) => !p.links && p.to).map((p) => ({ to: p.to ?? '/', label: p.label })) : [])],
+}));
 
 function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="mt-auto border-t border-line bg-brand-900 text-brand-100 print:hidden">
-      <Container className="grid gap-8 py-10 sm:grid-cols-3">
+      <Container className="grid gap-8 py-10 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
         <div>
           <p className="font-serif text-xl font-bold text-white">{business.name}</p>
           {business.serviceArea && <p className="mt-2 text-sm">Serving {business.serviceArea}</p>}
@@ -135,18 +301,20 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="text-sm">
-          <p className="mb-2 font-semibold text-white">Site</p>
-          <ul className="space-y-1">
-            {[...NAV, ...FOOTER_EXTRA].map((item) => (
-              <li key={item.to}>
-                <Link to={item.to} className="text-brand-100">
-                  {item.label}
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </div>
+        {FOOTER_COLUMNS.map((col) => (
+          <div key={col.label} className="text-sm">
+            <p className="mb-2 font-semibold text-white">{col.label}</p>
+            <ul className="space-y-1">
+              {col.links.map((item) => (
+                <li key={item.to}>
+                  <Link to={item.to} className="text-brand-100">
+                    {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </Container>
       <Container className="border-t border-brand-700 py-4 text-xs text-brand-200">
         <p>

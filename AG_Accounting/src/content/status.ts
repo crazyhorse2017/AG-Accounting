@@ -9,7 +9,9 @@
  * At launch that variable must be removed.
  */
 
-export type Status = 'draft' | 'approved';
+import { PREVIEW_DRAFTS } from './preview.ts';
+
+export type Status ='draft' | 'approved';
 
 export type Source = { title: string; url: string };
 
@@ -20,7 +22,7 @@ export type Reviewable = {
   sources: Source[];
 };
 
-export const SHOW_DRAFTS: boolean = import.meta.env?.VITE_SHOW_DRAFTS === 'true';
+export const SHOW_DRAFTS: boolean = PREVIEW_DRAFTS || import.meta.env?.VITE_SHOW_DRAFTS === 'true';
 
 export function isVisible(item: { status: string }, showDrafts: boolean = SHOW_DRAFTS): boolean {
   return item.status === 'approved' || showDrafts;
