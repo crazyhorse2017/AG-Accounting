@@ -87,12 +87,23 @@ Supported Markdown: `##`/`###` headings, paragraphs, `-` and `1.` lists, `>` cal
 
 `review-packets/` is git-ignored: packets are for printing or emailing, not the repo.
 
+## Email (newsletter, weekly tips, drip series)
+
+Setup steps: `Other_Projects/AG Accounting Website/AG Accounting Brevo Setup Guide.md`.
+
+- Sign-up: `/newsletter` and the home page → `POST /api/newsletter` → Brevo double opt-in. No subscriber data is stored here.
+- Content: `src/content/emails/tips/*.md` (weekly) and `src/content/emails/drips/<series>/*.md` (series), plus shared wording in `src/content/data/emails.json`. Same review workflow as everything else.
+- `tools/build_emails.py` builds `src/worker/generated/emails.json` (approved tips and monthly issues only). The Tuesday cron turns them into Brevo campaigns: drafts unless `SEND_MODE=auto`.
+- `tools/sync_brevo.py` pushes approved series emails and the confirmation email to Brevo templates (API key from the environment only).
+- `tests/test_emails.py` checks every email for the unsubscribe link, postal address, size and forbidden HTML.
+
 ## Checks (run after every change)
 
 ```powershell
 uv run --no-project --python 3.12 python tests/verify_repo.py
 uv run --no-project --python 3.12 python tests/run_tests.py
 uv run --no-project --python 3.12 python tests/typecheck.py
+uv run --no-project --python 3.12 python tests/test_emails.py
 ```
 
 `typecheck.py` and `run_tests.py` run the TypeScript compiler in headless Chrome or

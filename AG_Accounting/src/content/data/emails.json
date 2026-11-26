@@ -1,0 +1,33 @@
+{
+  "note": "Shared email wording. Emails only go out once these are approved. siteUrl turns site links in emails into full links; leave null until the domain is decided.",
+  "siteUrl": null,
+  "items": [
+    {
+      "id": "email-footer",
+      "title": "Footer on every newsletter, tip and series email",
+      "text": "You’re receiving this because you signed up at the AG Accounting website. This email is general information, not tax advice for your situation.",
+      "postalAddress": "AG Accounting · 32081 Cedar Road, Cleveland, OH 44124",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "email-newsletter-intro",
+      "title": "Monthly newsletter opening",
+      "text": "Here’s your monthly update from AG Accounting: new articles, the tax dates coming up, and a quick tip. As always, reply or call if you have a question.",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    },
+    {
+      "id": "email-doi-confirmation",
+      "title": "Sign-up confirmation email",
+      "subject": "Please confirm your AG Accounting subscription",
+      "text": "Thanks for signing up for email from AG Accounting. Please confirm your email address by clicking the button below. If you didn’t sign up, you can ignore this email and you won’t hear from us.",
+      "button": "Confirm my subscription",
+      "status": "draft",
+      "reviewedOn": null,
+      "sources": []
+    }
+  ]
+}

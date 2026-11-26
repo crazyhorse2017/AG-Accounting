@@ -12,6 +12,8 @@ import { PaymentsPage } from './pages/Payments.tsx';
 import { PrivacyPage } from './pages/Privacy.tsx';
 import { ResourcesPage } from './pages/Resources.tsx';
 import { ServicesPage } from './pages/Services.tsx';
+import { ClientPortalPage } from './pages/ClientPortal.tsx';
+import { NewsletterConfirmedPage, NewsletterPage } from './pages/Newsletter.tsx';
 
 // The Tax Center and calculators carry a lot of data, so they load on demand.
 const tc = () => import('./pages/TaxCenter.tsx');
@@ -64,6 +66,9 @@ const PAGES: Record<RoutePattern, PageDef> = {
   '/resources/white-papers': { title: t('White papers'), render: () => <WhitePapersPage /> },
   '/resources/videos': { title: t('Tax videos'), render: () => <VideosPage /> },
   '/resources/facts': { title: t('Tax facts and history'), render: () => <FactsPage /> },
+  '/newsletter': { title: t('Newsletter'), render: () => <NewsletterPage /> },
+  '/newsletter/confirmed': { title: t('You’re subscribed'), render: () => <NewsletterConfirmedPage /> },
+  '/client-portal': { title: t('Client portal'), render: () => <ClientPortalPage /> },
 };
 
 function Loading() {

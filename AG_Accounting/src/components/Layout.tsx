@@ -18,6 +18,8 @@ const NAV: { to: RoutePath; label: string }[] = [
 ];
 
 const FOOTER_EXTRA: { to: RoutePath; label: string }[] = [
+  { to: '/client-portal', label: 'Client portal' },
+  { to: '/newsletter', label: 'Newsletter' },
   { to: '/resources/white-papers', label: 'White papers' },
   { to: '/resources/videos', label: 'Tax videos' },
   { to: '/resources/facts', label: 'Tax facts' },

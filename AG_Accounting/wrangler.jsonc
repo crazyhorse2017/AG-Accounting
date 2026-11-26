@@ -21,8 +21,10 @@
       "migrations_dir": "migrations"
     }
   ],
-  // Daily cleanup: deletes contact requests older than the retention period.
+  // "0 8 * * *": daily cleanup of old contact messages and rate-limit keys.
+  // "0 14 * * 2": Tuesdays 14:00 UTC (9 or 10 AM in Ohio): weekly tip, plus the monthly
+  // newsletter in the first week of each month. Draft-only unless SEND_MODE is "auto".
   "triggers": {
-    "crons": ["0 8 * * *"]
+    "crons": ["0 8 * * *", "0 14 * * 2"]
   }
 }

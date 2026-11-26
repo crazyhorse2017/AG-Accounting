@@ -264,10 +264,22 @@ export const payments: PaymentsInfo = {
   confirmed: false,
 };
 
-export type PortalInfo = { name: string | null; url: string | null } & Confirmable;
+export type PortalInfo = {
+  /** Provider's product name, e.g. as it appears on its sign-in page. */
+  name: string | null;
+  /** The provider's sign-in page for AG Accounting clients. */
+  url: string | null;
+  /**
+   * Security features to list on the portal page. Only what the provider's own
+   * documentation states (no "bank-level" or compliance claims), confirmed by the firm.
+   */
+  features: string[];
+  /** Short how-to steps for clients, from the provider's instructions. */
+  steps: string[];
+} & Confirmable;
 
 /** Client file portal: a third-party provider, not part of this site. Not chosen yet. */
-export const portal: PortalInfo = { name: null, url: null, confirmed: false };
+export const portal: PortalInfo = { name: null, url: null, features: [], steps: [], confirmed: false };
 
 /** Collects every unconfirmed or missing item, used for the draft banner and launch checks. */
 export function draftItems(): string[] {
@@ -284,5 +296,6 @@ export function draftItems(): string[] {
     for (const r of g.resources) if (!r.confirmed) items.push(`Resource: ${r.title}`);
   }
   if (!payments.confirmed) items.push('Payment instructions');
+  if (!portal.confirmed || !portal.url) items.push('Client portal provider');
   return items;
 }
